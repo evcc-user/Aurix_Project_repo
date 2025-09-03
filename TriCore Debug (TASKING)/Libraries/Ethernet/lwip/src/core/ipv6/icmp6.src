@@ -1,0 +1,3110 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc1296a --dep-file=Libraries/Ethernet/lwip/src/core/ipv6/icmp6.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39xb -D__CPU_TC39XB__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc39xb -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Configurations -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\Phy_Rtl8211f -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Sfr\\\\TC39B -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Sfr\\\\TC39B\\\\_Reg -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Ssw\\\\TC39B -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Ssw\\\\TC39B\\\\Tricore -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\UART -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Geth -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Pms -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Port -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Src -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/core/ipv6/icmp6.src ../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.icmp6.icmp6_input',code,cluster('icmp6_input')
+	.sect	'.text.icmp6.icmp6_input'
+	.align	2
+	
+	.global	icmp6_input
+; Function icmp6_input
+.L46:
+icmp6_input:	.type	func
+	sub.a	a10,#8
+.L176:
+	mov.aa	a13,a4
+.L179:
+	st.a	[a10],a5
+.L180:
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	movh.a	a4,#@his(lwip_stats)
+.L178:
+	lea	a4,[a4]@los(lwip_stats)
+	ld.hu	d15,[a4]254
+	add	d15,#1
+	st.h	[a2]254,d15
+.L296:
+	ld.hu	d15,[a13]10
+.L297:
+	jge.u	d15,#8,.L2
+.L298:
+	mov.aa	a4,a13
+.L181:
+	call	pbuf_free
+.L177:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]262
+	add	d15,#1
+	st.h	[a15]262,d15
+.L299:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]258
+	add	d15,#1
+	st.h	[a15]258,d15
+.L300:
+	j	.L3
+.L2:
+	ld.a	a12,[a13]4
+.L183:
+	mov	d4,#58
+.L301:
+	ld.hu	d5,[a13]8
+.L302:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	lea	a5,[a15]20
+.L182:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	lea	a6,[a15]44
+	mov.aa	a4,a13
+.L185:
+	call	ip6_chksum_pseudo
+.L186:
+	jeq	d2,#0,.L4
+.L303:
+	mov.aa	a4,a13
+.L187:
+	call	pbuf_free
+.L188:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]260
+	add	d15,#1
+	st.h	[a15]260,d15
+.L304:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]258
+	add	d15,#1
+	st.h	[a15]258,d15
+.L305:
+	j	.L5
+.L4:
+	ld.bu	d15,[a12]
+.L306:
+	mov	d0,#2
+	jeq	d15,d0,.L6
+.L307:
+	mov	d0,#128
+	jeq	d15,d0,.L7
+.L308:
+	mov	d0,#133
+	jeq	d15,d0,.L8
+.L309:
+	mov	d0,#134
+	jeq	d15,d0,.L9
+.L310:
+	mov	d0,#135
+	jeq	d15,d0,.L10
+.L311:
+	mov	d0,#136
+	jeq	d15,d0,.L11
+.L312:
+	mov	d0,#137
+	jeq	d15,d0,.L12
+	j	.L13
+.L11:
+.L10:
+.L9:
+.L12:
+.L6:
+	mov.aa	a4,a13
+.L189:
+	ld.a	a5,[a10]
+.L191:
+	call	nd6_input
+.L190:
+	j	.L14
+.L8:
+	j	.L15
+.L7:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	and	d15,#255
+	mov	d0,#255
+.L313:
+	jne	d15,d0,.L16
+.L314:
+	mov.aa	a4,a13
+.L192:
+	call	pbuf_free
+.L193:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]258
+	add	d15,#1
+	st.h	[a15]258,d15
+.L315:
+	j	.L17
+.L16:
+	mov	d4,#56
+.L316:
+	ld.hu	d5,[a13]8
+.L317:
+	mov	d6,#640
+	call	pbuf_alloc
+.L194:
+	mov.aa	a15,a2
+.L196:
+	jnz.a	a15,.L18
+.L318:
+	mov.aa	a4,a13
+.L198:
+	call	pbuf_free
+.L195:
+	movh.a	a15,#@his(lwip_stats)
+.L197:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]264
+	add	d15,#1
+	st.h	[a15]264,d15
+.L319:
+	j	.L19
+.L18:
+	mov.aa	a4,a15
+.L199:
+	mov.aa	a5,a13
+.L202:
+	call	pbuf_copy
+.L201:
+	jeq	d2,#0,.L20
+.L320:
+	mov.aa	a4,a13
+.L203:
+	call	pbuf_free
+.L204:
+	mov.aa	a4,a15
+.L205:
+	call	pbuf_free
+.L206:
+	movh.a	a15,#@his(lwip_stats)
+.L200:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]272
+	add	d15,#1
+	st.h	[a15]272,d15
+.L321:
+	j	.L21
+.L20:
+	movh.a	a2,#@his(ip_data)
+	lea	a2,[a2]@los(ip_data)
+	lea	a12,[a2]44
+.L184:
+	ld.a	a2,[a15]4
+.L322:
+	mov	d15,#129
+.L323:
+	st.b	[a2],d15
+.L324:
+	ld.a	a2,[a15]4
+.L325:
+	mov	d15,#0
+.L326:
+	st.h	[a2]2,d15
+.L327:
+	ld.a	a14,[a15]4
+.L328:
+	mov	d4,#58
+.L329:
+	ld.hu	d5,[a15]8
+.L330:
+	movh.a	a2,#@his(ip_data)
+	lea	a2,[a2]@los(ip_data)
+	lea	a6,[a2]20
+	mov.aa	a4,a15
+.L207:
+	mov.aa	a5,a12
+.L209:
+	call	ip6_chksum_pseudo
+.L208:
+	st.h	[a14]2,d2
+.L331:
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	movh.a	a4,#@his(lwip_stats)
+	lea	a4,[a4]@los(lwip_stats)
+	ld.hu	d15,[a4]252
+	add	d15,#1
+	st.h	[a2]252,d15
+.L332:
+	movh.a	a2,#@his(ip_data)
+	lea	a2,[a2]@los(ip_data)
+	lea	a6,[a2]20
+.L333:
+	mov	d4,#255
+.L334:
+	mov	d5,#0
+.L335:
+	mov	d6,#58
+.L336:
+	mov.aa	a4,a15
+.L210:
+	mov.aa	a5,a12
+.L212:
+	ld.a	a7,[a10]
+.L213:
+	call	ip6_output_if
+.L211:
+	mov.aa	a4,a15
+.L214:
+	call	pbuf_free
+.L215:
+	j	.L22
+.L13:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]268
+	add	d15,#1
+	st.h	[a15]268,d15
+.L337:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]258
+	add	d15,#1
+	st.h	[a15]258,d15
+.L338:
+	j	.L23
+.L23:
+.L22:
+.L15:
+	mov.aa	a4,a13
+.L216:
+	call	pbuf_free
+.L21:
+.L19:
+.L17:
+.L14:
+.L5:
+.L3:
+	ret
+.L112:
+	
+__icmp6_input_function_end:
+	.size	icmp6_input,__icmp6_input_function_end-icmp6_input
+.L71:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_dest_unreach',code,cluster('icmp6_dest_unreach')
+	.sect	'.text.icmp6.icmp6_dest_unreach'
+	.align	2
+	
+	.global	icmp6_dest_unreach
+; Function icmp6_dest_unreach
+.L48:
+icmp6_dest_unreach:	.type	func
+	mov	d5,#0
+.L343:
+	mov	d6,#1
+	call	icmp6_send_response
+.L217:
+	ret
+.L122:
+	
+__icmp6_dest_unreach_function_end:
+	.size	icmp6_dest_unreach,__icmp6_dest_unreach_function_end-icmp6_dest_unreach
+.L76:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_packet_too_big',code,cluster('icmp6_packet_too_big')
+	.sect	'.text.icmp6.icmp6_packet_too_big'
+	.align	2
+	
+	.global	icmp6_packet_too_big
+; Function icmp6_packet_too_big
+.L50:
+icmp6_packet_too_big:	.type	func
+	mov	d5,d4
+.L220:
+	mov	d4,#0
+.L218:
+	mov	d6,#2
+	call	icmp6_send_response
+.L219:
+	ret
+.L126:
+	
+__icmp6_packet_too_big_function_end:
+	.size	icmp6_packet_too_big,__icmp6_packet_too_big_function_end-icmp6_packet_too_big
+.L81:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_time_exceeded',code,cluster('icmp6_time_exceeded')
+	.sect	'.text.icmp6.icmp6_time_exceeded'
+	.align	2
+	
+	.global	icmp6_time_exceeded
+; Function icmp6_time_exceeded
+.L52:
+icmp6_time_exceeded:	.type	func
+	mov	d5,#0
+.L352:
+	mov	d6,#3
+	call	icmp6_send_response
+.L221:
+	ret
+.L130:
+	
+__icmp6_time_exceeded_function_end:
+	.size	icmp6_time_exceeded,__icmp6_time_exceeded_function_end-icmp6_time_exceeded
+.L86:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_time_exceeded_with_addrs',code,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.text.icmp6.icmp6_time_exceeded_with_addrs'
+	.align	2
+	
+	.global	icmp6_time_exceeded_with_addrs
+; Function icmp6_time_exceeded_with_addrs
+.L54:
+icmp6_time_exceeded_with_addrs:	.type	func
+	mov	d5,#0
+.L357:
+	mov	d6,#3
+.L358:
+	call	icmp6_send_response_with_addrs
+.L222:
+	ret
+.L134:
+	
+__icmp6_time_exceeded_with_addrs_function_end:
+	.size	icmp6_time_exceeded_with_addrs,__icmp6_time_exceeded_with_addrs_function_end-icmp6_time_exceeded_with_addrs
+.L91:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_param_problem',code,cluster('icmp6_param_problem')
+	.sect	'.text.icmp6.icmp6_param_problem'
+	.align	2
+	
+	.global	icmp6_param_problem
+; Function icmp6_param_problem
+.L56:
+icmp6_param_problem:	.type	func
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.a	a15,[a15]12
+.L363:
+	sub.a	a15,a5,a15
+.L224:
+	mov.d	d5,a15
+.L225:
+	mov	d6,#4
+	call	icmp6_send_response
+.L223:
+	ret
+.L139:
+	
+__icmp6_param_problem_function_end:
+	.size	icmp6_param_problem,__icmp6_param_problem_function_end-icmp6_param_problem
+.L96:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_send_response',code,cluster('icmp6_send_response')
+	.sect	'.text.icmp6.icmp6_send_response'
+	.align	2
+	
+; Function icmp6_send_response
+.L58:
+icmp6_send_response:	.type	func
+	sub.a	a10,#16
+.L226:
+	mov.aa	a12,a4
+.L228:
+	mov	e8,d5,d4
+	mov	d10,d6
+.L229:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.a	a13,[a15]
+.L24:
+	jnz.a	a13,.L25
+.L368:
+	movh.a	a15,#@his(.2.str)
+	lea	a15,[a15]@los(.2.str)
+	st.a	[a10],a15
+	mov	d15,#314
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L227:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L25:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	lea	a15,[a15]20
+.L230:
+	mov.aa	a4,a13
+.L232:
+	mov.aa	a5,a15
+.L234:
+	call	ip6_select_source_address
+.L233:
+	jnz.a	a2,.L26
+.L369:
+	movh.a	a15,#@his(lwip_stats)
+.L231:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+.L235:
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]266
+	add	d15,#1
+	st.h	[a15]266,d15
+.L370:
+	j	.L27
+.L26:
+	mov.aa	a4,a12
+.L236:
+	mov	e4,d9,d8
+.L237:
+	mov	d6,d10
+.L238:
+	mov.aa	a5,a2
+.L239:
+	mov.aa	a6,a15
+.L240:
+	mov.aa	a7,a13
+.L241:
+	call	icmp6_send_response_with_addrs_and_netif
+.L27:
+	ret
+.L146:
+	
+__icmp6_send_response_function_end:
+	.size	icmp6_send_response,__icmp6_send_response_function_end-icmp6_send_response
+.L101:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_send_response_with_addrs',code,cluster('icmp6_send_response_with_addrs')
+	.sect	'.text.icmp6.icmp6_send_response_with_addrs'
+	.align	2
+	
+; Function icmp6_send_response_with_addrs
+.L60:
+icmp6_send_response_with_addrs:	.type	func
+	sub.a	a10,#16
+.L242:
+	mov.aa	a12,a4
+.L244:
+	mov	e8,d5,d4
+	mov	d10,d6
+.L245:
+	mov.aa	a13,a5
+.L246:
+	mov.aa	a14,a6
+.L28:
+	jnz.a	a13,.L29
+.L375:
+	movh.a	a15,#@his(.4.str)
+	lea	a15,[a15]@los(.4.str)
+	st.a	[a10],a15
+	mov	d15,#353
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+.L243:
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L29:
+.L30:
+	jnz.a	a14,.L31
+.L376:
+	movh.a	a15,#@his(.4.str)
+	lea	a15,[a15]@los(.4.str)
+	st.a	[a10],a15
+	mov	d15,#354
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L31:
+	mov.aa	a4,a14
+.L247:
+	mov.aa	a5,a13
+.L249:
+	call	ip6_route
+.L248:
+	jnz.a	a2,.L32
+.L377:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+.L250:
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]266
+	add	d15,#1
+	st.h	[a15]266,d15
+.L378:
+	j	.L33
+.L32:
+	mov.aa	a4,a12
+.L251:
+	mov	e4,d9,d8
+.L252:
+	mov	d6,d10
+.L253:
+	mov.aa	a5,a14
+.L254:
+	mov.aa	a6,a13
+.L255:
+	mov.aa	a7,a2
+.L256:
+	call	icmp6_send_response_with_addrs_and_netif
+.L33:
+	ret
+.L156:
+	
+__icmp6_send_response_with_addrs_function_end:
+	.size	icmp6_send_response_with_addrs,__icmp6_send_response_with_addrs_function_end-icmp6_send_response_with_addrs
+.L106:
+	; End of function
+	
+	.sdecl	'.text.icmp6.icmp6_send_response_with_addrs_and_netif',code,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.text.icmp6.icmp6_send_response_with_addrs_and_netif'
+	.align	2
+	
+; Function icmp6_send_response_with_addrs_and_netif
+.L62:
+icmp6_send_response_with_addrs_and_netif:	.type	func
+	sub.a	a10,#24
+.L257:
+	st.a	[a10]12,a4
+.L262:
+	mov	e8,d5,d4
+	mov	d10,d6
+.L263:
+	mov.aa	a12,a5
+.L264:
+	mov.aa	a13,a6
+.L265:
+	st.a	[a10]16,a7
+.L266:
+	mov	d4,#56
+.L258:
+	mov	d5,#56
+.L259:
+	mov	d6,#640
+.L261:
+	call	pbuf_alloc
+.L260:
+	mov.aa	a14,a2
+.L268:
+	jnz.a	a14,.L34
+.L35:
+	mov	d15,#0
+	jeq	d15,#0,.L36
+	mov	d15,#0
+	jeq	d15,#0,.L37
+	mov	d15,#1
+	jeq	d15,#0,.L38
+	movh.a	a4,#@his(.5.str)
+	lea	a4,[a4]@los(.5.str)
+	call	Ifx_Lwip_printf
+.L267:
+	mov	d15,#0
+	jeq	d15,#0,.L39
+	j	.L40
+.L41:
+.L40:
+	j	.L41
+.L39:
+.L38:
+.L37:
+.L36:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]264
+	add	d15,#1
+	st.h	[a15]264,d15
+.L383:
+	j	.L42
+.L34:
+.L43:
+	ld.hu	d0,[a14]10
+	mov	d15,#56
+	jge.u	d0,d15,.L44
+	movh.a	a2,#@his(.6.str)
+.L269:
+	lea	a2,[a2]@los(.6.str)
+	st.a	[a10],a2
+	mov	d15,#399
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+.L44:
+	ld.a	a15,[a14]4
+.L270:
+	st.b	[a15],d10
+.L272:
+	st.b	[a15]1,d8
+.L273:
+	mov	d4,d9
+.L274:
+	call	lwip_htonl
+.L275:
+	st.w	[a15]4,d2
+.L384:
+	ld.a	a2,[a14]4
+	lea	a4,[a2]8
+	ld.a	a2,[a10]12
+.L276:
+	ld.a	a5,[a2]4
+	mov	d4,#48
+	call	memcpy
+.L277:
+	mov	d15,#0
+.L385:
+	st.h	[a15]2,d15
+.L386:
+	mov	d4,#58
+.L387:
+	ld.hu	d5,[a14]8
+.L388:
+	mov.aa	a4,a14
+.L278:
+	mov.aa	a5,a12
+.L280:
+	mov.aa	a6,a13
+.L281:
+	call	ip6_chksum_pseudo
+.L279:
+	st.h	[a15]2,d2
+.L389:
+	movh.a	a15,#@his(lwip_stats)
+.L271:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]252
+	add	d15,#1
+	st.h	[a15]252,d15
+.L390:
+	mov	d4,#255
+.L391:
+	mov	d5,#0
+.L392:
+	mov	d6,#58
+.L393:
+	mov.aa	a4,a14
+.L282:
+	mov.aa	a5,a12
+.L284:
+	mov.aa	a6,a13
+.L285:
+	ld.a	a7,[a10]16
+.L286:
+	call	ip6_output_if
+.L283:
+	mov.aa	a4,a14
+.L287:
+	call	pbuf_free
+.L42:
+	ret
+.L166:
+	
+__icmp6_send_response_with_addrs_and_netif_function_end:
+	.size	icmp6_send_response_with_addrs_and_netif,__icmp6_send_response_with_addrs_and_netif_function_end-icmp6_send_response_with_addrs_and_netif
+.L111:
+	; End of function
+	
+	.sdecl	'.rodata.icmp6..1.str',data,rom
+	.sect	'.rodata.icmp6..1.str'
+.1.str:	.type	object
+	.size	.1.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.icmp6..2.str',data,rom
+	.sect	'.rodata.icmp6..2.str'
+.2.str:	.type	object
+	.size	.2.str,36
+	.byte	105,99,109,112,118,54,32,112
+	.byte	97,99,107,101,116,32,110,111
+	.byte	116,32,97,32,100,105,114,101
+	.byte	99,116,32,114,101,115,112,111
+	.byte	110,115,101
+	.space	1
+	.sdecl	'.rodata.icmp6..3.str',data,rom
+	.sect	'.rodata.icmp6..3.str'
+.3.str:	.type	object
+	.size	.3.str,49
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,99
+	.byte	111,114,101,47,105,112,118,54
+	.byte	47,105,99,109,112,54,46,99
+	.space	1
+	.sdecl	'.rodata.icmp6..4.str',data,rom
+	.sect	'.rodata.icmp6..4.str'
+.4.str:	.type	object
+	.size	.4.str,41
+	.byte	109,117,115,116,32,112,114,111
+	.byte	118,105,100,101,32,98,111,116
+	.byte	104,32,115,111,117,114,99,101
+	.byte	32,97,110,100,32,100,101,115
+	.byte	116,105,110,97,116,105,111,110
+	.space	1
+	.sdecl	'.rodata.icmp6..5.str',data,rom
+	.sect	'.rodata.icmp6..5.str'
+.5.str:	.type	object
+	.size	.5.str,64
+	.byte	105,99,109,112,95,116,105,109
+	.byte	101,95,101,120,99,101,101,100
+	.byte	101,100,58,32,102,97,105,108
+	.byte	101,100,32,116,111,32,97,108
+	.byte	108,111,99,97,116,101,32,112
+	.byte	98,117,102,32,102,111,114,32
+	.byte	73,67,77,80,118,54,32,112
+	.byte	97,99,107,101
+	.byte	116,46,10
+	.space	1
+	.sdecl	'.rodata.icmp6..6.str',data,rom
+	.sect	'.rodata.icmp6..6.str'
+.6.str:	.type	object
+	.size	.6.str,45
+	.byte	99,104,101,99,107,32,116,104
+	.byte	97,116,32,102,105,114,115,116
+	.byte	32,112,98,117,102,32,99,97
+	.byte	110,32,104,111,108,100,32,105
+	.byte	99,109,112,32,54,109,101,115
+	.byte	115,97,103,101
+	.space	1
+	.calls	'icmp6_input','pbuf_free'
+	.calls	'icmp6_input','ip6_chksum_pseudo'
+	.calls	'icmp6_input','nd6_input'
+	.calls	'icmp6_input','pbuf_alloc'
+	.calls	'icmp6_input','pbuf_copy'
+	.calls	'icmp6_input','ip6_output_if'
+	.calls	'icmp6_dest_unreach','icmp6_send_response'
+	.calls	'icmp6_packet_too_big','icmp6_send_response'
+	.calls	'icmp6_time_exceeded','icmp6_send_response'
+	.calls	'icmp6_time_exceeded_with_addrs','icmp6_send_response_with_addrs'
+	.calls	'icmp6_param_problem','icmp6_send_response'
+	.calls	'icmp6_send_response','Ifx_Lwip_printf'
+	.calls	'icmp6_send_response','ip6_select_source_address'
+	.calls	'icmp6_send_response','icmp6_send_response_with_addrs_and_netif'
+	.calls	'icmp6_send_response_with_addrs','Ifx_Lwip_printf'
+	.calls	'icmp6_send_response_with_addrs','ip6_route'
+	.calls	'icmp6_send_response_with_addrs','icmp6_send_response_with_addrs_and_netif'
+	.calls	'icmp6_send_response_with_addrs_and_netif','pbuf_alloc'
+	.calls	'icmp6_send_response_with_addrs_and_netif','Ifx_Lwip_printf'
+	.calls	'icmp6_send_response_with_addrs_and_netif','lwip_htonl'
+	.calls	'icmp6_send_response_with_addrs_and_netif','memcpy'
+	.calls	'icmp6_send_response_with_addrs_and_netif','ip6_chksum_pseudo'
+	.calls	'icmp6_send_response_with_addrs_and_netif','ip6_output_if'
+	.calls	'icmp6_send_response_with_addrs_and_netif','pbuf_free'
+	.calls	'icmp6_input','',8
+	.calls	'icmp6_dest_unreach','',0
+	.calls	'icmp6_packet_too_big','',0
+	.calls	'icmp6_time_exceeded','',0
+	.calls	'icmp6_time_exceeded_with_addrs','',0
+	.calls	'icmp6_param_problem','',0
+	.calls	'icmp6_send_response','',16
+	.calls	'icmp6_send_response_with_addrs','',16
+	.extern	Ifx_Lwip_printf
+	.extern	pbuf_alloc
+	.extern	pbuf_free
+	.extern	pbuf_copy
+	.extern	lwip_htonl
+	.extern	lwip_stats
+	.extern	ip6_route
+	.extern	ip6_select_source_address
+	.extern	ip6_output_if
+	.extern	ip6_chksum_pseudo
+	.extern	nd6_input
+	.extern	ip_data
+	.extern	memcpy
+	.calls	'icmp6_send_response_with_addrs_and_netif','',24
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L64:
+	.word	4858
+	.half	3
+	.word	.L65
+	.byte	4
+.L63:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L66
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	229
+	.byte	4
+	.word	237
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	221
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	242
+	.byte	7,1,123,37,0,8
+	.byte	'void',0,4
+	.word	290
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L148:
+	.byte	2
+	.byte	'unsigned char',0,1,8,9
+	.byte	'pbuf',0,2,186,1,8,16,10
+	.byte	'next',0
+	.word	.L113-.L64
+	.byte	4,2,35,0,10
+	.byte	'payload',0
+	.word	296
+	.byte	4,2,35,4,10
+	.byte	'tot_len',0
+	.word	301
+	.byte	2,2,35,8,10
+	.byte	'len',0
+	.word	301
+	.byte	2,2,35,10,10
+	.byte	'type_internal',0
+	.word	323
+	.byte	1,2,35,12,10
+	.byte	'flags',0
+	.word	323
+	.byte	1,2,35,13,10
+	.byte	'ref',0
+	.word	323
+	.byte	1,2,35,14,10
+	.byte	'if_idx',0
+	.word	323
+	.byte	1,2,35,15,0
+.L113:
+	.byte	4
+	.word	340
+	.byte	11,2,89,9,1,12
+	.byte	'PBUF_RAW',0,0,12
+	.byte	'PBUF_RAW_TX',0,0,12
+	.byte	'PBUF_LINK',0,16,12
+	.byte	'PBUF_IP',0,56,12
+	.byte	'PBUF_TRANSPORT',0,204,0,0,11,2,145,1,9,2,12
+	.byte	'PBUF_ROM',0,1,12
+	.byte	'PBUF_REF',0,193,0,12
+	.byte	'PBUF_POOL',0,130,3,12
+	.byte	'PBUF_RAM',0,128,5,0,5
+	.byte	'pbuf_alloc',0,2,147,2,14
+	.word	480
+	.byte	1,1,1,1,6
+	.byte	'l',0,2,147,2,36
+	.word	485
+	.byte	6
+	.byte	'length',0,2,147,2,45
+	.word	301
+	.byte	6
+	.byte	'type',0,2,147,2,63
+	.word	556
+	.byte	0,5
+	.byte	'pbuf_free',0,2,165,2,6
+	.word	323
+	.byte	1,1,1,1,6
+	.byte	'p',0,2,165,2,29
+	.word	480
+	.byte	0,3
+	.word	340
+	.byte	4
+	.word	712
+	.byte	5
+	.byte	'pbuf_copy',0,2,170,2,7
+	.word	221
+	.byte	1,1,1,1,6
+	.byte	'p_to',0,2,170,2,30
+	.word	480
+	.byte	6
+	.byte	'p_from',0,2,170,2,55
+	.word	717
+	.byte	0
+.L128:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'lwip_htonl',0,3,101,7
+	.word	776
+	.byte	1,1,1,1,6
+	.byte	'x',0,3,101,24
+	.word	776
+	.byte	0,13,16
+	.word	776
+	.byte	14,3,0,9
+	.byte	'ip6_addr',0,6,59,8,20,10
+	.byte	'addr',0
+	.word	831
+	.byte	16,2,35,0,10
+	.byte	'zone',0
+	.word	323
+	.byte	1,2,35,16,0,9
+	.byte	'ip4_addr',0,7,51,8,4,10
+	.byte	'addr',0
+	.word	776
+	.byte	4,2,35,0,0,15,5,70,3,20,10
+	.byte	'ip6',0
+	.word	840
+	.byte	20,2,35,0,10
+	.byte	'ip4',0
+	.word	883
+	.byte	4,2,35,0,0,9
+	.byte	'ip_addr',0,5,69,16,24,10
+	.byte	'u_addr',0
+	.word	912
+	.byte	20,2,35,0,10
+	.byte	'type',0
+	.word	323
+	.byte	1,2,35,20,0,13,72
+	.word	944
+	.byte	14,2,0,13,3
+	.word	323
+	.byte	14,2,0,13,12
+	.word	776
+	.byte	14,2,0,16
+	.word	221
+	.byte	1,1,17
+	.word	480
+	.byte	17
+	.word	.L115-.L64
+	.byte	0,4
+	.word	1015
+	.byte	18
+	.byte	'netif_input_fn',0,4,178,1,17
+	.word	1033
+	.byte	3
+	.word	883
+	.byte	4
+	.word	1062
+	.byte	16
+	.word	221
+	.byte	1,1,17
+	.word	.L115-.L64
+	.byte	17
+	.word	480
+	.byte	17
+	.word	1067
+	.byte	0,4
+	.word	1072
+	.byte	18
+	.byte	'netif_output_fn',0,4,189,1,17
+	.word	1095
+	.byte	16
+	.word	221
+	.byte	1,1,17
+	.word	.L115-.L64
+	.byte	17
+	.word	480
+	.byte	0,4
+	.word	1125
+	.byte	18
+	.byte	'netif_linkoutput_fn',0,4,212,1,17
+	.word	1143
+	.byte	3
+	.word	840
+.L152:
+	.byte	4
+	.word	1177
+	.byte	16
+	.word	221
+	.byte	1,1,17
+	.word	.L115-.L64
+	.byte	17
+	.word	480
+	.byte	17
+	.word	1182
+	.byte	0,4
+	.word	1187
+	.byte	18
+	.byte	'netif_output_ip6_fn',0,4,202,1,17
+	.word	1210
+	.byte	13,4
+	.word	296
+	.byte	14,0,0,13,6
+	.word	323
+	.byte	14,5,0,13,2
+	.word	229
+	.byte	14,1,0,9
+	.byte	'netif',0,4,132,2,8,224,1,10
+	.byte	'next',0
+	.word	.L115-.L64
+	.byte	4,2,35,0,10
+	.byte	'ip_addr',0
+	.word	944
+	.byte	24,2,35,4,10
+	.byte	'netmask',0
+	.word	944
+	.byte	24,2,35,28,10
+	.byte	'gw',0
+	.word	944
+	.byte	24,2,35,52,10
+	.byte	'ip6_addr',0
+	.word	988
+	.byte	72,2,35,76,10
+	.byte	'ip6_addr_state',0
+	.word	997
+	.byte	3,3,35,148,1,10
+	.byte	'ip6_addr_valid_life',0
+	.word	1006
+	.byte	12,3,35,152,1,10
+	.byte	'ip6_addr_pref_life',0
+	.word	1006
+	.byte	12,3,35,164,1,10
+	.byte	'input',0
+	.word	1038
+	.byte	4,3,35,176,1,10
+	.byte	'output',0
+	.word	1100
+	.byte	4,3,35,180,1,10
+	.byte	'linkoutput',0
+	.word	1148
+	.byte	4,3,35,184,1,10
+	.byte	'output_ip6',0
+	.word	1215
+	.byte	4,3,35,188,1,10
+	.byte	'state',0
+	.word	296
+	.byte	4,3,35,192,1,10
+	.byte	'client_data',0
+	.word	1244
+	.byte	4,3,35,196,1,10
+	.byte	'hostname',0
+	.word	242
+	.byte	4,3,35,200,1,10
+	.byte	'mtu',0
+	.word	301
+	.byte	2,3,35,204,1,10
+	.byte	'mtu6',0
+	.word	301
+	.byte	2,3,35,206,1,10
+	.byte	'hwaddr',0
+	.word	1253
+	.byte	6,3,35,208,1,10
+	.byte	'hwaddr_len',0
+	.word	323
+	.byte	1,3,35,214,1,10
+	.byte	'flags',0
+	.word	323
+	.byte	1,3,35,215,1,10
+	.byte	'name',0
+	.word	1262
+	.byte	2,3,35,216,1,10
+	.byte	'num',0
+	.word	323
+	.byte	1,3,35,218,1,10
+	.byte	'ip6_autoconfig_enabled',0
+	.word	323
+	.byte	1,3,35,219,1,10
+	.byte	'rs_count',0
+	.word	323
+	.byte	1,3,35,220,1,0
+.L115:
+	.byte	4
+	.word	1271
+	.byte	4
+	.word	1015
+	.byte	4
+	.word	1072
+	.byte	4
+	.word	1125
+	.byte	4
+	.word	1187
+	.byte	9
+	.byte	'icmp6_hdr',0,8,138,1,8,8,10
+	.byte	'type',0
+	.word	323
+	.byte	1,2,35,0,10
+	.byte	'code',0
+	.word	323
+	.byte	1,2,35,1,10
+	.byte	'chksum',0
+	.word	301
+	.byte	2,2,35,2,10
+	.byte	'data',0
+	.word	776
+	.byte	4,2,35,4,0
+.L117:
+	.byte	4
+	.word	1768
+	.byte	3
+	.word	840
+.L120:
+	.byte	4
+	.word	1848
+.L124:
+	.byte	19
+	.byte	'icmp6_dur_code',0,8,98,6,1,12
+	.byte	'ICMP6_DUR_NO_ROUTE',0,0,12
+	.byte	'ICMP6_DUR_PROHIBITED',0,1,12
+	.byte	'ICMP6_DUR_SCOPE',0,2,12
+	.byte	'ICMP6_DUR_ADDRESS',0,3,12
+	.byte	'ICMP6_DUR_PORT',0,4,12
+	.byte	'ICMP6_DUR_POLICY',0,5,12
+	.byte	'ICMP6_DUR_REJECT_ROUTE',0,6,0
+.L132:
+	.byte	19
+	.byte	'icmp6_te_code',0,8,116,6,1,12
+	.byte	'ICMP6_TE_HL',0,0,12
+	.byte	'ICMP6_TE_FRAG',0,1,0
+.L141:
+	.byte	19
+	.byte	'icmp6_pp_code',0,8,124,6,1,12
+	.byte	'ICMP6_PP_FIELD',0,0,12
+	.byte	'ICMP6_PP_HEADER',0,1,12
+	.byte	'ICMP6_PP_OPTION',0,2,0,3
+	.word	290
+.L143:
+	.byte	4
+	.word	2145
+	.byte	5
+	.byte	'ip6_route',0,9,60,15
+	.word	1743
+	.byte	1,1,1,1,6
+	.byte	'src',0,9,60,43
+	.word	1853
+	.byte	6
+	.byte	'dest',0,9,60,66
+	.word	1853
+	.byte	0,3
+	.word	944
+	.byte	4
+	.word	2203
+	.byte	5
+	.byte	'ip6_select_source_address',0,9,61,18
+	.word	2208
+	.byte	1,1,1,1,6
+	.byte	'netif',0,9,61,58
+	.word	1743
+	.byte	6
+	.byte	'dest',0,9,61,84
+	.word	1853
+	.byte	0,5
+	.byte	'ip6_output_if',0,9,65,15
+	.word	221
+	.byte	1,1,1,1,6
+	.byte	'p',0,9,65,42
+	.word	480
+	.byte	6
+	.byte	'src',0,9,65,63
+	.word	1853
+	.byte	6
+	.byte	'dest',0,9,65,86
+	.word	1853
+	.byte	6
+	.byte	'hl',0,9,66,34
+	.word	323
+	.byte	6
+	.byte	'tc',0,9,66,43
+	.word	323
+	.byte	6
+	.byte	'nexth',0,9,66,52
+	.word	323
+	.byte	6
+	.byte	'netif',0,9,66,73
+	.word	1743
+	.byte	0,5
+	.byte	'ip6_chksum_pseudo',0,10,88,7
+	.word	301
+	.byte	1,1,1,1,6
+	.byte	'p',0,10,88,38
+	.word	480
+	.byte	6
+	.byte	'proto',0,10,88,46
+	.word	323
+	.byte	6
+	.byte	'proto_len',0,10,88,59
+	.word	301
+	.byte	6
+	.byte	'src',0,10,89,26
+	.word	1853
+	.byte	6
+	.byte	'dest',0,10,89,49
+	.word	1853
+	.byte	0,20
+	.byte	'nd6_input',0,11,70,6,1,1,1,1,6
+	.byte	'p',0,11,70,29
+	.word	480
+	.byte	6
+	.byte	'inp',0,11,70,46
+	.word	1743
+	.byte	0,21
+	.word	296
+	.byte	21
+	.word	2150
+	.byte	2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'memcpy',0,12,53,17
+	.word	296
+	.byte	1,1,1,1,22,12,53,33
+	.word	2530
+	.byte	22,12,53,56
+	.word	2535
+	.byte	22,12,53,68
+	.word	2540
+	.byte	0,2
+	.byte	'short int',0,2,5,18
+	.byte	'__wchar_t',0,13,1,1
+	.word	2600
+	.byte	18
+	.byte	'__size_t',0,13,1,1
+	.word	2540
+	.byte	2
+	.byte	'int',0,4,5,18
+	.byte	'__ptrdiff_t',0,13,1,1
+	.word	2648
+	.byte	23,1,4
+	.word	2675
+	.byte	18
+	.byte	'__codeptr',0,13,1,1
+	.word	2677
+	.byte	18
+	.byte	'__intptr_t',0,13,1,1
+	.word	2648
+	.byte	18
+	.byte	'__uintptr_t',0,13,1,1
+	.word	2540
+	.byte	18
+	.byte	'size_t',0,14,24,25
+	.word	2540
+	.byte	18
+	.byte	'uint8',0,15,108,29
+	.word	323
+	.byte	18
+	.byte	'uint16',0,15,112,29
+	.word	301
+	.byte	18
+	.byte	'uint32',0,15,116,29
+	.word	776
+	.byte	18
+	.byte	'sint8',0,15,125,29
+	.word	221
+	.byte	18
+	.byte	'sint16',0,15,129,1,29
+	.word	2600
+	.byte	2
+	.byte	'long int',0,4,5,18
+	.byte	'sint32',0,15,134,1,29
+	.word	2828
+	.byte	2
+	.byte	'long long int',0,8,5,18
+	.byte	'sint64',0,15,141,1,29
+	.word	2856
+	.byte	2
+	.byte	'float',0,4,4,18
+	.byte	'float32',0,15,170,1,29
+	.word	2889
+	.byte	18
+	.byte	'pvoid',0,16,54,28
+	.word	296
+	.byte	18
+	.byte	'Ifx_TickTime',0,16,76,28
+	.word	2856
+	.byte	18
+	.byte	'u8_t',0,1,85,16
+	.word	323
+	.byte	18
+	.byte	'u16_t',0,1,86,16
+	.word	301
+	.byte	18
+	.byte	'u32_t',0,1,87,16
+	.word	776
+	.byte	18
+	.byte	's8_t',0,1,88,16
+	.word	221
+	.byte	18
+	.byte	'intmax_t',0,17,198,2,41
+	.word	2856
+	.byte	18
+	.byte	'err_t',0,18,96,14
+	.word	221
+	.byte	18
+	.byte	'pbuf_layer',0,2,112,3
+	.word	485
+	.byte	18
+	.byte	'pbuf_type',0,2,168,1,3
+	.word	556
+	.byte	24,1,1,17
+	.word	480
+	.byte	0,4
+	.word	3074
+	.byte	18
+	.byte	'pbuf_free_custom_fn',0,2,242,1,16
+	.word	3083
+	.byte	18
+	.byte	'ip6_addr_t',0,6,67,25
+	.word	840
+	.byte	18
+	.byte	'ip4_addr_t',0,7,57,25
+	.word	883
+	.byte	18
+	.byte	'ip_addr_t',0,5,76,3
+	.word	944
+	.byte	18
+	.byte	'mem_size_t',0,19,67,15
+	.word	301
+	.byte	9
+	.byte	'stats_proto',0,20,64,8,24,10
+	.byte	'xmit',0
+	.word	301
+	.byte	2,2,35,0,10
+	.byte	'recv',0
+	.word	301
+	.byte	2,2,35,2,10
+	.byte	'fw',0
+	.word	301
+	.byte	2,2,35,4,10
+	.byte	'drop',0
+	.word	301
+	.byte	2,2,35,6,10
+	.byte	'chkerr',0
+	.word	301
+	.byte	2,2,35,8,10
+	.byte	'lenerr',0
+	.word	301
+	.byte	2,2,35,10,10
+	.byte	'memerr',0
+	.word	301
+	.byte	2,2,35,12,10
+	.byte	'rterr',0
+	.word	301
+	.byte	2,2,35,14,10
+	.byte	'proterr',0
+	.word	301
+	.byte	2,2,35,16,10
+	.byte	'opterr',0
+	.word	301
+	.byte	2,2,35,18,10
+	.byte	'err',0
+	.word	301
+	.byte	2,2,35,20,10
+	.byte	'cachehit',0
+	.word	301
+	.byte	2,2,35,22,0,9
+	.byte	'stats_mem',0,20,98,8,16,10
+	.byte	'name',0
+	.word	242
+	.byte	4,2,35,0,10
+	.byte	'err',0
+	.word	301
+	.byte	2,2,35,4,10
+	.byte	'avail',0
+	.word	301
+	.byte	2,2,35,6,10
+	.byte	'used',0
+	.word	301
+	.byte	2,2,35,8,10
+	.byte	'max',0
+	.word	301
+	.byte	2,2,35,10,10
+	.byte	'illegal',0
+	.word	301
+	.byte	2,2,35,12,0,4
+	.word	3391
+	.byte	13,44
+	.word	3493
+	.byte	14,10,0,9
+	.byte	'stats_',0,20,232,1,8,196,2,10
+	.byte	'link',0
+	.word	3192
+	.byte	24,2,35,0,10
+	.byte	'etharp',0
+	.word	3192
+	.byte	24,2,35,24,10
+	.byte	'ip_frag',0
+	.word	3192
+	.byte	24,2,35,48,10
+	.byte	'ip',0
+	.word	3192
+	.byte	24,2,35,72,10
+	.byte	'icmp',0
+	.word	3192
+	.byte	24,2,35,96,10
+	.byte	'udp',0
+	.word	3192
+	.byte	24,2,35,120,10
+	.byte	'tcp',0
+	.word	3192
+	.byte	24,3,35,144,1,10
+	.byte	'mem',0
+	.word	3391
+	.byte	16,3,35,168,1,10
+	.byte	'memp',0
+	.word	3498
+	.byte	44,3,35,184,1,10
+	.byte	'ip6',0
+	.word	3192
+	.byte	24,3,35,228,1,10
+	.byte	'icmp6',0
+	.word	3192
+	.byte	24,3,35,252,1,10
+	.byte	'ip6_frag',0
+	.word	3192
+	.byte	24,3,35,148,2,10
+	.byte	'nd6',0
+	.word	3192
+	.byte	24,3,35,172,2,0,25
+	.byte	'lwip_stats',0,20,176,2,22
+	.word	3507
+	.byte	1,1,9
+	.byte	'link_changed_s',0,4,213,4,10,1,10
+	.byte	'state',0
+	.word	323
+	.byte	1,2,35,0,0,9
+	.byte	'status_changed_s',0,4,219,4,10,1,10
+	.byte	'state',0
+	.word	323
+	.byte	1,2,35,0,0,9
+	.byte	'ipv4_changed_s',0,4,225,4,10,12,10
+	.byte	'old_address',0
+	.word	2208
+	.byte	4,2,35,0,10
+	.byte	'old_netmask',0
+	.word	2208
+	.byte	4,2,35,4,10
+	.byte	'old_gw',0
+	.word	2208
+	.byte	4,2,35,8,0,9
+	.byte	'ipv6_set_s',0,4,233,4,10,8,10
+	.byte	'addr_index',0
+	.word	221
+	.byte	1,2,35,0,10
+	.byte	'old_address',0
+	.word	2208
+	.byte	4,2,35,4,0,9
+	.byte	'ipv6_addr_state_changed_s',0,4,241,4,10,8,10
+	.byte	'addr_index',0
+	.word	221
+	.byte	1,2,35,0,10
+	.byte	'old_state',0
+	.word	323
+	.byte	1,2,35,1,10
+	.byte	'address',0
+	.word	2208
+	.byte	4,2,35,4,0,15,4,210,4,9,12,10
+	.byte	'link_changed',0
+	.word	3736
+	.byte	1,2,35,0,10
+	.byte	'status_changed',0
+	.word	3773
+	.byte	1,2,35,0,10
+	.byte	'ipv4_changed',0
+	.word	3812
+	.byte	12,2,35,0,10
+	.byte	'ipv6_set',0
+	.word	3892
+	.byte	8,2,35,0,10
+	.byte	'ipv6_addr_state_changed',0
+	.word	3951
+	.byte	8,2,35,0,0,3
+	.word	4040
+	.byte	4
+	.word	4166
+	.byte	24,1,1,17
+	.word	1743
+	.byte	17
+	.word	301
+	.byte	17
+	.word	4171
+	.byte	0,4
+	.word	4176
+	.byte	18
+	.byte	'netif_ext_callback_fn',0,4,132,5,16
+	.word	4195
+	.byte	9
+	.byte	'ip6_addr_packed',0,21,53,8,16,10
+	.byte	'addr',0
+	.word	831
+	.byte	16,2,35,0,0,18
+	.byte	'ip6_addr_p_t',0,21,60,32
+	.word	4231
+	.byte	9
+	.byte	'ip4_addr_packed',0,22,53,8,4,10
+	.byte	'addr',0
+	.word	776
+	.byte	4,2,35,0,0,18
+	.byte	'ip4_addr_p_t',0,22,61,32
+	.word	4288
+	.byte	9
+	.byte	'ip_hdr',0,22,73,8,20,10
+	.byte	'_v_hl',0
+	.word	323
+	.byte	1,2,35,0,10
+	.byte	'_tos',0
+	.word	323
+	.byte	1,2,35,1,10
+	.byte	'_len',0
+	.word	301
+	.byte	2,2,35,2,10
+	.byte	'_id',0
+	.word	301
+	.byte	2,2,35,4,10
+	.byte	'_offset',0
+	.word	301
+	.byte	2,2,35,6,10
+	.byte	'_ttl',0
+	.word	323
+	.byte	1,2,35,8,10
+	.byte	'_proto',0
+	.word	323
+	.byte	1,2,35,9,10
+	.byte	'_chksum',0
+	.word	301
+	.byte	2,2,35,10,10
+	.byte	'src',0
+	.word	4288
+	.byte	4,2,35,12,10
+	.byte	'dest',0
+	.word	4288
+	.byte	4,2,35,16,0,3
+	.word	4345
+	.byte	4
+	.word	4505
+	.byte	9
+	.byte	'ip6_hdr',0,21,80,8,40,10
+	.byte	'_v_tc_fl',0
+	.word	776
+	.byte	4,2,35,0,10
+	.byte	'_plen',0
+	.word	301
+	.byte	2,2,35,4,10
+	.byte	'_nexth',0
+	.word	323
+	.byte	1,2,35,6,10
+	.byte	'_hoplim',0
+	.word	323
+	.byte	1,2,35,7,10
+	.byte	'src',0
+	.word	4231
+	.byte	16,2,35,8,10
+	.byte	'dest',0
+	.word	4231
+	.byte	16,2,35,24,0,4
+	.word	4515
+	.byte	9
+	.byte	'ip_globals',0,23,107,8,68,10
+	.byte	'current_netif',0
+	.word	1743
+	.byte	4,2,35,0,10
+	.byte	'current_input_netif',0
+	.word	1743
+	.byte	4,2,35,4,10
+	.byte	'current_ip4_header',0
+	.word	4510
+	.byte	4,2,35,8,10
+	.byte	'current_ip6_header',0
+	.word	4622
+	.byte	4,2,35,12,10
+	.byte	'current_ip_header_tot_len',0
+	.word	301
+	.byte	2,2,35,16,10
+	.byte	'current_iphdr_src',0
+	.word	944
+	.byte	24,2,35,20,10
+	.byte	'current_iphdr_dest',0
+	.word	944
+	.byte	24,2,35,44,0,25
+	.byte	'ip_data',0,23,128,1,26
+	.word	4627
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,59,0,3,8,0,0,9,19,1,3,8,58,15,59,15,57,15,11,15,0,0,10,13,0,3,8,73,19
+	.byte	11,15,56,9,0,0,11,4,1,58,15,59,15,57,15,11,15,0,0,12,40,0,3,8,28,13,0,0,13,1,1,11,15,73,19,0,0,14,33,0
+	.byte	47,15,0,0,15,23,1,58,15,59,15,57,15,11,15,0,0,16,21,1,73,19,54,15,39,12,0,0,17,5,0,73,19,0,0,18,22,0,3
+	.byte	8,58,15,59,15,57,15,73,19,0,0,19,4,1,3,8,58,15,59,15,57,15,11,15,0,0,20,46,1,3,8,58,15,59,15,57,15,54
+	.byte	15,39,12,63,12,60,12,0,0,21,55,0,73,19,0,0,22,5,0,58,15,59,15,57,15,73,19,0,0,23,21,0,54,15,0,0,24,21
+	.byte	1,54,15,39,12,0,0,25,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L66:
+	.word	.L289-.L288
+.L288:
+	.half	3
+	.word	.L291-.L290
+.L290:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.10\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip6_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\icmp6.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip6.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\inet_chksum.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\nd6.h',0
+	.byte	0,0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\stats.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip6.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip.h',0
+	.byte	0,0,0,0
+.L291:
+.L289:
+	.sdecl	'.debug_info',debug,cluster('icmp6_input')
+	.sect	'.debug_info'
+.L67:
+	.word	356
+	.half	3
+	.word	.L68
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L70,.L69
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_input',0,1,83,1,1,1,1
+	.word	.L46,.L112,.L45
+	.byte	4
+	.byte	'p',0,1,83,26
+	.word	.L113,.L114
+	.byte	4
+	.byte	'inp',0,1,83,43
+	.word	.L115,.L116
+	.byte	5
+	.word	.L46,.L112
+	.byte	6
+	.byte	'icmp6hdr',0,1,85,21
+	.word	.L117,.L118
+	.byte	6
+	.byte	'r',0,1,86,16
+	.word	.L113,.L119
+	.byte	6
+	.byte	'reply_src',0,1,87,21
+	.word	.L120,.L121
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_input')
+	.sect	'.debug_abbrev'
+.L68:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_input')
+	.sect	'.debug_line'
+.L69:
+	.word	.L293-.L292
+.L292:
+	.half	3
+	.word	.L295-.L294
+.L294:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L295:
+	.byte	5,1,7,0,5,2
+	.word	.L46
+	.byte	3,210,0,1,5,3,9
+	.half	.L180-.L46
+	.byte	3,6,1,5,8,9
+	.half	.L296-.L180
+	.byte	3,3,1,5,3,9
+	.half	.L297-.L296
+	.byte	1,5,15,7,9
+	.half	.L298-.L297
+	.byte	3,2,1,5,5,9
+	.half	.L177-.L298
+	.byte	3,1,1,9
+	.half	.L299-.L177
+	.byte	3,1,1,9
+	.half	.L300-.L299
+	.byte	3,1,1,5,35,9
+	.half	.L2-.L300
+	.byte	3,3,1,5,30,9
+	.half	.L183-.L2
+	.byte	3,4,1,5,48,9
+	.half	.L301-.L183
+	.byte	1,5,59,9
+	.half	.L302-.L301
+	.byte	1,5,27,9
+	.half	.L182-.L302
+	.byte	3,1,1,5,5,9
+	.half	.L186-.L182
+	.byte	3,127,1,5,17,7,9
+	.half	.L303-.L186
+	.byte	3,3,1,5,7,9
+	.half	.L188-.L303
+	.byte	3,1,1,9
+	.half	.L304-.L188
+	.byte	3,1,1,9
+	.half	.L305-.L304
+	.byte	3,1,1,5,19,9
+	.half	.L4-.L305
+	.byte	3,5,1,5,8,9
+	.half	.L306-.L4
+	.byte	3,5,1,9
+	.half	.L307-.L306
+	.byte	3,15,1,9
+	.half	.L308-.L307
+	.byte	3,116,1,9
+	.half	.L309-.L308
+	.byte	3,123,1,9
+	.half	.L310-.L309
+	.byte	3,127,1,9
+	.half	.L311-.L310
+	.byte	3,127,1,9
+	.half	.L312-.L311
+	.byte	3,3,1,5,18,9
+	.half	.L6-.L312
+	.byte	3,2,1,5,5,9
+	.half	.L190-.L6
+	.byte	3,1,1,9
+	.half	.L8-.L190
+	.byte	3,5,1,5,9,9
+	.half	.L7-.L8
+	.byte	3,11,1,5,5,9
+	.half	.L313-.L7
+	.byte	1,5,17,7,9
+	.half	.L314-.L313
+	.byte	3,2,1,5,7,9
+	.half	.L193-.L314
+	.byte	3,1,1,9
+	.half	.L315-.L193
+	.byte	3,1,1,5,20,9
+	.half	.L16-.L315
+	.byte	3,5,1,5,30,9
+	.half	.L316-.L16
+	.byte	1,5,41,9
+	.half	.L317-.L316
+	.byte	1,5,7,9
+	.half	.L194-.L317
+	.byte	1,5,5,9
+	.half	.L196-.L194
+	.byte	3,1,1,5,17,7,9
+	.half	.L318-.L196
+	.byte	3,2,1,5,7,9
+	.half	.L195-.L318
+	.byte	3,1,1,9
+	.half	.L319-.L195
+	.byte	3,1,1,5,22,9
+	.half	.L18-.L319
+	.byte	3,4,1,5,5,9
+	.half	.L201-.L18
+	.byte	1,5,17,7,9
+	.half	.L320-.L201
+	.byte	3,2,1,9
+	.half	.L204-.L320
+	.byte	3,1,1,5,7,9
+	.half	.L206-.L204
+	.byte	3,1,1,9
+	.half	.L321-.L206
+	.byte	3,1,1,5,19,9
+	.half	.L20-.L321
+	.byte	3,18,1,5,33,9
+	.half	.L184-.L20
+	.byte	3,4,1,5,53,9
+	.half	.L322-.L184
+	.byte	1,5,51,9
+	.half	.L323-.L322
+	.byte	1,5,33,9
+	.half	.L324-.L323
+	.byte	3,1,1,5,55,9
+	.half	.L325-.L324
+	.byte	1,5,53,9
+	.half	.L326-.L325
+	.byte	1,5,35,9
+	.half	.L327-.L326
+	.byte	3,3,1,5,11,9
+	.half	.L328-.L327
+	.byte	3,1,1,5,29,9
+	.half	.L329-.L328
+	.byte	1,5,51,9
+	.half	.L330-.L329
+	.byte	1,5,55,9
+	.half	.L208-.L330
+	.byte	3,127,1,5,5,9
+	.half	.L331-.L208
+	.byte	3,6,1,5,33,9
+	.half	.L332-.L331
+	.byte	3,1,1,5,9,9
+	.half	.L333-.L332
+	.byte	3,1,1,5,24,9
+	.half	.L334-.L333
+	.byte	1,5,27,9
+	.half	.L335-.L334
+	.byte	1,5,44,9
+	.half	.L336-.L335
+	.byte	1,5,15,9
+	.half	.L211-.L336
+	.byte	3,1,1,5,5,9
+	.half	.L215-.L211
+	.byte	3,2,1,9
+	.half	.L13-.L215
+	.byte	3,2,1,9
+	.half	.L337-.L13
+	.byte	3,1,1,9
+	.half	.L338-.L337
+	.byte	3,1,1,5,13,9
+	.half	.L15-.L338
+	.byte	3,3,1,5,1,9
+	.half	.L3-.L15
+	.byte	3,1,1,7,9
+	.half	.L71-.L3
+	.byte	0,1,1
+.L293:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_input')
+	.sect	'.debug_ranges'
+.L70:
+	.word	-1,.L46,0,.L71-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_dest_unreach')
+	.sect	'.debug_info'
+.L72:
+	.word	306
+	.half	3
+	.word	.L73
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L75,.L74
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_dest_unreach',0,1,220,1,1,1,1,1
+	.word	.L48,.L122,.L47
+	.byte	4
+	.byte	'p',0,1,220,1,33
+	.word	.L113,.L123
+	.byte	4
+	.byte	'c',0,1,220,1,56
+	.word	.L124,.L125
+	.byte	5
+	.word	.L48,.L122
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_dest_unreach')
+	.sect	'.debug_abbrev'
+.L73:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_dest_unreach')
+	.sect	'.debug_line'
+.L74:
+	.word	.L340-.L339
+.L339:
+	.half	3
+	.word	.L342-.L341
+.L341:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L342:
+	.byte	5,29,7,0,5,2
+	.word	.L48
+	.byte	3,221,1,1,5,32,9
+	.half	.L343-.L48
+	.byte	1,5,1,9
+	.half	.L217-.L343
+	.byte	3,1,1,7,9
+	.half	.L76-.L217
+	.byte	0,1,1
+.L340:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_dest_unreach')
+	.sect	'.debug_ranges'
+.L75:
+	.word	-1,.L48,0,.L76-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_packet_too_big')
+	.sect	'.debug_info'
+.L77:
+	.word	310
+	.half	3
+	.word	.L78
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L80,.L79
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_packet_too_big',0,1,236,1,1,1,1,1
+	.word	.L50,.L126,.L49
+	.byte	4
+	.byte	'p',0,1,236,1,35
+	.word	.L113,.L127
+	.byte	4
+	.byte	'mtu',0,1,236,1,44
+	.word	.L128,.L129
+	.byte	5
+	.word	.L50,.L126
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_packet_too_big')
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_packet_too_big')
+	.sect	'.debug_line'
+.L79:
+	.word	.L345-.L344
+.L344:
+	.half	3
+	.word	.L347-.L346
+.L346:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L347:
+	.byte	5,1,7,0,5,2
+	.word	.L50
+	.byte	3,235,1,1,5,26,9
+	.half	.L220-.L50
+	.byte	3,2,1,5,34,9
+	.half	.L218-.L220
+	.byte	1,5,1,9
+	.half	.L219-.L218
+	.byte	3,1,1,7,9
+	.half	.L81-.L219
+	.byte	0,1,1
+.L345:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_packet_too_big')
+	.sect	'.debug_ranges'
+.L80:
+	.word	-1,.L50,0,.L81-.L50,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_time_exceeded')
+	.sect	'.debug_info'
+.L82:
+	.word	307
+	.half	3
+	.word	.L83
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L85,.L84
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_time_exceeded',0,1,252,1,1,1,1,1
+	.word	.L52,.L130,.L51
+	.byte	4
+	.byte	'p',0,1,252,1,34
+	.word	.L113,.L131
+	.byte	4
+	.byte	'c',0,1,252,1,56
+	.word	.L132,.L133
+	.byte	5
+	.word	.L52,.L130
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_time_exceeded')
+	.sect	'.debug_abbrev'
+.L83:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_time_exceeded')
+	.sect	'.debug_line'
+.L84:
+	.word	.L349-.L348
+.L348:
+	.half	3
+	.word	.L351-.L350
+.L350:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L351:
+	.byte	5,29,7,0,5,2
+	.word	.L52
+	.byte	3,253,1,1,5,32,9
+	.half	.L352-.L52
+	.byte	1,5,1,9
+	.half	.L221-.L352
+	.byte	3,1,1,7,9
+	.half	.L86-.L221
+	.byte	0,1,1
+.L349:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_time_exceeded')
+	.sect	'.debug_ranges'
+.L85:
+	.word	-1,.L52,0,.L86-.L52,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.debug_info'
+.L87:
+	.word	363
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L90,.L89
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_time_exceeded_with_addrs',0,1,145,2,1,1,1,1
+	.word	.L54,.L134,.L53
+	.byte	4
+	.byte	'p',0,1,145,2,45
+	.word	.L113,.L135
+	.byte	4
+	.byte	'c',0,1,145,2,67
+	.word	.L132,.L136
+	.byte	4
+	.byte	'src_addr',0,1,146,2,23
+	.word	.L120,.L137
+	.byte	4
+	.byte	'dest_addr',0,1,146,2,51
+	.word	.L120,.L138
+	.byte	5
+	.word	.L54,.L134
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.debug_line'
+.L89:
+	.word	.L354-.L353
+.L353:
+	.half	3
+	.word	.L356-.L355
+.L355:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L356:
+	.byte	5,40,7,0,5,2
+	.word	.L54
+	.byte	3,147,2,1,5,43,9
+	.half	.L357-.L54
+	.byte	1,5,68,9
+	.half	.L358-.L357
+	.byte	1,5,1,9
+	.half	.L222-.L358
+	.byte	3,1,1,7,9
+	.half	.L91-.L222
+	.byte	0,1,1
+.L354:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.debug_ranges'
+.L90:
+	.word	-1,.L54,0,.L91-.L54,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_param_problem')
+	.sect	'.debug_info'
+.L92:
+	.word	354
+	.half	3
+	.word	.L93
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L95,.L94
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_param_problem',0,1,164,2,1,1,1,1
+	.word	.L56,.L139,.L55
+	.byte	4
+	.byte	'p',0,1,164,2,34
+	.word	.L113,.L140
+	.byte	4
+	.byte	'c',0,1,164,2,56
+	.word	.L141,.L142
+	.byte	4
+	.byte	'pointer',0,1,164,2,71
+	.word	.L143,.L144
+	.byte	5
+	.word	.L56,.L139
+	.byte	6
+	.byte	'pointer_u32',0,1,166,2,9
+	.word	.L128,.L145
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_param_problem')
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_param_problem')
+	.sect	'.debug_line'
+.L94:
+	.word	.L360-.L359
+.L359:
+	.half	3
+	.word	.L362-.L361
+.L361:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L362:
+	.byte	5,69,7,0,5,2
+	.word	.L56
+	.byte	3,165,2,1,5,53,9
+	.half	.L363-.L56
+	.byte	1,5,42,9
+	.half	.L225-.L363
+	.byte	3,1,1,5,1,9
+	.half	.L223-.L225
+	.byte	3,1,1,7,9
+	.half	.L96-.L223
+	.byte	0,1,1
+.L360:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_param_problem')
+	.sect	'.debug_ranges'
+.L95:
+	.word	-1,.L56,0,.L96-.L56,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_send_response')
+	.sect	'.debug_info'
+.L97:
+	.word	412
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L100,.L99
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_send_response',0,1,181,2,1,1,1
+	.word	.L58,.L146,.L57
+	.byte	4
+	.byte	'p',0,1,181,2,34
+	.word	.L113,.L147
+	.byte	4
+	.byte	'code',0,1,181,2,42
+	.word	.L148,.L149
+	.byte	4
+	.byte	'data',0,1,181,2,54
+	.word	.L128,.L150
+	.byte	4
+	.byte	'type',0,1,181,2,65
+	.word	.L148,.L151
+	.byte	5
+	.word	.L58,.L146
+	.byte	6
+	.byte	'reply_src',0,1,183,2,26
+	.word	.L152,.L153
+	.byte	6
+	.byte	'reply_dest',0,1,183,2,38
+	.word	.L152,.L154
+	.byte	6
+	.byte	'netif',0,1,184,2,17
+	.word	.L115,.L155
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_send_response')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_send_response')
+	.sect	'.debug_line'
+.L99:
+	.word	.L365-.L364
+.L364:
+	.half	3
+	.word	.L367-.L366
+.L366:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L367:
+	.byte	5,1,7,0,5,2
+	.word	.L58
+	.byte	3,180,2,1,5,25,9
+	.half	.L229-.L58
+	.byte	3,3,1,5,3,9
+	.half	.L24-.L229
+	.byte	3,2,1,7,9
+	.half	.L368-.L24
+	.byte	1,5,16,9
+	.half	.L25-.L368
+	.byte	3,1,1,5,15,9
+	.half	.L230-.L25
+	.byte	3,3,1,5,3,9
+	.half	.L233-.L230
+	.byte	3,1,1,5,5,7,9
+	.half	.L369-.L233
+	.byte	3,1,1,9
+	.half	.L370-.L369
+	.byte	3,1,1,5,88,9
+	.half	.L26-.L370
+	.byte	3,2,1,5,1,9
+	.half	.L27-.L26
+	.byte	3,1,1,7,9
+	.half	.L101-.L27
+	.byte	0,1,1
+.L365:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_send_response')
+	.sect	'.debug_ranges'
+.L100:
+	.word	-1,.L58,0,.L101-.L58,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_send_response_with_addrs')
+	.sect	'.debug_info'
+.L102:
+	.word	468
+	.half	3
+	.word	.L103
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L105,.L104
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_send_response_with_addrs',0,1,218,2,1,1,1
+	.word	.L60,.L156,.L59
+	.byte	4
+	.byte	'p',0,1,218,2,45
+	.word	.L113,.L157
+	.byte	4
+	.byte	'code',0,1,218,2,53
+	.word	.L148,.L158
+	.byte	4
+	.byte	'data',0,1,218,2,65
+	.word	.L128,.L159
+	.byte	4
+	.byte	'type',0,1,218,2,76
+	.word	.L148,.L160
+	.byte	4
+	.byte	'src_addr',0,1,219,2,23
+	.word	.L120,.L161
+	.byte	4
+	.byte	'dest_addr',0,1,219,2,51
+	.word	.L120,.L162
+	.byte	5
+	.word	.L60,.L156
+	.byte	6
+	.byte	'reply_src',0,1,221,2,26
+	.word	.L152,.L163
+	.byte	6
+	.byte	'reply_dest',0,1,221,2,38
+	.word	.L152,.L164
+	.byte	6
+	.byte	'netif',0,1,222,2,17
+	.word	.L115,.L165
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_send_response_with_addrs')
+	.sect	'.debug_abbrev'
+.L103:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_send_response_with_addrs')
+	.sect	'.debug_line'
+.L104:
+	.word	.L372-.L371
+.L371:
+	.half	3
+	.word	.L374-.L373
+.L373:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L374:
+	.byte	5,1,7,0,5,2
+	.word	.L60
+	.byte	3,217,2,1,5,3,9
+	.half	.L28-.L60
+	.byte	3,7,1,7,9
+	.half	.L375-.L28
+	.byte	1,9
+	.half	.L30-.L375
+	.byte	3,1,1,7,9
+	.half	.L376-.L30
+	.byte	1,5,32,9
+	.half	.L31-.L376
+	.byte	3,9,1,5,3,9
+	.half	.L248-.L31
+	.byte	3,1,1,5,5,7,9
+	.half	.L377-.L248
+	.byte	3,1,1,9
+	.half	.L378-.L377
+	.byte	3,1,1,5,17,9
+	.half	.L32-.L378
+	.byte	3,3,1,5,1,9
+	.half	.L33-.L32
+	.byte	3,1,1,7,9
+	.half	.L106-.L33
+	.byte	0,1,1
+.L372:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_send_response_with_addrs')
+	.sect	'.debug_ranges'
+.L105:
+	.word	-1,.L60,0,.L106-.L60,0,0
+	.sdecl	'.debug_info',debug,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.debug_info'
+.L107:
+	.word	470
+	.half	3
+	.word	.L108
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L110,.L109
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'icmp6_send_response_with_addrs_and_netif',0,1,129,3,1,1,1
+	.word	.L62,.L166,.L61
+	.byte	4
+	.byte	'p',0,1,129,3,55
+	.word	.L113,.L167
+	.byte	4
+	.byte	'code',0,1,129,3,63
+	.word	.L148,.L168
+	.byte	4
+	.byte	'data',0,1,129,3,75
+	.word	.L128,.L169
+	.byte	4
+	.byte	'type',0,1,129,3,86
+	.word	.L148,.L170
+	.byte	4
+	.byte	'reply_src',0,1,130,3,23
+	.word	.L120,.L171
+	.byte	4
+	.byte	'reply_dest',0,1,130,3,52
+	.word	.L120,.L172
+	.byte	4
+	.byte	'netif',0,1,130,3,78
+	.word	.L115,.L173
+	.byte	5
+	.word	.L62,.L166
+	.byte	6
+	.byte	'q',0,1,132,3,16
+	.word	.L113,.L174
+	.byte	6
+	.byte	'icmp6hdr',0,1,133,3,21
+	.word	.L117,.L175
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.debug_abbrev'
+.L108:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3,8,58
+	.byte	15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.debug_line'
+.L109:
+	.word	.L380-.L379
+.L379:
+	.half	3
+	.word	.L382-.L381
+.L381:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/icmp6.c',0,0,0,0,0
+.L382:
+	.byte	5,1,7,0,5,2
+	.word	.L62
+	.byte	3,128,3,1,5,18,9
+	.half	.L266-.L62
+	.byte	3,7,1,5,63,9
+	.half	.L258-.L266
+	.byte	1,5,18,9
+	.half	.L259-.L258
+	.byte	3,1,1,5,5,9
+	.half	.L260-.L259
+	.byte	3,127,1,5,3,9
+	.half	.L268-.L260
+	.byte	3,2,1,5,5,7,9
+	.half	.L35-.L268
+	.byte	3,1,1,9
+	.half	.L36-.L35
+	.byte	3,1,1,9
+	.half	.L383-.L36
+	.byte	3,1,1,5,3,9
+	.half	.L43-.L383
+	.byte	3,2,1,5,35,9
+	.half	.L44-.L43
+	.byte	3,3,1,5,18,9
+	.half	.L270-.L44
+	.byte	3,1,1,9
+	.half	.L272-.L270
+	.byte	3,1,1,5,31,9
+	.half	.L273-.L272
+	.byte	3,1,1,5,18,9
+	.half	.L275-.L273
+	.byte	1,5,3,9
+	.half	.L384-.L275
+	.byte	3,3,1,5,22,9
+	.half	.L277-.L384
+	.byte	3,4,1,5,20,9
+	.half	.L385-.L277
+	.byte	1,5,45,9
+	.half	.L386-.L385
+	.byte	3,3,1,5,63,9
+	.half	.L387-.L386
+	.byte	1,5,18,9
+	.half	.L388-.L387
+	.byte	3,1,1,5,22,9
+	.half	.L279-.L388
+	.byte	3,127,1,5,3,9
+	.half	.L389-.L279
+	.byte	3,5,1,5,43,9
+	.half	.L390-.L389
+	.byte	3,1,1,5,58,9
+	.half	.L391-.L390
+	.byte	1,5,61,9
+	.half	.L392-.L391
+	.byte	1,5,78,9
+	.half	.L393-.L392
+	.byte	1,5,13,9
+	.half	.L283-.L393
+	.byte	3,1,1,5,1,9
+	.half	.L42-.L283
+	.byte	3,1,1,7,9
+	.half	.L111-.L42
+	.byte	0,1,1
+.L380:
+	.sdecl	'.debug_ranges',debug,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.debug_ranges'
+.L110:
+	.word	-1,.L62,0,.L111-.L62,0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_dest_unreach')
+	.sect	'.debug_loc'
+.L125:
+	.word	-1,.L48,0,.L217-.L48
+	.half	1
+	.byte	84
+	.word	0,0
+.L47:
+	.word	-1,.L48,0,.L122-.L48
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L123:
+	.word	-1,.L48,0,.L217-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_input')
+	.sect	'.debug_loc'
+.L45:
+	.word	-1,.L46,0,.L176-.L46
+	.half	2
+	.byte	138,0
+	.word	.L176-.L46,.L112-.L46
+	.half	2
+	.byte	138,8
+	.word	.L112-.L46,.L112-.L46
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L118:
+	.word	-1,.L46,.L183-.L46,.L184-.L46
+	.half	1
+	.byte	108
+	.word	.L13-.L46,.L15-.L46
+	.half	1
+	.byte	108
+	.word	0,0
+.L116:
+	.word	-1,.L46,0,.L177-.L46
+	.half	1
+	.byte	101
+	.word	.L180-.L46,.L112-.L46
+	.half	2
+	.byte	145,120
+	.word	.L2-.L46,.L182-.L46
+	.half	1
+	.byte	101
+	.word	.L191-.L46,.L190-.L46
+	.half	1
+	.byte	101
+	.word	.L213-.L46,.L211-.L46
+	.half	1
+	.byte	103
+	.word	0,0
+.L114:
+	.word	-1,.L46,0,.L178-.L46
+	.half	1
+	.byte	100
+	.word	.L179-.L46,.L112-.L46
+	.half	1
+	.byte	109
+	.word	.L181-.L46,.L177-.L46
+	.half	1
+	.byte	100
+	.word	.L185-.L46,.L186-.L46
+	.half	1
+	.byte	100
+	.word	.L187-.L46,.L188-.L46
+	.half	1
+	.byte	100
+	.word	.L189-.L46,.L190-.L46
+	.half	1
+	.byte	100
+	.word	.L192-.L46,.L193-.L46
+	.half	1
+	.byte	100
+	.word	.L198-.L46,.L195-.L46
+	.half	1
+	.byte	100
+	.word	.L202-.L46,.L201-.L46
+	.half	1
+	.byte	101
+	.word	.L203-.L46,.L204-.L46
+	.half	1
+	.byte	100
+	.word	.L216-.L46,.L3-.L46
+	.half	1
+	.byte	100
+	.word	0,0
+.L119:
+	.word	-1,.L46,.L194-.L46,.L195-.L46
+	.half	1
+	.byte	98
+	.word	.L196-.L46,.L197-.L46
+	.half	1
+	.byte	111
+	.word	.L18-.L46,.L199-.L46
+	.half	1
+	.byte	98
+	.word	.L18-.L46,.L200-.L46
+	.half	1
+	.byte	111
+	.word	.L199-.L46,.L201-.L46
+	.half	1
+	.byte	100
+	.word	.L205-.L46,.L206-.L46
+	.half	1
+	.byte	100
+	.word	.L20-.L46,.L13-.L46
+	.half	1
+	.byte	111
+	.word	.L207-.L46,.L208-.L46
+	.half	1
+	.byte	100
+	.word	.L210-.L46,.L211-.L46
+	.half	1
+	.byte	100
+	.word	.L214-.L46,.L215-.L46
+	.half	1
+	.byte	100
+	.word	0,0
+.L121:
+	.word	-1,.L46,.L184-.L46,.L13-.L46
+	.half	1
+	.byte	108
+	.word	.L209-.L46,.L208-.L46
+	.half	1
+	.byte	101
+	.word	.L212-.L46,.L211-.L46
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_packet_too_big')
+	.sect	'.debug_loc'
+.L49:
+	.word	-1,.L50,0,.L126-.L50
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L129:
+	.word	-1,.L50,0,.L218-.L50
+	.half	1
+	.byte	84
+	.word	.L220-.L50,.L219-.L50
+	.half	1
+	.byte	85
+	.word	0,0
+.L127:
+	.word	-1,.L50,0,.L219-.L50
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_param_problem')
+	.sect	'.debug_loc'
+.L142:
+	.word	-1,.L56,0,.L223-.L56
+	.half	1
+	.byte	84
+	.word	0,0
+.L55:
+	.word	-1,.L56,0,.L139-.L56
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L140:
+	.word	-1,.L56,0,.L223-.L56
+	.half	1
+	.byte	100
+	.word	0,0
+.L144:
+	.word	-1,.L56,0,.L223-.L56
+	.half	1
+	.byte	101
+	.word	0,0
+.L145:
+	.word	-1,.L56,.L224-.L56,.L139-.L56
+	.half	1
+	.byte	111
+	.word	.L225-.L56,.L223-.L56
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_send_response')
+	.sect	'.debug_loc'
+.L149:
+	.word	-1,.L58,0,.L25-.L58
+	.half	1
+	.byte	84
+	.word	.L236-.L58,.L237-.L58
+	.half	1
+	.byte	88
+	.word	0,0
+.L150:
+	.word	-1,.L58,0,.L25-.L58
+	.half	1
+	.byte	85
+	.word	.L236-.L58,.L237-.L58
+	.half	1
+	.byte	89
+	.word	0,0
+.L57:
+	.word	-1,.L58,0,.L226-.L58
+	.half	2
+	.byte	138,0
+	.word	.L226-.L58,.L146-.L58
+	.half	2
+	.byte	138,16
+	.word	.L146-.L58,.L146-.L58
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L155:
+	.word	-1,.L58,.L24-.L58,.L146-.L58
+	.half	1
+	.byte	109
+	.word	.L232-.L58,.L233-.L58
+	.half	1
+	.byte	100
+	.word	.L241-.L58,.L27-.L58
+	.half	1
+	.byte	103
+	.word	0,0
+.L147:
+	.word	-1,.L58,0,.L227-.L58
+	.half	1
+	.byte	100
+	.word	.L228-.L58,.L146-.L58
+	.half	1
+	.byte	108
+	.word	.L236-.L58,.L27-.L58
+	.half	1
+	.byte	100
+	.word	0,0
+.L154:
+	.word	-1,.L58,.L230-.L58,.L231-.L58
+	.half	1
+	.byte	111
+	.word	.L234-.L58,.L233-.L58
+	.half	1
+	.byte	101
+	.word	.L26-.L58,.L27-.L58
+	.half	1
+	.byte	111
+	.word	.L240-.L58,.L27-.L58
+	.half	1
+	.byte	102
+	.word	0,0
+.L153:
+	.word	-1,.L58,.L233-.L58,.L235-.L58
+	.half	1
+	.byte	98
+	.word	.L26-.L58,.L27-.L58
+	.half	1
+	.byte	98
+	.word	.L239-.L58,.L27-.L58
+	.half	1
+	.byte	101
+	.word	0,0
+.L151:
+	.word	-1,.L58,0,.L25-.L58
+	.half	1
+	.byte	86
+	.word	.L229-.L58,.L146-.L58
+	.half	1
+	.byte	90
+	.word	.L238-.L58,.L27-.L58
+	.half	1
+	.byte	86
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_send_response_with_addrs')
+	.sect	'.debug_loc'
+.L158:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	84
+	.word	.L251-.L60,.L252-.L60
+	.half	1
+	.byte	88
+	.word	0,0
+.L159:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	85
+	.word	.L251-.L60,.L252-.L60
+	.half	1
+	.byte	89
+	.word	0,0
+.L162:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	102
+	.word	.L28-.L60,.L156-.L60
+	.half	1
+	.byte	110
+	.word	.L247-.L60,.L248-.L60
+	.half	1
+	.byte	100
+	.word	.L254-.L60,.L33-.L60
+	.half	1
+	.byte	101
+	.word	0,0
+.L59:
+	.word	-1,.L60,0,.L242-.L60
+	.half	2
+	.byte	138,0
+	.word	.L242-.L60,.L156-.L60
+	.half	2
+	.byte	138,16
+	.word	.L156-.L60,.L156-.L60
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L165:
+	.word	-1,.L60,.L248-.L60,.L250-.L60
+	.half	1
+	.byte	98
+	.word	.L32-.L60,.L33-.L60
+	.half	1
+	.byte	98
+	.word	.L256-.L60,.L33-.L60
+	.half	1
+	.byte	103
+	.word	0,0
+.L157:
+	.word	-1,.L60,0,.L243-.L60
+	.half	1
+	.byte	100
+	.word	.L244-.L60,.L156-.L60
+	.half	1
+	.byte	108
+	.word	.L251-.L60,.L33-.L60
+	.half	1
+	.byte	100
+	.word	0,0
+.L164:
+	.word	0,0
+.L163:
+	.word	0,0
+.L161:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	101
+	.word	.L246-.L60,.L156-.L60
+	.half	1
+	.byte	109
+	.word	.L249-.L60,.L248-.L60
+	.half	1
+	.byte	101
+	.word	.L255-.L60,.L33-.L60
+	.half	1
+	.byte	102
+	.word	0,0
+.L160:
+	.word	-1,.L60,0,.L30-.L60
+	.half	1
+	.byte	86
+	.word	.L245-.L60,.L156-.L60
+	.half	1
+	.byte	90
+	.word	.L253-.L60,.L33-.L60
+	.half	1
+	.byte	86
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.debug_loc'
+.L168:
+	.word	-1,.L62,0,.L258-.L62
+	.half	1
+	.byte	84
+	.word	.L272-.L62,.L273-.L62
+	.half	1
+	.byte	88
+	.word	0,0
+.L169:
+	.word	-1,.L62,0,.L259-.L62
+	.half	1
+	.byte	85
+	.word	.L273-.L62,.L274-.L62
+	.half	1
+	.byte	89
+	.word	.L274-.L62,.L275-.L62
+	.half	1
+	.byte	84
+	.word	0,0
+.L61:
+	.word	-1,.L62,0,.L257-.L62
+	.half	2
+	.byte	138,0
+	.word	.L257-.L62,.L166-.L62
+	.half	2
+	.byte	138,24
+	.word	.L166-.L62,.L166-.L62
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L175:
+	.word	-1,.L62,.L270-.L62,.L271-.L62
+	.half	1
+	.byte	111
+	.word	0,0
+.L173:
+	.word	-1,.L62,0,.L260-.L62
+	.half	1
+	.byte	103
+	.word	.L266-.L62,.L166-.L62
+	.half	2
+	.byte	145,120
+	.word	.L286-.L62,.L283-.L62
+	.half	1
+	.byte	103
+	.word	0,0
+.L167:
+	.word	-1,.L62,0,.L260-.L62
+	.half	1
+	.byte	100
+	.word	.L262-.L62,.L166-.L62
+	.half	2
+	.byte	145,116
+	.word	.L276-.L62,.L277-.L62
+	.half	1
+	.byte	98
+	.word	0,0
+.L174:
+	.word	-1,.L62,.L260-.L62,.L267-.L62
+	.half	1
+	.byte	98
+	.word	.L268-.L62,.L166-.L62
+	.half	1
+	.byte	110
+	.word	.L43-.L62,.L269-.L62
+	.half	1
+	.byte	98
+	.word	.L278-.L62,.L279-.L62
+	.half	1
+	.byte	100
+	.word	.L282-.L62,.L283-.L62
+	.half	1
+	.byte	100
+	.word	.L287-.L62,.L42-.L62
+	.half	1
+	.byte	100
+	.word	0,0
+.L172:
+	.word	-1,.L62,0,.L260-.L62
+	.half	1
+	.byte	102
+	.word	.L265-.L62,.L166-.L62
+	.half	1
+	.byte	109
+	.word	.L281-.L62,.L279-.L62
+	.half	1
+	.byte	102
+	.word	.L285-.L62,.L283-.L62
+	.half	1
+	.byte	102
+	.word	0,0
+.L171:
+	.word	-1,.L62,0,.L260-.L62
+	.half	1
+	.byte	101
+	.word	.L264-.L62,.L166-.L62
+	.half	1
+	.byte	108
+	.word	.L280-.L62,.L279-.L62
+	.half	1
+	.byte	101
+	.word	.L284-.L62,.L283-.L62
+	.half	1
+	.byte	101
+	.word	0,0
+.L170:
+	.word	-1,.L62,0,.L261-.L62
+	.half	1
+	.byte	86
+	.word	.L263-.L62,.L166-.L62
+	.half	1
+	.byte	90
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_time_exceeded')
+	.sect	'.debug_loc'
+.L133:
+	.word	-1,.L52,0,.L221-.L52
+	.half	1
+	.byte	84
+	.word	0,0
+.L51:
+	.word	-1,.L52,0,.L130-.L52
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L131:
+	.word	-1,.L52,0,.L221-.L52
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.debug_loc'
+.L136:
+	.word	-1,.L54,0,.L222-.L54
+	.half	1
+	.byte	84
+	.word	0,0
+.L138:
+	.word	-1,.L54,0,.L222-.L54
+	.half	1
+	.byte	102
+	.word	0,0
+.L53:
+	.word	-1,.L54,0,.L134-.L54
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L135:
+	.word	-1,.L54,0,.L222-.L54
+	.half	1
+	.byte	100
+	.word	0,0
+.L137:
+	.word	-1,.L54,0,.L222-.L54
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L394:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('icmp6_input')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L394,.L46,.L112-.L46
+	.byte	4
+	.word	(.L176-.L46)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L112-.L176)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('icmp6_dest_unreach')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L394,.L48,.L122-.L48
+	.sdecl	'.debug_frame',debug,cluster('icmp6_packet_too_big')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L394,.L50,.L126-.L50
+	.sdecl	'.debug_frame',debug,cluster('icmp6_time_exceeded')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L394,.L52,.L130-.L52
+	.sdecl	'.debug_frame',debug,cluster('icmp6_time_exceeded_with_addrs')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L394,.L54,.L134-.L54
+	.sdecl	'.debug_frame',debug,cluster('icmp6_param_problem')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L394,.L56,.L139-.L56
+	.sdecl	'.debug_frame',debug,cluster('icmp6_send_response')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L394,.L58,.L146-.L58
+	.byte	4
+	.word	(.L226-.L58)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L146-.L226)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('icmp6_send_response_with_addrs')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L394,.L60,.L156-.L60
+	.byte	4
+	.word	(.L242-.L60)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L156-.L242)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('icmp6_send_response_with_addrs_and_netif')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L394,.L62,.L166-.L62
+	.byte	4
+	.word	(.L257-.L62)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L166-.L257)/2
+	.byte	19,0,8,26,0,0
+	; Module end
