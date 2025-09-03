@@ -1,0 +1,8780 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc7976a --dep-file=Libraries/Ethernet/lwip/src/core/ipv6/ip6.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39xb -D__CPU_TC39XB__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc39xb -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Configurations -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\Phy_Rtl8211f -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\\\arch -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\arpa -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\net -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\posix\\\\sys -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\compat\\\\stdc -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\apps -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\priv -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\lwip\\\\prot -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\\\netif\\\\ppp\\\\polarssl -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Sfr\\\\TC39B -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Sfr\\\\TC39B\\\\_Reg -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Ssw\\\\TC39B -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Infra\\\\Ssw\\\\TC39B\\\\Tricore -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\UART -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Geth -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Geth\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Pms -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Port -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Src -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/Ethernet/lwip/src/core/ipv6/ip6.src ../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.ip6.ip6_route',code,cluster('ip6_route')
+	.sect	'.text.ip6.ip6_route'
+	.align	2
+	
+	.global	ip6_route
+; Function ip6_route
+.L739:
+ip6_route:	.type	func
+	mov.aa	a15,a4
+.L903:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.w	d15,[a2]
+.L1194:
+	jeq	d15,#0,.L2
+.L1195:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L1196:
+	ld.w	d15,[a2]
+.L1197:
+	jne	d15,#0,.L3
+.L1198:
+	movh.a	a15,#@his(netif_list)
+.L904:
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a15,[a15]
+	ld.bu	d15,[a15]215
+	jz.t	d15:0,.L4
+	mov	d15,#1
+	j	.L5
+.L4:
+	mov	d15,#0
+.L5:
+	jeq	d15,#0,.L6
+.L1199:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a15,[a15]
+	ld.bu	d15,[a15]215
+	jz.t	d15:2,.L7
+	mov	d15,#1
+	j	.L8
+.L7:
+	mov	d15,#0
+.L8:
+	jeq	d15,#0,.L9
+.L1200:
+	ld.bu	d15,[a5]16
+	jeq	d15,#0,.L10
+.L1201:
+	ld.bu	d0,[a5]16
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a15,[a15]
+	ld.bu	d15,[a15]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	jeq	d15,d0,.L11
+.L9:
+.L6:
+	mov.a	a2,#0
+.L1202:
+	j	.L12
+.L11:
+.L10:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a2,[a15]
+.L1203:
+	j	.L13
+.L3:
+.L2:
+	ld.bu	d15,[a5]16
+.L1204:
+	jeq	d15,#0,.L14
+.L1205:
+	movh.a	a15,#@his(netif_list)
+.L905:
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a2,[a15]
+.L906:
+	j	.L15
+.L16:
+	ld.bu	d0,[a5]16
+	ld.bu	d15,[a2]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	jne	d15,d0,.L17
+.L1206:
+	ld.bu	d15,[a2]215
+	jz.t	d15:0,.L18
+	mov	d15,#1
+	j	.L19
+.L18:
+	mov	d15,#0
+.L19:
+	jeq	d15,#0,.L20
+.L1207:
+	ld.bu	d15,[a2]215
+	jz.t	d15:2,.L21
+	mov	d15,#1
+	j	.L22
+.L21:
+	mov	d15,#0
+.L22:
+	jeq	d15,#0,.L23
+.L1208:
+	j	.L24
+.L23:
+.L20:
+.L17:
+	ld.a	a2,[a2]
+.L15:
+	jnz.a	a2,.L16
+.L1209:
+	mov.a	a2,#0
+.L907:
+	j	.L25
+.L14:
+	ld.w	d15,[a5]
+	mov.u	d0,#49407
+	and	d15,d0
+	mov.u	d0,#33022
+	jeq	d15,d0,.L26
+	mov	d15,#1
+	jeq	d15,#0,.L27
+	ld.w	d15,[a5]
+	mov.u	d0,#36863
+	and	d15,d0
+	mov	d0,#511
+	jeq	d15,d0,.L28
+	ld.w	d15,[a5]
+	mov.u	d0,#36863
+	and	d15,d0
+	mov	d0,#767
+	jeq	d15,d0,.L29
+.L27:
+	ld.w	d15,[a15]
+	mov.u	d0,#49407
+	and	d15,d0
+	mov.u	d0,#33022
+	jeq	d15,d0,.L30
+	mov	d15,#0
+	jeq	d15,#0,.L31
+	ld.w	d0,[a15]
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#511
+	jeq	d15,d0,.L32
+	ld.w	d0,[a15]
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#767
+	jeq	d15,d0,.L33
+.L31:
+	ld.w	d15,[a15]
+	jne	d15,#0,.L34
+	ld.w	d15,[a15]4
+	jne	d15,#0,.L35
+	ld.w	d15,[a15]8
+	jne	d15,#0,.L36
+	ld.w	d15,[a15]12
+	movh	d0,#256
+	jne	d15,d0,.L37
+.L33:
+.L29:
+.L26:
+.L28:
+.L30:
+.L32:
+	ld.bu	d15,[a15]16
+.L1210:
+	jeq	d15,#0,.L38
+.L1211:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L909:
+	j	.L39
+.L40:
+	ld.bu	d15,[a2]215
+	jz.t	d15:0,.L41
+	mov	d15,#1
+	j	.L42
+.L41:
+	mov	d15,#0
+.L42:
+	jeq	d15,#0,.L43
+.L1212:
+	ld.bu	d15,[a2]215
+	jz.t	d15:2,.L44
+	mov	d15,#1
+	j	.L45
+.L44:
+	mov	d15,#0
+.L45:
+	jeq	d15,#0,.L46
+.L1213:
+	ld.bu	d0,[a15]16
+	ld.bu	d15,[a2]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	jne	d15,d0,.L47
+.L1214:
+	j	.L48
+.L47:
+.L46:
+.L43:
+	ld.a	a2,[a2]
+.L39:
+	jnz.a	a2,.L40
+	j	.L49
+.L38:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L910:
+	j	.L50
+.L51:
+	ld.bu	d15,[a2]215
+	jz.t	d15:0,.L52
+	mov	d15,#1
+	j	.L53
+.L52:
+	mov	d15,#0
+.L53:
+	jeq	d15,#0,.L54
+.L1215:
+	ld.bu	d15,[a2]215
+	jz.t	d15:2,.L55
+	mov	d15,#1
+	j	.L56
+.L55:
+	mov	d15,#0
+.L56:
+	jne	d15,#0,.L57
+.L54:
+	j	.L58
+.L57:
+	mov	d0,#0
+.L911:
+	j	.L59
+.L60:
+	addsc.a	a4,a2,d0,#0
+	ld.bu	d15,[a4]148
+	jz.t	d15:4,.L61
+.L1216:
+	ld.w	d1,[a15]
+	mul	d15,d0,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]76
+	jne	d15,d1,.L62
+	ld.w	d1,[a15]4
+	mul	d15,d0,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]80
+	jne	d15,d1,.L63
+	ld.w	d1,[a15]8
+	mul	d15,d0,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]84
+	jne	d15,d1,.L64
+	ld.w	d1,[a15]12
+	mul	d15,d0,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]88
+	jne	d15,d1,.L65
+.L1217:
+	j	.L66
+.L65:
+.L61:
+.L64:
+.L63:
+.L62:
+	add	d0,#1
+.L59:
+	jlt	d0,#3,.L60
+.L58:
+	ld.a	a2,[a2]
+.L50:
+	jnz.a	a2,.L51
+.L49:
+	mov.a	a2,#0
+.L1218:
+	j	.L67
+.L37:
+.L36:
+.L35:
+.L34:
+	movh.a	a2,#@his(netif_list)
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L912:
+	j	.L68
+.L69:
+	ld.bu	d15,[a2]215
+	jz.t	d15:0,.L70
+	mov	d15,#1
+	j	.L71
+.L70:
+	mov	d15,#0
+.L71:
+	jeq	d15,#0,.L72
+.L1219:
+	ld.bu	d15,[a2]215
+	jz.t	d15:2,.L73
+	mov	d15,#1
+	j	.L74
+.L73:
+	mov	d15,#0
+.L74:
+	jne	d15,#0,.L75
+.L72:
+	j	.L76
+.L75:
+	mov	d2,#0
+.L914:
+	j	.L77
+.L78:
+	addsc.a	a4,a2,d2,#0
+	ld.bu	d0,[a4]148
+	jz.t	d0:4,.L79
+.L1220:
+	ld.w	d0,[a5]
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d1,[a4]76
+	jne	d0,d1,.L80
+	ld.w	d0,[a5]4
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d1,[a4]80
+	jne	d0,d1,.L81
+	ld.bu	d0,[a5]16
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.bu	d1,[a4]92
+	jne	d0,d1,.L82
+.L1221:
+	jz.a	a2,.L83
+.L1222:
+	mul	d15,d2,#4
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]152
+	j	.L84
+.L83:
+	mov	d15,#0
+.L84:
+	jeq	d15,#0,.L85
+.L1223:
+	ld.w	d0,[a5]8
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]84
+	jne	d15,d0,.L86
+	ld.w	d0,[a5]12
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]88
+	jne	d15,d0,.L87
+.L85:
+	j	.L88
+.L87:
+.L82:
+.L79:
+.L81:
+.L80:
+.L86:
+	add	d2,#1
+.L77:
+	jlt	d2,#3,.L78
+.L76:
+	ld.a	a2,[a2]
+.L68:
+	jnz.a	a2,.L69
+.L1224:
+	mov.aa	a4,a5
+.L915:
+	call	nd6_find_route
+.L902:
+	jz.a	a2,.L89
+.L1225:
+	j	.L90
+.L89:
+	jz.a	a15,.L91
+.L1226:
+	ld.w	d15,[a15]
+	jne	d15,#0,.L92
+	ld.w	d15,[a15]4
+	jne	d15,#0,.L93
+	ld.w	d15,[a15]8
+	jne	d15,#0,.L94
+	ld.w	d15,[a15]12
+	jeq	d15,#0,.L95
+.L94:
+.L93:
+.L92:
+	movh.a	a2,#@his(netif_list)
+.L913:
+	lea	a2,[a2]@los(netif_list)
+	ld.a	a2,[a2]
+.L916:
+	j	.L96
+.L97:
+	ld.bu	d15,[a2]215
+	jz.t	d15:0,.L98
+	mov	d15,#1
+	j	.L99
+.L98:
+	mov	d15,#0
+.L99:
+	jeq	d15,#0,.L100
+.L1227:
+	ld.bu	d15,[a2]215
+	jz.t	d15:2,.L101
+	mov	d15,#1
+	j	.L102
+.L101:
+	mov	d15,#0
+.L102:
+	jne	d15,#0,.L103
+.L100:
+	j	.L104
+.L103:
+	mov	d2,#0
+.L917:
+	j	.L105
+.L106:
+	addsc.a	a4,a2,d2,#0
+	ld.bu	d0,[a4]148
+	jz.t	d0:4,.L107
+.L1228:
+	ld.w	d0,[a15]
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d1,[a4]76
+	jne	d0,d1,.L108
+	ld.w	d0,[a15]4
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d1,[a4]80
+	jne	d0,d1,.L109
+	ld.w	d0,[a15]8
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]84
+	jne	d15,d0,.L110
+	ld.w	d0,[a15]12
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.w	d15,[a4]88
+	jne	d15,d0,.L111
+	ld.bu	d0,[a15]16
+	mul	d15,d2,#24
+	addsc.a	a4,a2,d15,#0
+	ld.bu	d15,[a4]92
+	jne	d15,d0,.L112
+.L1229:
+	j	.L113
+.L112:
+.L107:
+.L111:
+.L110:
+.L109:
+.L108:
+	add	d2,#1
+.L105:
+	jlt	d2,#3,.L106
+.L104:
+	ld.a	a2,[a2]
+.L96:
+	jnz.a	a2,.L97
+.L95:
+.L91:
+	movh.a	a15,#@his(netif_default)
+.L908:
+	lea	a15,[a15]@los(netif_default)
+	ld.w	d15,[a15]
+.L1230:
+	jeq	d15,#0,.L114
+.L1231:
+	movh.a	a15,#@his(netif_default)
+	lea	a15,[a15]@los(netif_default)
+	ld.a	a15,[a15]
+	ld.bu	d15,[a15]215
+	jz.t	d15:0,.L115
+	mov	d15,#1
+	j	.L116
+.L115:
+	mov	d15,#0
+.L116:
+	jeq	d15,#0,.L117
+.L1232:
+	movh.a	a15,#@his(netif_default)
+	lea	a15,[a15]@los(netif_default)
+	ld.a	a15,[a15]
+	ld.bu	d15,[a15]215
+	jz.t	d15:2,.L118
+	mov	d15,#1
+	j	.L119
+.L118:
+	mov	d15,#0
+.L119:
+	jne	d15,#0,.L120
+.L117:
+.L114:
+	mov.a	a2,#0
+.L1233:
+	j	.L121
+.L120:
+	movh.a	a15,#@his(netif_default)
+	lea	a15,[a15]@los(netif_default)
+	ld.a	a2,[a15]
+.L1234:
+	j	.L122
+.L122:
+.L121:
+.L113:
+.L90:
+.L88:
+.L67:
+.L66:
+.L48:
+.L25:
+.L24:
+.L13:
+.L12:
+	ret
+.L799:
+	
+__ip6_route_function_end:
+	.size	ip6_route,__ip6_route_function_end-ip6_route
+.L762:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_select_source_address',code,cluster('ip6_select_source_address')
+	.sect	'.text.ip6.ip6_select_source_address'
+	.align	2
+	
+	.global	ip6_select_source_address
+; Function ip6_select_source_address
+.L741:
+ip6_select_source_address:	.type	func
+	mov.aa	a12,a4
+.L919:
+	mov.aa	a15,a5
+.L920:
+	mov	d8,#0
+.L922:
+	mov	d9,#0
+.L923:
+	mov	d10,#0
+.L924:
+	ld.w	d15,[a15]
+	and	d0,d15,#224
+	mov	d15,#32
+.L1239:
+	jne	d15,d0,.L123
+.L1240:
+	mov	d2,#14
+.L925:
+	j	.L124
+.L123:
+	ld.w	d0,[a15]
+	mov.u	d1,#49407
+	and	d0,d1
+	mov.u	d15,#33022
+	jeq	d15,d0,.L125
+.L1241:
+	ld.w	d15,[a15]
+	jne	d15,#0,.L126
+	ld.w	d15,[a15]4
+	jne	d15,#0,.L127
+	ld.w	d15,[a15]8
+	jne	d15,#0,.L128
+	ld.w	d15,[a15]12
+	movh	d0,#256
+	jne	d15,d0,.L129
+.L125:
+	mov	d2,#2
+.L926:
+	j	.L130
+.L129:
+.L128:
+.L127:
+.L126:
+	ld.w	d15,[a15]
+	and	d0,d15,#254
+	mov	d15,#252
+.L1242:
+	jne	d15,d0,.L131
+.L1243:
+	mov	d2,#8
+.L927:
+	j	.L132
+.L131:
+	ld.w	d15,[a15]
+	and	d0,d15,#255
+	mov	d15,#255
+.L1244:
+	jne	d15,d0,.L133
+.L1245:
+	ld.w	d4,[a15]
+	call	lwip_htonl
+.L918:
+	extr.u	d2,d2,#16,#4
+.L928:
+	j	.L134
+.L133:
+	ld.w	d0,[a15]
+	mov.u	d15,#49407
+	and	d0,d15
+	mov.u	d15,#49406
+.L1246:
+	jne	d15,d0,.L135
+.L1247:
+	mov	d2,#5
+.L929:
+	j	.L136
+.L135:
+	mov	d2,#14
+.L136:
+.L134:
+.L132:
+.L130:
+.L124:
+	mov.a	a2,#0
+.L930:
+	mov	d3,#0
+.L932:
+	j	.L137
+.L138:
+	addsc.a	a4,a12,d3,#0
+	ld.bu	d15,[a4]148
+	jnz.t	d15:4,.L139
+.L1248:
+	j	.L140
+.L139:
+	mul	d15,d3,#24
+	addsc.a	a4,a12,d15,#0
+	lea	a4,[a4]76
+.L933:
+	ld.w	d15,[a4]
+	and	d0,d15,#224
+	mov	d15,#32
+.L1249:
+	jne	d15,d0,.L141
+.L1250:
+	mov	d5,#14
+.L934:
+	j	.L142
+.L141:
+	ld.w	d0,[a4]
+	mov.u	d1,#49407
+	and	d0,d1
+	mov.u	d15,#33022
+.L1251:
+	jne	d15,d0,.L143
+.L1252:
+	mov	d5,#2
+.L935:
+	j	.L144
+.L143:
+	ld.w	d15,[a4]
+	and	d0,d15,#254
+	mov	d15,#252
+.L1253:
+	jne	d15,d0,.L145
+.L1254:
+	mov	d5,#8
+.L936:
+	j	.L146
+.L145:
+	ld.w	d0,[a4]
+	mov.u	d15,#49407
+	and	d0,d15
+	mov.u	d15,#49406
+.L1255:
+	jne	d15,d0,.L147
+.L1256:
+	mov	d5,#5
+.L937:
+	j	.L148
+.L147:
+	mov	d5,#15
+.L148:
+.L146:
+.L144:
+.L142:
+	addsc.a	a5,a12,d3,#0
+	ld.bu	d0,[a5]148
+	eq	d4,d0,#48
+.L938:
+	mov	d6,#0
+.L939:
+	ld.w	d0,[a4]
+	ld.w	d1,[a15]
+	jne	d0,d1,.L149
+	ld.w	d0,[a4]4
+	ld.w	d15,[a15]4
+	jne	d15,d0,.L150
+	mov	d6,#1
+.L150:
+.L149:
+	jeq	d6,#0,.L151
+.L1257:
+	ld.w	d0,[a4]8
+	ld.w	d15,[a15]8
+	jne	d15,d0,.L152
+	ld.w	d0,[a4]12
+	ld.w	d15,[a15]12
+	jne	d15,d0,.L153
+.L1258:
+	mul	d15,d3,#24
+	addsc.a	a15,a12,d15,#0
+.L921:
+	lea	a2,[a15]76
+.L931:
+	j	.L154
+.L153:
+.L151:
+.L152:
+	jz.a	a2,.L155
+.L941:
+	jge	d5,d8,.L156
+.L942:
+	jge	d5,d2,.L157
+.L156:
+	jge	d8,d5,.L158
+.L1259:
+	jlt	d8,d2,.L159
+.L158:
+	jne	d5,d8,.L160
+.L943:
+	jlt.u	d9,d4,.L161
+.L1260:
+	jne	d4,d9,.L162
+.L944:
+	jge.u	d10,d6,.L163
+.L161:
+.L159:
+.L157:
+.L155:
+	mul	d15,d3,#24
+	addsc.a	a2,a12,d15,#0
+.L940:
+	lea	a2,[a2]76
+.L945:
+	mov	e8,d4,d5
+.L1261:
+	mov	d10,d6
+.L163:
+.L160:
+.L162:
+.L140:
+	add	d3,#1
+.L137:
+	jlt.u	d3,#3,.L138
+.L1262:
+	j	.L164
+.L164:
+.L154:
+	ret
+.L807:
+	
+__ip6_select_source_address_function_end:
+	.size	ip6_select_source_address,__ip6_select_source_address_function_end-ip6_select_source_address
+.L767:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_input_accept',code,cluster('ip6_input_accept')
+	.sect	'.text.ip6.ip6_input_accept'
+	.align	2
+	
+; Function ip6_input_accept
+.L743:
+ip6_input_accept:	.type	func
+	ld.bu	d15,[a4]215
+	jz.t	d15:0,.L165
+	mov	d15,#1
+	j	.L166
+.L165:
+	mov	d15,#0
+.L166:
+	jeq	d15,#0,.L167
+.L900:
+	mov	d2,#0
+.L946:
+	j	.L168
+.L169:
+	addsc.a	a15,a4,d2,#0
+	ld.bu	d0,[a15]148
+	jz.t	d0:4,.L170
+.L1465:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d0,[a15]44
+	mul	d15,d2,#24
+	addsc.a	a15,a4,d15,#0
+	ld.w	d1,[a15]76
+	jne	d0,d1,.L171
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d0,[a15]48
+	mul	d15,d2,#24
+	addsc.a	a15,a4,d15,#0
+	ld.w	d1,[a15]80
+	jne	d0,d1,.L172
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d0,[a15]52
+	mul	d15,d2,#24
+	addsc.a	a15,a4,d15,#0
+	ld.w	d1,[a15]84
+	jne	d0,d1,.L173
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d0,[a15]56
+	mul	d15,d2,#24
+	addsc.a	a15,a4,d15,#0
+	ld.w	d15,[a15]88
+	jne	d15,d0,.L174
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.bu	d0,[a15]60
+	mul	d15,d2,#24
+	addsc.a	a15,a4,d15,#0
+	ld.bu	d15,[a15]92
+	jne	d15,d0,.L175
+.L1466:
+	mov	d2,#1
+.L947:
+	j	.L176
+.L175:
+.L170:
+.L174:
+.L173:
+.L172:
+.L171:
+	add	d2,#1
+.L168:
+	jlt.u	d2,#3,.L169
+.L167:
+	mov	d2,#0
+.L1467:
+	j	.L177
+.L177:
+.L176:
+	ret
+.L898:
+	
+__ip6_input_accept_function_end:
+	.size	ip6_input_accept,__ip6_input_accept_function_end-ip6_input_accept
+.L797:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_input',code,cluster('ip6_input')
+	.sect	'.text.ip6.ip6_input'
+	.align	2
+	
+	.global	ip6_input
+; Function ip6_input
+.L745:
+ip6_input:	.type	func
+	sub.a	a10,#16
+.L948:
+	mov.aa	a12,a4
+.L951:
+	mov.aa	a13,a5
+.L953:
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	movh.a	a4,#@his(lwip_stats)
+.L950:
+	lea	a4,[a4]@los(lwip_stats)
+	ld.hu	d15,[a4]230
+	add	d15,#1
+	st.h	[a2]230,d15
+.L1267:
+	ld.a	a14,[a12]4
+.L955:
+	ld.w	d4,[a14]
+	call	lwip_htonl
+.L949:
+	extr.u	d15,d2,#28,#4
+.L1268:
+	jeq	d15,#6,.L178
+.L179:
+	mov	d15,#1
+	jeq	d15,#0,.L180
+	mov	d15,#0
+	jeq	d15,#0,.L181
+	mov	d15,#1
+	jeq	d15,#0,.L182
+	ld.w	d4,[a14]
+	call	lwip_htonl
+	extr.u	d15,d2,#28,#4
+	st.w	[a10],d15
+	movh.a	a4,#@his(.1.str)
+	lea	a4,[a4]@los(.1.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L183
+	j	.L184
+.L185:
+.L184:
+	j	.L185
+.L183:
+.L182:
+.L181:
+.L180:
+	mov.aa	a4,a12
+.L956:
+	call	pbuf_free
+.L957:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]248
+	add	d15,#1
+	st.h	[a15]248,d15
+.L1269:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1270:
+	mov	d2,#0
+.L1271:
+	j	.L186
+.L178:
+	ld.hu	d0,[a12]10
+.L1272:
+	mov	d15,#40
+.L1273:
+	jlt.u	d0,d15,.L187
+.L1274:
+	ld.hu	d4,[a14]4
+	call	lwip_htons
+.L1275:
+	ld.hu	d15,[a12]8
+.L1276:
+	add	d15,d15,#-40
+.L1277:
+	jge	d15,d2,.L188
+.L187:
+	ld.hu	d0,[a12]10
+.L1278:
+	mov	d15,#40
+.L1279:
+	jge.u	d0,d15,.L189
+.L190:
+	mov	d15,#1
+	jeq	d15,#0,.L191
+	mov	d15,#0
+	jeq	d15,#0,.L192
+	mov	d15,#1
+	jeq	d15,#0,.L193
+	mov	d15,#40
+	st.w	[a10],d15
+	ld.hu	d15,[a12]10
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.2.str)
+	lea	a4,[a4]@los(.2.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L194
+	j	.L195
+.L196:
+.L195:
+	j	.L196
+.L194:
+.L193:
+.L192:
+.L191:
+.L189:
+	ld.hu	d4,[a14]4
+	call	lwip_htons
+.L1280:
+	add	d15,d2,#40
+.L1281:
+	ld.hu	d0,[a12]8
+.L1282:
+	jge	d0,d15,.L197
+.L198:
+	mov	d15,#1
+	jeq	d15,#0,.L199
+	mov	d15,#0
+	jeq	d15,#0,.L200
+	mov	d15,#1
+	jeq	d15,#0,.L201
+	ld.hu	d4,[a14]4
+	call	lwip_htons
+	add	d15,d2,#40
+	extr.u	d15,d15,#0,#16
+	st.w	[a10],d15
+	ld.hu	d15,[a12]8
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.3.str)
+	lea	a4,[a4]@los(.3.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L202
+	j	.L203
+.L204:
+.L203:
+	j	.L204
+.L202:
+.L201:
+.L200:
+.L199:
+.L197:
+	mov.aa	a4,a12
+.L958:
+	call	pbuf_free
+.L959:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]238
+	add	d15,#1
+	st.h	[a15]238,d15
+.L1283:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1284:
+	mov	d2,#0
+.L1285:
+	j	.L205
+.L188:
+	ld.hu	d4,[a14]4
+	call	lwip_htons
+.L1286:
+	add	d15,d2,#40
+.L1287:
+	extr.u	d4,d15,#0,#16
+	mov.aa	a4,a12
+.L960:
+	call	pbuf_realloc
+.L206:
+.L207:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]24
+	st.w	[a15]44,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]28
+	st.w	[a15]48,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]32
+	st.w	[a15]52,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]36
+	st.w	[a15]56,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.b	[a15]60,d15
+.L208:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#6
+	st.b	[a15]64,d15
+.L209:
+.L210:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]8
+	st.w	[a15]20,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]12
+	st.w	[a15]24,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]16
+	st.w	[a15]28,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a14]20
+	st.w	[a15]32,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.b	[a15]36,d15
+.L211:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#6
+	st.b	[a15]40,d15
+.L1288:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	jne	d15,#0,.L212
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]48
+	jne	d15,#0,.L213
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]52
+	movh	d0,#65535
+	jeq	d15,d0,.L214
+.L213:
+.L212:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	jne	d15,#0,.L215
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]24
+	jne	d15,#0,.L216
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]28
+	movh	d0,#65535
+	jeq	d15,d0,.L217
+.L216:
+.L215:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	and	d15,#255
+	mov	d0,#255
+	jne	d15,d0,.L218
+.L217:
+.L214:
+	mov.aa	a4,a12
+.L961:
+	call	pbuf_free
+.L962:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]248
+	add	d15,#1
+	st.h	[a15]248,d15
+.L1289:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1290:
+	mov	d2,#0
+.L1291:
+	j	.L219
+.L218:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov.u	d0,#49407
+	and	d15,d0
+	mov.u	d0,#33022
+	jeq	d15,d0,.L220
+	mov	d15,#1
+	jeq	d15,#0,.L221
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov.u	d0,#36863
+	and	d0,d15
+	mov	d15,#511
+	jeq	d15,d0,.L222
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov.u	d0,#36863
+	and	d0,d15
+	mov	d15,#767
+	jne	d15,d0,.L223
+.L222:
+.L220:
+	ld.bu	d15,[a13]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	j	.L224
+.L223:
+.L221:
+	mov	d15,#0
+.L224:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	st.b	[a15]60,d15
+.L1292:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	mov.u	d0,#49407
+	and	d15,d0
+	mov.u	d0,#33022
+	jeq	d15,d0,.L225
+	mov	d15,#0
+	jeq	d15,#0,.L226
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	mov.u	d0,#36863
+	and	d0,d15
+	mov	d15,#511
+	jeq	d15,d0,.L227
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	mov.u	d0,#36863
+	and	d0,d15
+	mov	d15,#767
+	jne	d15,d0,.L228
+.L227:
+.L225:
+	ld.bu	d15,[a13]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	j	.L229
+.L228:
+.L226:
+	mov	d15,#0
+.L229:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	st.b	[a15]36,d15
+.L1293:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1294:
+	st.a	[a15]12,a14
+.L1295:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1296:
+	st.a	[a15],a13
+.L1297:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1298:
+	st.a	[a15]4,a13
+.L1299:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	and	d15,#255
+	mov	d0,#255
+.L1300:
+	jne	d15,d0,.L230
+.L1301:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov	d0,#511
+	jne	d15,d0,.L231
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]48
+	jne	d15,#0,.L232
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]52
+	jne	d15,#0,.L233
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]56
+	movh	d0,#256
+	jeq	d15,d0,.L234
+.L233:
+.L232:
+.L231:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov	d0,#767
+	jne	d15,d0,.L235
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]48
+	jne	d15,#0,.L236
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]52
+	jne	d15,#0,.L237
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]56
+	movh	d0,#256
+	jne	d15,d0,.L238
+.L234:
+	st.a	[a10]8,a13
+.L963:
+	j	.L239
+.L238:
+.L237:
+.L236:
+.L235:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov	d0,#767
+	jne	d15,d0,.L240
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]52
+	movh	d0,#256
+	jne	d15,d0,.L241
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]56
+	and	d15,#255
+	mov	d0,#255
+	jne	d15,d0,.L242
+.L833:
+	mov.a	a15,#0
+.L954:
+	st.a	[a10]8,a15
+.L964:
+	mov	d0,#0
+.L965:
+	j	.L243
+.L244:
+	addsc.a	a15,a13,d0,#0
+	ld.bu	d15,[a15]148
+	jz.t	d15:4,.L245
+.L1302:
+	mov	d15,#767
+	mov	d1,#767
+	jne	d15,d1,.L246
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]48
+	jne	d15,#0,.L247
+	movh	d15,#256
+	movh	d1,#256
+	jne	d15,d1,.L248
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d1,[a15]56
+	mul	d15,d0,#24
+	addsc.a	a15,a13,d15,#0
+	ld.w	d15,[a15]88
+	or	d15,#255
+	jne	d15,d1,.L249
+.L967:
+	st.a	[a10]8,a13
+.L250:
+	mov	d15,#1
+	jeq	d15,#0,.L251
+	mov	d15,#0
+	jeq	d15,#0,.L252
+	mov	d15,#1
+	jeq	d15,#0,.L253
+	ld.b	d15,[a13]216
+	st.w	[a10],d15
+	ld.b	d15,[a13]217
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.4.str)
+	lea	a4,[a4]@los(.4.str)
+	call	Ifx_Lwip_printf
+.L966:
+	mov	d15,#0
+	jeq	d15,#0,.L254
+	j	.L255
+.L256:
+.L255:
+	j	.L256
+.L254:
+.L253:
+.L252:
+.L251:
+	j	.L257
+.L249:
+.L245:
+.L248:
+.L247:
+.L246:
+	add	d0,#1
+.L243:
+	jlt.u	d0,#3,.L244
+.L257:
+	j	.L258
+.L242:
+.L241:
+.L240:
+	mov.a	a15,#0
+.L968:
+	st.a	[a10]8,a15
+.L258:
+.L239:
+	j	.L259
+.L230:
+	mov.aa	a4,a13
+.L970:
+	call	ip6_input_accept
+.L971:
+	jeq	d2,#0,.L260
+.L1303:
+	st.a	[a10]8,a13
+.L972:
+	j	.L261
+.L260:
+	mov.a	a15,#0
+.L969:
+	st.a	[a10]8,a15
+.L974:
+	movh.a	a15,#@his(ip_data)
+.L973:
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov.u	d0,#49407
+	and	d0,d15
+	mov.u	d15,#33022
+	jeq	d15,d0,.L262
+.L1304:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	mov.u	d0,#49407
+	and	d0,d15
+	mov.u	d15,#33022
+	jne	d15,d0,.L263
+.L262:
+	j	.L264
+.L263:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	jne	d15,#0,.L265
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]48
+	jne	d15,#0,.L266
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]52
+	jne	d15,#0,.L267
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]56
+	movh	d0,#256
+	jeq	d15,d0,.L268
+.L267:
+.L266:
+.L265:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	jne	d15,#0,.L269
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]24
+	jne	d15,#0,.L270
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]28
+	jne	d15,#0,.L271
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]32
+	movh	d0,#256
+	jne	d15,d0,.L272
+.L268:
+	j	.L273
+.L272:
+.L271:
+.L270:
+.L269:
+	movh.a	a15,#@his(netif_list)
+	lea	a15,[a15]@los(netif_list)
+	ld.a	a15,[a15]
+.L975:
+	st.a	[a10]8,a15
+	j	.L274
+.L275:
+	jne.a	a15,a13,.L276
+.L976:
+	j	.L277
+.L276:
+	ld.a	a4,[a10]8
+.L977:
+	call	ip6_input_accept
+.L978:
+	jeq	d2,#0,.L278
+.L1305:
+	j	.L279
+.L278:
+.L277:
+	ld.a	a15,[a15]
+	st.a	[a10]8,a15
+.L274:
+	jnz.a	a15,.L275
+.L279:
+.L261:
+.L264:
+.L273:
+.L280:
+	mov	d15,#1
+	jeq	d15,#0,.L281
+	mov	d15,#0
+	jeq	d15,#0,.L282
+	mov	d15,#1
+	jeq	d15,#0,.L283
+	ld.a	a15,[a10]8
+.L979:
+	jz.a	a15,.L284
+	ld.b	d0,[a15]216
+	j	.L285
+.L284:
+	mov	d0,#88
+.L285:
+	jz.a	a15,.L286
+	ld.b	d15,[a15]217
+	j	.L287
+.L286:
+	mov	d15,#88
+.L287:
+	st.w	[a10],d0
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.5.str)
+	lea	a4,[a4]@los(.5.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L288
+	j	.L289
+.L290:
+.L289:
+	j	.L290
+.L288:
+.L283:
+.L282:
+.L281:
+.L259:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	lea	a15,[a15]20
+	jz.a	a15,.L291
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]20
+	jne	d15,#0,.L292
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]24
+	jne	d15,#0,.L293
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]28
+	jne	d15,#0,.L294
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]32
+	jne	d15,#0,.L295
+.L291:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	mov	d0,#767
+	jne	d15,d0,.L296
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]52
+	movh	d0,#256
+	jne	d15,d0,.L297
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]56
+	and	d15,#255
+	mov	d0,#255
+	jeq	d15,d0,.L298
+.L297:
+.L296:
+.L299:
+	mov	d15,#1
+	jeq	d15,#0,.L300
+	mov	d15,#0
+	jeq	d15,#0,.L301
+	mov	d15,#1
+	jeq	d15,#0,.L302
+	movh.a	a4,#@his(.6.str)
+	lea	a4,[a4]@los(.6.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L303
+	j	.L304
+.L305:
+.L304:
+	j	.L305
+.L303:
+.L302:
+.L301:
+.L300:
+	mov.aa	a4,a12
+.L980:
+	call	pbuf_free
+.L981:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1306:
+	j	.L306
+.L298:
+.L295:
+.L294:
+.L293:
+.L292:
+	ld.a	a15,[a10]8
+.L982:
+	jnz.a	a15,.L307
+.L308:
+	mov	d15,#1
+	jeq	d15,#0,.L309
+	mov	d15,#0
+	jeq	d15,#0,.L310
+	mov	d15,#1
+	jeq	d15,#0,.L311
+	movh.a	a4,#@his(.7.str)
+	lea	a4,[a4]@los(.7.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L312
+	j	.L313
+.L314:
+.L313:
+	j	.L314
+.L312:
+.L311:
+.L310:
+.L309:
+	mov.aa	a4,a12
+.L984:
+	call	pbuf_free
+.L985:
+	j	.L315
+.L307:
+	movh.a	a15,#@his(ip_data)
+.L983:
+	lea	a15,[a15]@los(ip_data)
+.L1307:
+	ld.a	a2,[a10]8
+.L986:
+	st.a	[a15],a2
+.L836:
+	mov.aa	a15,a14
+.L988:
+	add.a	a15,#6
+.L837:
+	mov	d8,#40
+.L990:
+	mov	d4,#40
+	mov.aa	a4,a12
+.L992:
+	call	pbuf_remove_header
+.L987:
+	j	.L316
+.L317:
+	ld.bu	d0,[a15]
+.L838:
+	mov	d15,#0
+	jeq	d15,d0,.L318
+.L1308:
+	mov	d15,#43
+	jeq	d15,d0,.L319
+.L1309:
+	mov	d15,#44
+	jeq	d15,d0,.L320
+.L1310:
+	mov	d15,#60
+	jeq	d15,d0,.L321
+	j	.L322
+.L318:
+.L323:
+	mov	d15,#1
+	jeq	d15,#0,.L324
+	mov	d15,#0
+	jeq	d15,#0,.L325
+	mov	d15,#1
+	jeq	d15,#0,.L326
+	movh.a	a4,#@his(.8.str)
+	lea	a4,[a4]@los(.8.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L327
+	j	.L328
+.L329:
+.L328:
+	j	.L329
+.L327:
+.L326:
+.L325:
+.L324:
+	ld.a	a15,[a12]4
+.L1311:
+	ld.bu	d15,[a15]1
+.L1312:
+	add	d15,#1
+.L1313:
+	mul	d4,d15,#8
+.L993:
+	ld.hu	d15,[a12]10
+.L1314:
+	jlt.u	d15,#8,.L330
+.L1315:
+	ld.hu	d15,[a12]10
+.L1316:
+	jge.u	d15,d4,.L331
+.L330:
+.L332:
+	mov	d15,#1
+	jeq	d15,#0,.L333
+	mov	d15,#0
+	jeq	d15,#0,.L334
+	mov	d15,#1
+	jeq	d15,#0,.L335
+	st.w	[a10],d4
+	ld.hu	d15,[a12]10
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.9.str)
+	lea	a4,[a4]@los(.9.str)
+	call	Ifx_Lwip_printf
+.L994:
+	mov	d15,#0
+	jeq	d15,#0,.L336
+	j	.L337
+.L338:
+.L337:
+	j	.L338
+.L336:
+.L335:
+.L334:
+.L333:
+	mov.aa	a4,a12
+.L995:
+	call	pbuf_free
+.L996:
+	movh.a	a15,#@his(lwip_stats)
+.L989:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]238
+	add	d15,#1
+	st.h	[a15]238,d15
+.L1317:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1318:
+	j	.L339
+.L331:
+	add	d8,d4
+.L991:
+	extr.u	d8,d8,#0,#16
+.L999:
+	mov	d0,#2
+.L1001:
+	j	.L340
+.L341:
+	addsc.a	a5,a15,d0,#0
+.L1002:
+	ld.bu	d15,[a5]
+.L1319:
+	mov	d1,#0
+	jeq	d15,d1,.L342
+.L1320:
+	mov	d1,#1
+	jeq	d15,d1,.L343
+.L1321:
+	mov	d1,#5
+	jeq	d15,d1,.L344
+.L1322:
+	mov	d1,#194
+	jeq	d15,d1,.L345
+	j	.L346
+.L342:
+	mov	d15,#-1
+.L1003:
+	j	.L347
+.L343:
+	ld.bu	d15,[a5]1
+.L1004:
+	j	.L348
+.L344:
+	ld.bu	d15,[a5]1
+.L1005:
+	j	.L349
+.L345:
+	ld.bu	d15,[a5]1
+.L1006:
+	j	.L350
+.L346:
+	ld.bu	d15,[a5]
+	sha	d15,#-6
+	and	d1,d15,#3
+.L1323:
+	mov	d15,#1
+	jeq	d15,d1,.L351
+.L1324:
+	mov	d15,#2
+	jeq	d15,d1,.L352
+.L1325:
+	mov	d15,#3
+	jeq	d15,d1,.L353
+	j	.L354
+.L351:
+.L355:
+	mov	d15,#1
+	jeq	d15,#0,.L356
+	mov	d15,#0
+	jeq	d15,#0,.L357
+	mov	d15,#1
+	jeq	d15,#0,.L358
+	movh.a	a4,#@his(.10.str)
+	lea	a4,[a4]@los(.10.str)
+	call	Ifx_Lwip_printf
+.L998:
+	mov	d15,#0
+	jeq	d15,#0,.L359
+	j	.L360
+.L361:
+.L360:
+	j	.L361
+.L359:
+.L358:
+.L357:
+.L356:
+	mov.aa	a4,a12
+.L1007:
+	call	pbuf_free
+.L1008:
+	movh.a	a15,#@his(lwip_stats)
+.L997:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1326:
+	j	.L362
+.L352:
+	mov	d4,#2
+.L1010:
+	mov.aa	a4,a12
+.L1011:
+	call	icmp6_param_problem
+.L363:
+	mov	d15,#1
+	jeq	d15,#0,.L364
+	mov	d15,#0
+	jeq	d15,#0,.L365
+	mov	d15,#1
+	jeq	d15,#0,.L366
+	movh.a	a4,#@his(.10.str)
+	lea	a4,[a4]@los(.10.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L367
+	j	.L368
+.L369:
+.L368:
+	j	.L369
+.L367:
+.L366:
+.L365:
+.L364:
+	mov.aa	a4,a12
+.L1012:
+	call	pbuf_free
+.L1013:
+	movh.a	a15,#@his(lwip_stats)
+.L1009:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1327:
+	j	.L370
+.L353:
+	movh.a	a15,#@his(ip_data)
+.L1014:
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	and	d15,#255
+	mov	d0,#255
+.L1016:
+	jeq	d15,d0,.L371
+.L1328:
+	mov	d4,#2
+.L1015:
+	mov.aa	a4,a12
+.L1017:
+	call	icmp6_param_problem
+.L371:
+.L372:
+	mov	d15,#1
+	jeq	d15,#0,.L373
+	mov	d15,#0
+	jeq	d15,#0,.L374
+	mov	d15,#1
+	jeq	d15,#0,.L375
+	movh.a	a4,#@his(.10.str)
+	lea	a4,[a4]@los(.10.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L376
+	j	.L377
+.L378:
+.L377:
+	j	.L378
+.L376:
+.L375:
+.L374:
+.L373:
+	mov.aa	a4,a12
+.L1018:
+	call	pbuf_free
+.L1019:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1329:
+	j	.L379
+.L354:
+	ld.bu	d15,[a5]1
+.L1022:
+	j	.L380
+.L380:
+	j	.L381
+.L381:
+.L350:
+.L349:
+.L348:
+.L347:
+	add	d0,#2
+.L1330:
+	add	d0,d15
+.L340:
+	jlt	d0,d4,.L341
+.L1331:
+	mov.aa	a4,a12
+.L1023:
+	call	pbuf_remove_header
+.L1021:
+	j	.L382
+.L321:
+.L383:
+	mov	d15,#1
+	jeq	d15,#0,.L384
+	mov	d15,#0
+	jeq	d15,#0,.L385
+	mov	d15,#1
+	jeq	d15,#0,.L386
+	movh.a	a4,#@his(.11.str)
+	lea	a4,[a4]@los(.11.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L387
+	j	.L388
+.L389:
+.L388:
+	j	.L389
+.L387:
+.L386:
+.L385:
+.L384:
+	ld.a	a15,[a12]4
+.L1332:
+	ld.bu	d15,[a15]1
+.L1333:
+	add	d15,#1
+.L1334:
+	mul	d4,d15,#8
+.L1024:
+	ld.hu	d15,[a12]10
+.L1335:
+	jlt.u	d15,#8,.L390
+.L1336:
+	ld.hu	d15,[a12]10
+.L1337:
+	jge.u	d15,d4,.L391
+.L390:
+.L392:
+	mov	d15,#1
+	jeq	d15,#0,.L393
+	mov	d15,#0
+	jeq	d15,#0,.L394
+	mov	d15,#1
+	jeq	d15,#0,.L395
+	st.w	[a10],d4
+	ld.hu	d15,[a12]10
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.9.str)
+	lea	a4,[a4]@los(.9.str)
+	call	Ifx_Lwip_printf
+.L1025:
+	mov	d15,#0
+	jeq	d15,#0,.L396
+	j	.L397
+.L398:
+.L397:
+	j	.L398
+.L396:
+.L395:
+.L394:
+.L393:
+	mov.aa	a4,a12
+.L1026:
+	call	pbuf_free
+.L1027:
+	movh.a	a15,#@his(lwip_stats)
+.L1020:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]238
+	add	d15,#1
+	st.h	[a15]238,d15
+.L1338:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1339:
+	j	.L399
+.L391:
+	add	d8,d4
+.L1000:
+	extr.u	d8,d8,#0,#16
+.L1030:
+	mov	d0,#2
+.L1032:
+	j	.L400
+.L401:
+	addsc.a	a5,a15,d0,#0
+.L1033:
+	ld.bu	d15,[a5]
+.L1340:
+	mov	d1,#0
+	jeq	d15,d1,.L402
+.L1341:
+	mov	d1,#1
+	jeq	d15,d1,.L403
+.L1342:
+	mov	d1,#5
+	jeq	d15,d1,.L404
+.L1343:
+	mov	d1,#194
+	jeq	d15,d1,.L405
+.L1344:
+	mov	d1,#201
+	jeq	d15,d1,.L406
+	j	.L407
+.L402:
+	mov	d15,#-1
+.L1034:
+	j	.L408
+.L403:
+	ld.bu	d15,[a5]1
+.L1035:
+	j	.L409
+.L404:
+	ld.bu	d15,[a5]1
+.L1036:
+	j	.L410
+.L405:
+	ld.bu	d15,[a5]1
+.L1037:
+	j	.L411
+.L406:
+	ld.bu	d15,[a5]1
+.L1038:
+	j	.L412
+.L407:
+	ld.bu	d15,[a5]
+	sha	d15,#-6
+	and	d1,d15,#3
+.L1345:
+	mov	d15,#1
+	jeq	d15,d1,.L413
+.L1346:
+	mov	d15,#2
+	jeq	d15,d1,.L414
+.L1347:
+	mov	d15,#3
+	jeq	d15,d1,.L415
+	j	.L416
+.L413:
+.L417:
+	mov	d15,#1
+	jeq	d15,#0,.L418
+	mov	d15,#0
+	jeq	d15,#0,.L419
+	mov	d15,#1
+	jeq	d15,#0,.L420
+	movh.a	a4,#@his(.12.str)
+	lea	a4,[a4]@los(.12.str)
+	call	Ifx_Lwip_printf
+.L1029:
+	mov	d15,#0
+	jeq	d15,#0,.L421
+	j	.L422
+.L423:
+.L422:
+	j	.L423
+.L421:
+.L420:
+.L419:
+.L418:
+	mov.aa	a4,a12
+.L1039:
+	call	pbuf_free
+.L1040:
+	movh.a	a15,#@his(lwip_stats)
+.L1028:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1348:
+	j	.L424
+.L414:
+	mov	d4,#2
+.L1042:
+	mov.aa	a4,a12
+.L1043:
+	call	icmp6_param_problem
+.L425:
+	mov	d15,#1
+	jeq	d15,#0,.L426
+	mov	d15,#0
+	jeq	d15,#0,.L427
+	mov	d15,#1
+	jeq	d15,#0,.L428
+	movh.a	a4,#@his(.12.str)
+	lea	a4,[a4]@los(.12.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L429
+	j	.L430
+.L431:
+.L430:
+	j	.L431
+.L429:
+.L428:
+.L427:
+.L426:
+	mov.aa	a4,a12
+.L1044:
+	call	pbuf_free
+.L1045:
+	movh.a	a15,#@his(lwip_stats)
+.L1041:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1349:
+	j	.L432
+.L415:
+	movh.a	a15,#@his(ip_data)
+.L1046:
+	lea	a15,[a15]@los(ip_data)
+	ld.w	d15,[a15]44
+	and	d15,#255
+	mov	d0,#255
+.L1048:
+	jeq	d15,d0,.L433
+.L1350:
+	mov	d4,#2
+.L1047:
+	mov.aa	a4,a12
+.L1049:
+	call	icmp6_param_problem
+.L433:
+.L434:
+	mov	d15,#1
+	jeq	d15,#0,.L435
+	mov	d15,#0
+	jeq	d15,#0,.L436
+	mov	d15,#1
+	jeq	d15,#0,.L437
+	movh.a	a4,#@his(.12.str)
+	lea	a4,[a4]@los(.12.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L438
+	j	.L439
+.L440:
+.L439:
+	j	.L440
+.L438:
+.L437:
+.L436:
+.L435:
+	mov.aa	a4,a12
+.L1050:
+	call	pbuf_free
+.L1051:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1351:
+	j	.L441
+.L416:
+	ld.bu	d15,[a5]1
+.L1054:
+	j	.L442
+.L442:
+	j	.L443
+.L443:
+.L412:
+.L411:
+.L410:
+.L409:
+.L408:
+	add	d0,#2
+.L1352:
+	add	d0,d15
+.L400:
+	jlt	d0,d4,.L401
+.L1353:
+	mov.aa	a4,a12
+.L1055:
+	call	pbuf_remove_header
+.L1053:
+	j	.L444
+.L319:
+.L445:
+	mov	d15,#1
+	jeq	d15,#0,.L446
+	mov	d15,#0
+	jeq	d15,#0,.L447
+	mov	d15,#1
+	jeq	d15,#0,.L448
+	movh.a	a4,#@his(.13.str)
+	lea	a4,[a4]@los(.13.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L449
+	j	.L450
+.L451:
+.L450:
+	j	.L451
+.L449:
+.L448:
+.L447:
+.L446:
+	ld.a	a15,[a12]4
+.L1354:
+	ld.bu	d15,[a15]1
+.L1355:
+	add	d15,#1
+.L1356:
+	mul	d4,d15,#8
+.L1056:
+	ld.hu	d15,[a12]10
+.L1357:
+	jlt.u	d15,#8,.L452
+.L1358:
+	ld.hu	d15,[a12]10
+.L1359:
+	jge.u	d15,d4,.L453
+.L452:
+.L454:
+	mov	d15,#1
+	jeq	d15,#0,.L455
+	mov	d15,#0
+	jeq	d15,#0,.L456
+	mov	d15,#1
+	jeq	d15,#0,.L457
+	st.w	[a10],d4
+	ld.hu	d15,[a12]10
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.9.str)
+	lea	a4,[a4]@los(.9.str)
+	call	Ifx_Lwip_printf
+.L1057:
+	mov	d15,#0
+	jeq	d15,#0,.L458
+	j	.L459
+.L460:
+.L459:
+	j	.L460
+.L458:
+.L457:
+.L456:
+.L455:
+	mov.aa	a4,a12
+.L1058:
+	call	pbuf_free
+.L1059:
+	movh.a	a15,#@his(lwip_stats)
+.L1052:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]238
+	add	d15,#1
+	st.h	[a15]238,d15
+.L1360:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1361:
+	j	.L461
+.L453:
+	add	d8,d4
+.L1031:
+	extr.u	d8,d8,#0,#16
+.L1062:
+	ld.bu	d15,[a15]3
+.L1362:
+	jeq	d15,#0,.L462
+.L1363:
+	ld.bu	d15,[a15]1
+.L1364:
+	jz.t	d15:0,.L463
+.L1365:
+	mov	d4,#0
+.L1061:
+	mov.aa	a5,a15
+.L1063:
+	add.a	a5,#1
+.L1060:
+	mov.aa	a4,a12
+.L1064:
+	call	icmp6_param_problem
+.L464:
+	mov	d15,#1
+	jeq	d15,#0,.L465
+	mov	d15,#0
+	jeq	d15,#0,.L466
+	mov	d15,#1
+	jeq	d15,#0,.L467
+	movh.a	a4,#@his(.14.str)
+	lea	a4,[a4]@los(.14.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L468
+	j	.L469
+.L470:
+.L469:
+	j	.L470
+.L468:
+.L467:
+.L466:
+.L465:
+	mov.aa	a4,a12
+.L1065:
+	call	pbuf_free
+.L1066:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1366:
+	j	.L471
+.L463:
+	ld.bu	d15,[a15]2
+.L1367:
+	mov	d0,#2
+	jeq	d15,d0,.L472
+.L1368:
+	mov	d0,#3
+	jeq	d15,d0,.L473
+	j	.L474
+.L472:
+	j	.L475
+.L473:
+	j	.L476
+.L474:
+	mov	d4,#0
+.L1068:
+	mov.aa	a5,a15
+.L1069:
+	add.a	a5,#2
+.L1067:
+	mov.aa	a4,a12
+.L1070:
+	call	icmp6_param_problem
+.L477:
+	mov	d15,#1
+	jeq	d15,#0,.L478
+	mov	d15,#0
+	jeq	d15,#0,.L479
+	mov	d15,#1
+	jeq	d15,#0,.L480
+	movh.a	a4,#@his(.14.str)
+	lea	a4,[a4]@los(.14.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L481
+	j	.L482
+.L483:
+.L482:
+	j	.L483
+.L481:
+.L480:
+.L479:
+.L478:
+	mov.aa	a4,a12
+.L1071:
+	call	pbuf_free
+.L1072:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1369:
+	j	.L484
+.L476:
+.L475:
+.L462:
+	mov.aa	a4,a12
+.L1075:
+	call	pbuf_remove_header
+.L1074:
+	j	.L485
+.L320:
+.L486:
+	mov	d15,#1
+	jeq	d15,#0,.L487
+	mov	d15,#0
+	jeq	d15,#0,.L488
+	mov	d15,#1
+	jeq	d15,#0,.L489
+	movh.a	a4,#@his(.15.str)
+	lea	a4,[a4]@los(.15.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L490
+	j	.L491
+.L492:
+.L491:
+	j	.L492
+.L490:
+.L489:
+.L488:
+.L487:
+	ld.a	a15,[a12]4
+.L1370:
+	mov	d9,#8
+.L1076:
+	ld.hu	d0,[a12]10
+.L1371:
+	jge.u	d0,d9,.L493
+.L494:
+	mov	d15,#1
+	jeq	d15,#0,.L495
+	mov	d15,#0
+	jeq	d15,#0,.L496
+	mov	d15,#1
+	jeq	d15,#0,.L497
+	st.w	[a10],d9
+	ld.hu	d15,[a12]10
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.9.str)
+	lea	a4,[a4]@los(.9.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L498
+	j	.L499
+.L500:
+.L499:
+	j	.L500
+.L498:
+.L497:
+.L496:
+.L495:
+	mov.aa	a4,a12
+.L1077:
+	call	pbuf_free
+.L1078:
+	movh.a	a15,#@his(lwip_stats)
+.L1073:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]286
+	add	d15,#1
+	st.h	[a15]286,d15
+.L1372:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]282
+	add	d15,#1
+	st.h	[a15]282,d15
+.L1373:
+	j	.L501
+.L493:
+	add	d0,d8,#8
+.L1374:
+	extr.u	d8,d0,#0,#16
+.L1375:
+	ld.hu	d4,[a15]2
+	call	lwip_htons
+	jz.t	d2:0,.L502
+.L1376:
+	ld.hu	d4,[a14]4
+	call	lwip_htons
+.L1377:
+	and	d15,d2,#7
+	jeq	d15,#0,.L503
+.L1378:
+	mov	d4,#0
+.L1379:
+	add.a	a14,#4
+	mov.d	d15,a14
+	mov.a	a5,d15
+	mov.aa	a4,a12
+.L1080:
+	call	icmp6_param_problem
+.L504:
+	mov	d15,#1
+	jeq	d15,#0,.L505
+	mov	d15,#0
+	jeq	d15,#0,.L506
+	mov	d15,#1
+	jeq	d15,#0,.L507
+	movh.a	a4,#@his(.16.str)
+	lea	a4,[a4]@los(.16.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L508
+	j	.L509
+.L510:
+.L509:
+	j	.L510
+.L508:
+.L507:
+.L506:
+.L505:
+	mov.aa	a4,a12
+.L1081:
+	call	pbuf_free
+.L1082:
+	movh.a	a15,#@his(lwip_stats)
+.L1079:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1380:
+	j	.L511
+.L503:
+.L502:
+	ld.hu	d15,[a15]2
+.L1381:
+	mov.u	d0,#63999
+.L1382:
+	and	d15,d0
+.L1383:
+	jne	d15,#0,.L512
+.L1384:
+	mov.aa	a4,a12
+.L1084:
+	mov	d4,d9
+.L1086:
+	call	pbuf_remove_header
+.L1085:
+	j	.L513
+.L512:
+	movh.a	a15,#@his(ip_data)
+.L1083:
+	lea	a15,[a15]@los(ip_data)
+.L1385:
+	st.h	[a15]16,d8
+.L1386:
+	mov.aa	a4,a12
+.L1087:
+	call	ip6_reass
+.L952:
+	mov.aa	a12,a2
+.L1089:
+	jnz.a	a12,.L514
+.L1387:
+	j	.L515
+.L514:
+	ld.a	a14,[a12]4
+.L1388:
+	mov.aa	a15,a14
+.L1090:
+	add.a	a15,#6
+.L1389:
+	mov	d8,#40
+.L1390:
+	mov	d4,#40
+	mov.aa	a4,a12
+.L1088:
+	call	pbuf_remove_header
+.L513:
+	j	.L516
+.L322:
+	j	.L517
+.L516:
+.L485:
+.L444:
+.L382:
+	ld.bu	d15,[a15]
+.L839:
+	jne	d15,#0,.L518
+.L1391:
+	mov	d4,#1
+.L1392:
+	mov.aa	a4,a12
+.L840:
+	mov.aa	a5,a15
+.L841:
+	call	icmp6_param_problem
+.L519:
+	mov	d15,#1
+	jeq	d15,#0,.L520
+	mov	d15,#0
+	jeq	d15,#0,.L521
+	mov	d15,#1
+	jeq	d15,#0,.L522
+	movh.a	a4,#@his(.17.str)
+	lea	a4,[a4]@los(.17.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L523
+	j	.L524
+.L525:
+.L524:
+	j	.L525
+.L523:
+.L522:
+.L521:
+.L520:
+	mov.aa	a4,a12
+.L1092:
+	call	pbuf_free
+.L1093:
+	movh.a	a15,#@his(lwip_stats)
+.L1091:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1393:
+	j	.L526
+.L518:
+.L316:
+	ld.bu	d0,[a15]
+.L842:
+	mov	d15,#59
+.L1394:
+	jne	d15,d0,.L317
+.L517:
+.L527:
+	mov	d15,#1
+	jeq	d15,#0,.L528
+	mov	d15,#0
+	jeq	d15,#0,.L529
+	mov	d15,#1
+	jeq	d15,#0,.L530
+	movh.a	a4,#@his(.18.str)
+	lea	a4,[a4]@los(.18.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L531
+	j	.L532
+.L533:
+.L532:
+	j	.L533
+.L531:
+.L530:
+.L529:
+.L528:
+	mov.aa	a4,a12
+.L1095:
+	call	ip6_debug_print
+.L534:
+	mov	d15,#1
+	jeq	d15,#0,.L535
+	mov	d15,#0
+	jeq	d15,#0,.L536
+	mov	d15,#1
+	jeq	d15,#0,.L537
+	ld.hu	d15,[a12]10
+	st.w	[a10],d15
+	ld.hu	d15,[a12]8
+	st.w	[a10]4,d15
+	movh.a	a4,#@his(.19.str)
+	lea	a4,[a4]@los(.19.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L538
+	j	.L539
+.L540:
+.L539:
+	j	.L540
+.L538:
+.L537:
+.L536:
+.L535:
+	movh.a	a2,#@his(ip_data)
+	lea	a2,[a2]@los(ip_data)
+.L1395:
+	st.h	[a2]16,d8
+.L843:
+	ld.bu	d15,[a15]
+.L844:
+	mov	d0,#6
+	jeq	d15,d0,.L541
+.L1396:
+	mov	d0,#17
+	jeq	d15,d0,.L542
+.L1397:
+	mov	d0,#58
+	jeq	d15,d0,.L543
+.L1398:
+	mov	d0,#59
+	jeq	d15,d0,.L544
+	j	.L545
+.L544:
+	mov.aa	a4,a12
+.L1096:
+	call	pbuf_free
+.L1097:
+	j	.L546
+.L542:
+	mov.aa	a4,a12
+.L1098:
+	mov.aa	a5,a13
+.L1100:
+	call	udp_input
+.L1099:
+	j	.L547
+.L541:
+	mov.aa	a4,a12
+.L1101:
+	mov.aa	a5,a13
+.L1103:
+	call	tcp_input
+.L1102:
+	j	.L548
+.L543:
+	mov.aa	a4,a12
+.L1104:
+	mov.aa	a5,a13
+.L1106:
+	call	icmp6_input
+.L1105:
+	j	.L549
+.L545:
+	mov.aa	a4,a12
+.L1107:
+	mov	d4,d8
+.L1109:
+	call	pbuf_add_header_force
+.L1108:
+	movh.a	a2,#@his(ip_data)
+	lea	a2,[a2]@los(ip_data)
+	ld.w	d15,[a2]44
+	and	d15,#255
+	mov	d0,#255
+	jeq	d15,d0,.L550
+.L1399:
+	ld.bu	d15,[a14]6
+.L1400:
+	mov	d0,#58
+.L1401:
+	jeq	d15,d0,.L551
+.L1402:
+	mov	d4,#1
+.L1403:
+	mov.aa	a4,a12
+.L845:
+	mov.aa	a5,a15
+.L846:
+	call	icmp6_param_problem
+.L551:
+.L550:
+.L552:
+	mov	d15,#1
+	jeq	d15,#0,.L553
+	mov	d15,#0
+	jeq	d15,#0,.L554
+	mov	d15,#1
+	jeq	d15,#0,.L555
+	ld.bu	d15,[a14]6
+	st.w	[a10],d15
+	movh.a	a4,#@his(.20.str)
+	lea	a4,[a4]@los(.20.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L556
+	j	.L557
+.L558:
+.L557:
+	j	.L558
+.L556:
+.L555:
+.L554:
+.L553:
+	movh.a	a15,#@his(lwip_stats)
+.L1094:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]244
+	add	d15,#1
+	st.h	[a15]244,d15
+.L1404:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]234
+	add	d15,#1
+	st.h	[a15]234,d15
+.L1405:
+	mov.aa	a4,a12
+.L1110:
+	call	pbuf_free
+.L1111:
+	j	.L559
+.L559:
+.L549:
+.L548:
+.L547:
+.L546:
+.L306:
+.L315:
+.L339:
+.L362:
+.L370:
+.L379:
+.L399:
+.L424:
+.L432:
+.L441:
+.L461:
+.L471:
+.L484:
+.L501:
+.L511:
+.L515:
+.L526:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1406:
+	mov.a	a2,#0
+.L1407:
+	st.a	[a15],a2
+.L1408:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1409:
+	mov.a	a2,#0
+.L1410:
+	st.a	[a15]4,a2
+.L1411:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1412:
+	mov.a	a2,#0
+.L1413:
+	st.a	[a15]12,a2
+.L1414:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+.L1415:
+	mov	d15,#0
+.L1416:
+	st.h	[a15]16,d15
+.L560:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]20,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]24,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]28,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]32,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.b	[a15]36,d15
+.L561:
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]44,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]48,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]52,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.w	[a15]56,d15
+	movh.a	a15,#@his(ip_data)
+	lea	a15,[a15]@los(ip_data)
+	mov	d15,#0
+	st.b	[a15]60,d15
+.L1417:
+	mov	d2,#0
+.L1418:
+	j	.L562
+.L562:
+.L219:
+.L205:
+.L186:
+	ret
+.L821:
+	
+__ip6_input_function_end:
+	.size	ip6_input,__ip6_input_function_end-ip6_input
+.L772:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_output_if',code,cluster('ip6_output_if')
+	.sect	'.text.ip6.ip6_output_if'
+	.align	2
+	
+	.global	ip6_output_if
+; Function ip6_output_if
+.L747:
+ip6_output_if:	.type	func
+	mov.aa	a15,a4
+.L1115:
+	mov.aa	a12,a6
+.L1117:
+	mov	e8,d5,d4
+	mov	d10,d6
+.L1118:
+	mov.aa	a13,a7
+.L1119:
+	jz.a	a12,.L563
+.L1432:
+	jz.a	a5,.L564
+.L1433:
+	jz.a	a5,.L565
+.L1434:
+	ld.w	d15,[a5]
+	jne	d15,#0,.L566
+	ld.w	d15,[a5]4
+	jne	d15,#0,.L567
+	ld.w	d15,[a5]8
+	jne	d15,#0,.L568
+	ld.w	d15,[a5]12
+	jne	d15,#0,.L569
+.L565:
+	mov.aa	a4,a13
+.L1114:
+	mov.aa	a5,a12
+.L1112:
+	call	ip6_select_source_address
+.L1113:
+	mov.aa	a5,a2
+.L1121:
+	jz.a	a5,.L570
+.L1435:
+	jz.a	a5,.L571
+.L1436:
+	ld.w	d15,[a5]
+	jne	d15,#0,.L572
+	ld.w	d15,[a5]4
+	jne	d15,#0,.L573
+	ld.w	d15,[a5]8
+	jne	d15,#0,.L574
+	ld.w	d15,[a5]12
+	jne	d15,#0,.L575
+.L571:
+.L570:
+.L576:
+	mov	d15,#1
+	jeq	d15,#0,.L577
+	mov	d15,#0
+	jeq	d15,#0,.L578
+	mov	d15,#1
+	jeq	d15,#0,.L579
+	movh.a	a4,#@his(.21.str)
+	lea	a4,[a4]@los(.21.str)
+	call	Ifx_Lwip_printf
+.L1120:
+	mov	d15,#0
+	jeq	d15,#0,.L580
+	j	.L581
+.L582:
+.L581:
+	j	.L582
+.L580:
+.L579:
+.L578:
+.L577:
+	movh.a	a15,#@his(lwip_stats)
+.L1116:
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]242
+	add	d15,#1
+	st.h	[a15]242,d15
+.L1437:
+	mov	d2,#-4
+.L1438:
+	j	.L583
+.L575:
+.L574:
+.L573:
+.L572:
+.L569:
+.L564:
+.L568:
+.L567:
+.L566:
+.L563:
+	mov.aa	a4,a15
+.L1123:
+	mov.aa	a6,a12
+.L1124:
+	mov	e4,d9,d8
+.L1125:
+	mov	d6,d10
+.L1126:
+	mov.aa	a7,a13
+.L1127:
+	call	ip6_output_if_src
+.L1122:
+	j	.L584
+.L584:
+.L583:
+	ret
+.L875:
+	
+__ip6_output_if_function_end:
+	.size	ip6_output_if,__ip6_output_if_function_end-ip6_output_if
+.L782:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_output_if_src',code,cluster('ip6_output_if_src')
+	.sect	'.text.ip6.ip6_output_if_src'
+	.align	2
+	
+	.global	ip6_output_if_src
+; Function ip6_output_if_src
+.L749:
+ip6_output_if_src:	.type	func
+	sub.a	a10,#40
+.L1128:
+	st.a	[a10]32,a4
+.L1130:
+	mov.aa	a12,a5
+.L1131:
+	mov.aa	a13,a6
+.L1132:
+	mov	e8,d5,d4
+	mov	d10,d6
+.L1133:
+	mov.aa	a14,a7
+.L585:
+	ld.a	a15,[a10]32
+.L1129:
+	ld.bu	d15,[a15]14
+	jeq	d15,#1,.L586
+	movh.a	a15,#@his(.23.str)
+.L1134:
+	lea	a15,[a15]@los(.23.str)
+	st.a	[a10],a15
+	mov	d15,#1181
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.24.str)
+	lea	a15,[a15]@los(.24.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.22.str)
+	lea	a4,[a4]@los(.22.str)
+	call	Ifx_Lwip_printf
+.L586:
+	jz.a	a13,.L587
+.L1443:
+	ld.bu	d15,[a13]16
+	jne	d15,#0,.L588
+	ld.w	d0,[a13]
+	mov.u	d1,#49407
+	and	d0,d1
+	mov.u	d15,#33022
+	jeq	d15,d0,.L589
+	mov	d15,#1
+	jeq	d15,#0,.L590
+	ld.w	d0,[a13]
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#511
+	jeq	d15,d0,.L591
+	ld.w	d15,[a13]
+	mov.u	d0,#36863
+	and	d15,d0
+	mov	d0,#767
+	jne	d15,d0,.L592
+.L591:
+.L589:
+.L593:
+	ld.w	d15,[a13]
+	st.w	[a10]12,d15
+	ld.w	d15,[a13]4
+	st.w	[a10]16,d15
+	ld.w	d15,[a13]8
+	st.w	[a10]20,d15
+	ld.w	d15,[a13]12
+	st.w	[a10]24,d15
+	ld.bu	d15,[a13]16
+	st.b	[a10]28,d15
+.L1444:
+	ld.w	d0,[a10]12
+	mov.u	d15,#49407
+	and	d0,d15
+	mov.u	d15,#33022
+	jeq	d15,d0,.L594
+	mov	d15,#1
+	jeq	d15,#0,.L595
+	ld.w	d0,[a10]12
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#511
+	jeq	d15,d0,.L596
+	ld.w	d0,[a10]12
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#767
+	jne	d15,d0,.L597
+.L596:
+.L594:
+	ld.bu	d15,[a14]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	j	.L598
+.L597:
+.L595:
+	mov	d15,#0
+.L598:
+	st.b	[a10]28,d15
+.L1445:
+	lea	a13,[a10]12
+.L592:
+.L588:
+.L590:
+	mov	d4,#40
+	ld.a	a4,[a10]32
+.L1135:
+	call	pbuf_add_header
+.L1136:
+	jeq	d2,#0,.L599
+.L600:
+	mov	d15,#1
+	jeq	d15,#0,.L601
+	mov	d15,#0
+	jeq	d15,#0,.L602
+	mov	d15,#1
+	jeq	d15,#0,.L603
+	movh.a	a4,#@his(.25.str)
+	lea	a4,[a4]@los(.25.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L604
+	j	.L605
+.L606:
+.L605:
+	j	.L606
+.L604:
+.L603:
+.L602:
+.L601:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]248
+	add	d15,#1
+	st.h	[a15]248,d15
+.L1446:
+	mov	d2,#-2
+.L1447:
+	j	.L607
+.L599:
+	ld.a	a15,[a10]32
+.L1137:
+	ld.a	a15,[a15]4
+.L608:
+	ld.a	a2,[a10]32
+.L1138:
+	ld.hu	d0,[a2]10
+	mov	d15,#40
+	jge.u	d0,d15,.L609
+	movh.a	a2,#@his(.26.str)
+.L1139:
+	lea	a2,[a2]@los(.26.str)
+	st.a	[a10],a2
+	mov	d15,#1207
+	st.w	[a10]4,d15
+	movh.a	a2,#@his(.24.str)
+	lea	a2,[a2]@los(.24.str)
+	st.a	[a10]8,a2
+	movh.a	a4,#@his(.22.str)
+	lea	a4,[a4]@los(.22.str)
+	call	Ifx_Lwip_printf
+.L609:
+	st.b	[a15]7,d8
+.L1140:
+	st.b	[a15]6,d10
+.L610:
+	ld.w	d15,[a13]
+	st.w	[a15]24,d15
+	ld.w	d15,[a13]4
+	st.w	[a15]28,d15
+	ld.w	d15,[a13]8
+	st.w	[a15]32,d15
+	ld.w	d15,[a13]12
+	st.w	[a15]36,d15
+.L1141:
+	sh	d15,d9,#20
+.L1142:
+	insert	d4,d15,#3,#29,#2
+	call	lwip_htonl
+	st.w	[a15],d2
+.L1448:
+	ld.a	a2,[a10]32
+.L1143:
+	ld.hu	d15,[a2]8
+	add	d15,d15,#-40
+	extr.u	d4,d15,#0,#16
+	call	lwip_htons
+.L1144:
+	st.h	[a15]4,d2
+.L1449:
+	jnz.a	a12,.L611
+.L1450:
+	movh.a	a12,#@his(ip6_addr_any)
+	lea	a12,[a12]@los(ip6_addr_any)
+.L611:
+.L612:
+	ld.w	d15,[a12]
+	st.w	[a15]8,d15
+	ld.w	d15,[a12]4
+	st.w	[a15]12,d15
+	ld.w	d15,[a12]8
+	st.w	[a15]16,d15
+	ld.w	d15,[a12]12
+	st.w	[a15]20,d15
+	j	.L613
+.L587:
+	ld.a	a15,[a10]32
+.L1145:
+	ld.a	a15,[a15]4
+.L614:
+	ld.w	d15,[a15]24
+	st.w	[a10]12,d15
+	ld.w	d15,[a15]28
+	st.w	[a10]16,d15
+	ld.w	d15,[a15]32
+	st.w	[a10]20,d15
+	ld.w	d15,[a15]36
+	st.w	[a10]24,d15
+	mov	d15,#0
+	st.b	[a10]28,d15
+.L1451:
+	ld.w	d0,[a10]12
+	mov.u	d15,#49407
+	and	d0,d15
+	mov.u	d15,#33022
+	jeq	d15,d0,.L615
+	mov	d15,#1
+	jeq	d15,#0,.L616
+	ld.w	d0,[a10]12
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#511
+	jeq	d15,d0,.L617
+	ld.w	d0,[a10]12
+	mov.u	d15,#36863
+	and	d0,d15
+	mov	d15,#767
+	jne	d15,d0,.L618
+.L617:
+.L615:
+	ld.bu	d15,[a14]218
+	add	d15,#1
+	extr.u	d15,d15,#0,#8
+	j	.L619
+.L618:
+.L616:
+	mov	d15,#0
+.L619:
+	st.b	[a10]28,d15
+.L1452:
+	lea	a13,[a10]12
+.L613:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]228
+	add	d15,#1
+	st.h	[a15]228,d15
+.L620:
+	mov	d15,#1
+	jeq	d15,#0,.L621
+	mov	d15,#0
+	jeq	d15,#0,.L622
+	mov	d15,#1
+	jeq	d15,#0,.L623
+	ld.b	d15,[a14]216
+	st.w	[a10],d15
+	ld.b	d15,[a14]217
+	st.w	[a10]4,d15
+	ld.bu	d15,[a14]218
+	st.w	[a10]8,d15
+	movh.a	a4,#@his(.27.str)
+	lea	a4,[a4]@los(.27.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L624
+	j	.L625
+.L626:
+.L625:
+	j	.L626
+.L624:
+.L623:
+.L622:
+.L621:
+	ld.a	a4,[a10]32
+.L1146:
+	call	ip6_debug_print
+.L1147:
+	ld.hu	d15,[a14]206
+	jeq	d15,#0,.L627
+.L1453:
+	ld.a	a15,[a10]32
+.L1148:
+	ld.hu	d15,[a15]8
+.L1454:
+	mov.aa	a4,a13
+.L1150:
+	mov.aa	a5,a14
+.L1152:
+	call	nd6_get_destination_mtu
+.L1151:
+	jge.u	d2,d15,.L628
+.L1455:
+	ld.a	a4,[a10]32
+.L1149:
+	mov.aa	a5,a14
+.L1154:
+	mov.aa	a6,a13
+.L1155:
+	call	ip6_frag
+.L1153:
+	j	.L629
+.L628:
+.L627:
+.L630:
+	mov	d15,#1
+	jeq	d15,#0,.L631
+	mov	d15,#0
+	jeq	d15,#0,.L632
+	mov	d15,#1
+	jeq	d15,#0,.L633
+	movh.a	a4,#@his(.28.str)
+	lea	a4,[a4]@los(.28.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L634
+	j	.L635
+.L636:
+.L635:
+	j	.L636
+.L634:
+.L633:
+.L632:
+.L631:
+	ld.a	a15,[a14]188
+.L1456:
+	mov.aa	a4,a14
+.L1156:
+	ld.a	a5,[a10]32
+.L1158:
+	mov.aa	a6,a13
+.L1159:
+	calli	a15
+.L1157:
+	j	.L637
+.L637:
+.L629:
+.L607:
+	ret
+.L884:
+	
+__ip6_output_if_src_function_end:
+	.size	ip6_output_if_src,__ip6_output_if_src_function_end-ip6_output_if_src
+.L787:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_output',code,cluster('ip6_output')
+	.sect	'.text.ip6.ip6_output'
+	.align	2
+	
+	.global	ip6_output
+; Function ip6_output
+.L751:
+ip6_output:	.type	func
+	sub.a	a10,#72
+.L1160:
+	mov.aa	a12,a4
+.L1162:
+	mov.aa	a13,a5
+.L1163:
+	mov.aa	a14,a6
+.L1164:
+	mov	e8,d5,d4
+	mov	d10,d6
+.L638:
+	ld.bu	d15,[a12]14
+	jeq	d15,#1,.L639
+	movh.a	a2,#@his(.23.str)
+	lea	a2,[a2]@los(.23.str)
+	st.a	[a10],a2
+	mov	d15,#1298
+	st.w	[a10]4,d15
+	movh.a	a15,#@his(.24.str)
+	lea	a15,[a15]@los(.24.str)
+	st.a	[a10]8,a15
+	movh.a	a4,#@his(.22.str)
+.L1161:
+	lea	a4,[a4]@los(.22.str)
+	call	Ifx_Lwip_printf
+.L639:
+	jz.a	a14,.L640
+.L1423:
+	mov.aa	a4,a13
+.L1166:
+	mov.aa	a5,a14
+.L1168:
+	call	ip6_route
+.L1167:
+	j	.L641
+.L640:
+	ld.a	a15,[a12]4
+.L642:
+	ld.w	d15,[a15]8
+	st.w	[a10]32,d15
+	ld.w	d15,[a15]12
+	st.w	[a10]36,d15
+	ld.w	d15,[a15]16
+	st.w	[a10]40,d15
+	ld.w	d15,[a15]20
+	st.w	[a10]44,d15
+	mov	d15,#0
+	st.b	[a10]48,d15
+.L643:
+	ld.w	d15,[a15]24
+	st.w	[a10]52,d15
+	ld.w	d15,[a15]28
+	st.w	[a10]56,d15
+	ld.w	d15,[a15]32
+	st.w	[a10]60,d15
+	ld.w	d15,[a15]36
+	st.w	[a10]64,d15
+	mov	d15,#0
+	st.b	[a10]68,d15
+.L1424:
+	lea	a4,[a10]32
+.L1425:
+	lea	a5,[a10]52
+	call	ip6_route
+.L641:
+	jnz.a	a2,.L644
+.L645:
+	mov	d15,#1
+	jeq	d15,#0,.L646
+	mov	d15,#0
+	jeq	d15,#0,.L647
+	mov	d15,#1
+	jeq	d15,#0,.L648
+	ld.w	d4,[a14]
+	call	lwip_htonl
+.L1169:
+	extr.u	d8,d2,#16,#16
+	ld.w	d4,[a14]
+	call	lwip_htonl
+	insert	d15,d2,#0,#16,#16
+	ld.w	d4,[a14]4
+	call	lwip_htonl
+	extr.u	d9,d2,#16,#16
+	ld.w	d4,[a14]4
+	call	lwip_htonl
+	insert	d10,d2,#0,#16,#16
+.L1165:
+	ld.w	d4,[a14]8
+	call	lwip_htonl
+	extr.u	d11,d2,#16,#16
+	ld.w	d4,[a14]8
+	call	lwip_htonl
+	insert	d12,d2,#0,#16,#16
+	ld.w	d4,[a14]12
+	call	lwip_htonl
+	extr.u	d13,d2,#16,#16
+	ld.w	d4,[a14]12
+	call	lwip_htonl
+	insert	d0,d2,#0,#16,#16
+	st.w	[a10],d8
+	st.w	[a10]4,d15
+	st.w	[a10]8,d9
+	st.w	[a10]12,d10
+	st.w	[a10]16,d11
+	st.w	[a10]20,d12
+	st.w	[a10]24,d13
+	st.w	[a10]28,d0
+	movh.a	a4,#@his(.29.str)
+	lea	a4,[a4]@los(.29.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L649
+	j	.L650
+.L651:
+.L650:
+	j	.L651
+.L649:
+.L648:
+.L647:
+.L646:
+	movh.a	a15,#@his(lwip_stats)
+	lea	a15,[a15]@los(lwip_stats)
+	movh.a	a2,#@his(lwip_stats)
+	lea	a2,[a2]@los(lwip_stats)
+	ld.hu	d15,[a2]242
+	add	d15,#1
+	st.h	[a15]242,d15
+.L1426:
+	mov	d2,#-4
+.L1427:
+	j	.L652
+.L644:
+	mov.aa	a4,a12
+.L1171:
+	mov.aa	a5,a13
+.L1172:
+	mov.aa	a6,a14
+.L1173:
+	mov	e4,d9,d8
+.L1174:
+	mov	d6,d10
+.L1175:
+	mov.aa	a7,a2
+.L1176:
+	call	ip6_output_if
+.L1170:
+	j	.L653
+.L653:
+.L652:
+	ret
+.L863:
+	
+__ip6_output_function_end:
+	.size	ip6_output,__ip6_output_function_end-ip6_output
+.L777:
+	; End of function
+	
+	.sdecl	'.text.ip6.ip6_debug_print',code,cluster('ip6_debug_print')
+	.sect	'.text.ip6.ip6_debug_print'
+	.align	2
+	
+	.global	ip6_debug_print
+; Function ip6_debug_print
+.L753:
+ip6_debug_print:	.type	func
+	sub.a	a10,#16
+.L1177:
+	ld.a	a15,[a4]4
+.L654:
+	mov	d15,#1
+	jeq	d15,#0,.L655
+	mov	d15,#0
+	jeq	d15,#0,.L656
+	mov	d15,#1
+	jeq	d15,#0,.L657
+	movh.a	a4,#@his(.30.str)
+.L1178:
+	lea	a4,[a4]@los(.30.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L658
+	j	.L659
+.L660:
+.L659:
+	j	.L660
+.L658:
+.L657:
+.L656:
+.L655:
+.L661:
+	mov	d15,#1
+	jeq	d15,#0,.L662
+	mov	d15,#0
+	jeq	d15,#0,.L663
+	mov	d15,#1
+	jeq	d15,#0,.L664
+	movh.a	a4,#@his(.31.str)
+	lea	a4,[a4]@los(.31.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L665
+	j	.L666
+.L667:
+.L666:
+	j	.L667
+.L665:
+.L664:
+.L663:
+.L662:
+.L668:
+	mov	d15,#1
+	jeq	d15,#0,.L669
+	mov	d15,#0
+	jeq	d15,#0,.L670
+	mov	d15,#1
+	jeq	d15,#0,.L671
+	ld.w	d4,[a15]
+	call	lwip_htonl
+	extr.u	d8,d2,#28,#4
+	ld.w	d4,[a15]
+	call	lwip_htonl
+	extr.u	d9,d2,#20,#8
+	ld.w	d4,[a15]
+	call	lwip_htonl
+	insert	d15,d2,#0,#20,#12
+	st.w	[a10],d8
+	st.w	[a10]4,d9
+	st.w	[a10]8,d15
+	movh.a	a4,#@his(.32.str)
+	lea	a4,[a4]@los(.32.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L672
+	j	.L673
+.L674:
+.L673:
+	j	.L674
+.L672:
+.L671:
+.L670:
+.L669:
+.L675:
+	mov	d15,#1
+	jeq	d15,#0,.L676
+	mov	d15,#0
+	jeq	d15,#0,.L677
+	mov	d15,#1
+	jeq	d15,#0,.L678
+	movh.a	a4,#@his(.31.str)
+	lea	a4,[a4]@los(.31.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L679
+	j	.L680
+.L681:
+.L680:
+	j	.L681
+.L679:
+.L678:
+.L677:
+.L676:
+.L682:
+	mov	d15,#1
+	jeq	d15,#0,.L683
+	mov	d15,#0
+	jeq	d15,#0,.L684
+	mov	d15,#1
+	jeq	d15,#0,.L685
+	ld.hu	d4,[a15]4
+	call	lwip_htons
+	st.w	[a10],d2
+	ld.bu	d15,[a15]6
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]7
+	st.w	[a10]8,d15
+	movh.a	a4,#@his(.33.str)
+	lea	a4,[a4]@los(.33.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L686
+	j	.L687
+.L688:
+.L687:
+	j	.L688
+.L686:
+.L685:
+.L684:
+.L683:
+.L689:
+	mov	d15,#1
+	jeq	d15,#0,.L690
+	mov	d15,#0
+	jeq	d15,#0,.L691
+	mov	d15,#1
+	jeq	d15,#0,.L692
+	movh.a	a4,#@his(.31.str)
+	lea	a4,[a4]@los(.31.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L693
+	j	.L694
+.L695:
+.L694:
+	j	.L695
+.L693:
+.L692:
+.L691:
+.L690:
+.L696:
+	mov	d15,#1
+	jeq	d15,#0,.L697
+	mov	d15,#0
+	jeq	d15,#0,.L698
+	mov	d15,#1
+	jeq	d15,#0,.L699
+	ld.w	d4,[a15]8
+	call	lwip_htonl
+	extr.u	d8,d2,#16,#16
+	ld.w	d4,[a15]8
+	call	lwip_htonl
+	insert	d15,d2,#0,#16,#16
+	ld.w	d4,[a15]12
+	call	lwip_htonl
+	extr.u	d9,d2,#16,#16
+	ld.w	d4,[a15]12
+	call	lwip_htonl
+	insert	d0,d2,#0,#16,#16
+	st.w	[a10],d8
+	st.w	[a10]4,d15
+	st.w	[a10]8,d9
+	st.w	[a10]12,d0
+	movh.a	a4,#@his(.34.str)
+	lea	a4,[a4]@los(.34.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L700
+	j	.L701
+.L702:
+.L701:
+	j	.L702
+.L700:
+.L699:
+.L698:
+.L697:
+.L703:
+	mov	d15,#1
+	jeq	d15,#0,.L704
+	mov	d15,#0
+	jeq	d15,#0,.L705
+	mov	d15,#1
+	jeq	d15,#0,.L706
+	ld.w	d4,[a15]16
+	call	lwip_htonl
+	extr.u	d8,d2,#16,#16
+	ld.w	d4,[a15]16
+	call	lwip_htonl
+	insert	d15,d2,#0,#16,#16
+	ld.w	d4,[a15]20
+	call	lwip_htonl
+	extr.u	d9,d2,#16,#16
+	ld.w	d4,[a15]20
+	call	lwip_htonl
+	insert	d0,d2,#0,#16,#16
+	st.w	[a10],d8
+	st.w	[a10]4,d15
+	st.w	[a10]8,d9
+	st.w	[a10]12,d0
+	movh.a	a4,#@his(.35.str)
+	lea	a4,[a4]@los(.35.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L707
+	j	.L708
+.L709:
+.L708:
+	j	.L709
+.L707:
+.L706:
+.L705:
+.L704:
+.L710:
+	mov	d15,#1
+	jeq	d15,#0,.L711
+	mov	d15,#0
+	jeq	d15,#0,.L712
+	mov	d15,#1
+	jeq	d15,#0,.L713
+	movh.a	a4,#@his(.31.str)
+	lea	a4,[a4]@los(.31.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L714
+	j	.L715
+.L716:
+.L715:
+	j	.L716
+.L714:
+.L713:
+.L712:
+.L711:
+.L717:
+	mov	d15,#1
+	jeq	d15,#0,.L718
+	mov	d15,#0
+	jeq	d15,#0,.L719
+	mov	d15,#1
+	jeq	d15,#0,.L720
+	ld.w	d4,[a15]24
+	call	lwip_htonl
+	extr.u	d8,d2,#16,#16
+	ld.w	d4,[a15]24
+	call	lwip_htonl
+	insert	d15,d2,#0,#16,#16
+	ld.w	d4,[a15]28
+	call	lwip_htonl
+	extr.u	d9,d2,#16,#16
+	ld.w	d4,[a15]28
+	call	lwip_htonl
+	insert	d0,d2,#0,#16,#16
+	st.w	[a10],d8
+	st.w	[a10]4,d15
+	st.w	[a10]8,d9
+	st.w	[a10]12,d0
+	movh.a	a4,#@his(.36.str)
+	lea	a4,[a4]@los(.36.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L721
+	j	.L722
+.L723:
+.L722:
+	j	.L723
+.L721:
+.L720:
+.L719:
+.L718:
+.L724:
+	mov	d15,#1
+	jeq	d15,#0,.L725
+	mov	d15,#0
+	jeq	d15,#0,.L726
+	mov	d15,#1
+	jeq	d15,#0,.L727
+	ld.w	d4,[a15]32
+	call	lwip_htonl
+	extr.u	d8,d2,#16,#16
+	ld.w	d4,[a15]32
+	call	lwip_htonl
+	insert	d15,d2,#0,#16,#16
+	ld.w	d4,[a15]36
+	call	lwip_htonl
+	extr.u	d9,d2,#16,#16
+	ld.w	d4,[a15]36
+	call	lwip_htonl
+	insert	d0,d2,#0,#16,#16
+	st.w	[a10],d8
+	st.w	[a10]4,d15
+	st.w	[a10]8,d9
+	st.w	[a10]12,d0
+	movh.a	a4,#@his(.35.str)
+	lea	a4,[a4]@los(.35.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L728
+	j	.L729
+.L730:
+.L729:
+	j	.L730
+.L728:
+.L727:
+.L726:
+.L725:
+.L731:
+	mov	d15,#1
+	jeq	d15,#0,.L732
+	mov	d15,#0
+	jeq	d15,#0,.L733
+	mov	d15,#1
+	jeq	d15,#0,.L734
+	movh.a	a4,#@his(.31.str)
+	lea	a4,[a4]@los(.31.str)
+	call	Ifx_Lwip_printf
+	mov	d15,#0
+	jeq	d15,#0,.L735
+	j	.L736
+.L737:
+.L736:
+	j	.L737
+.L735:
+.L734:
+.L733:
+.L732:
+	ret
+.L894:
+	
+__ip6_debug_print_function_end:
+	.size	ip6_debug_print,__ip6_debug_print_function_end-ip6_debug_print
+.L792:
+	; End of function
+	
+	.sdecl	'.rodata.ip6..1.str',data,rom
+	.sect	'.rodata.ip6..1.str'
+.1.str:	.type	object
+	.size	.1.str,50
+	.byte	73,80,118,54,32,112,97,99
+	.byte	107,101,116,32,100,114,111,112
+	.byte	112,101,100,32,100,117,101,32
+	.byte	116,111,32,98,97,100,32,118
+	.byte	101,114,115,105,111,110,32,110
+	.byte	117,109,98,101,114,32,37,117
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..2.str',data,rom
+	.sect	'.rodata.ip6..2.str'
+.2.str:	.type	object
+	.size	.2.str,78
+	.byte	73,80,118,54,32,104,101,97
+	.byte	100,101,114,32,40,108,101,110
+	.byte	32,37,117,41,32,100,111,101
+	.byte	115,32,110,111,116,32,102,105
+	.byte	116,32,105,110,32,102,105,114
+	.byte	115,116,32,112,98,117,102,32
+	.byte	40,108,101,110,32,37,117,41
+	.byte	44,32,73,80,32,112,97,99
+	.byte	107,101,116,32,100,114,111,112
+	.byte	112,101,100,46
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..3.str',data,rom
+	.sect	'.rodata.ip6..3.str'
+.3.str:	.type	object
+	.size	.3.str,65
+	.byte	73,80,118,54,32,40,112,108
+	.byte	101,110,32,37,117,41,32,105
+	.byte	115,32,108,111,110,103,101,114
+	.byte	32,116,104,97,110,32,112,98
+	.byte	117,102,32,40,108,101,110,32
+	.byte	37,117,41,44,32,73,80,32
+	.byte	112,97,99,107,101,116,32,100
+	.byte	114,111,112,112,101,100,46,10
+	.space	1
+	.sdecl	'.rodata.ip6..4.str',data,rom
+	.sect	'.rodata.ip6..4.str'
+.4.str:	.type	object
+	.size	.4.str,61
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,115,111,108,105,99
+	.byte	105,116,101,100,32,110,111,100
+	.byte	101,32,112,97,99,107,101,116
+	.byte	32,97,99,99,101,112,116,101
+	.byte	100,32,111,110,32,105,110,116
+	.byte	101,114,102,97,99,101,32,37
+	.byte	99,37,99,10
+	.space	1
+	.sdecl	'.rodata.ip6..5.str',data,rom
+	.sect	'.rodata.ip6..5.str'
+.5.str:	.type	object
+	.size	.5.str,46
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,97,99,99,101,112,116
+	.byte	101,100,32,111,110,32,105,110
+	.byte	116,101,114,102,97,99,101,32
+	.byte	37,99,37,99
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..6.str',data,rom
+	.sect	'.rodata.ip6..6.str'
+.6.str:	.type	object
+	.size	.6.str,48
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,115
+	.byte	114,99,32,65,78,89,95,65
+	.byte	68,68,82,69,83,83,32,100
+	.byte	114,111,112,112
+	.byte	101,100,10
+	.space	1
+	.sdecl	'.rodata.ip6..7.str',data,rom
+	.sect	'.rodata.ip6..7.str'
+.7.str:	.type	object
+	.size	.7.str,31
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,110,111,116,32,102,111
+	.byte	114,32,117,115
+	.byte	46,10
+	.space	1
+	.sdecl	'.rodata.ip6..8.str',data,rom
+	.sect	'.rodata.ip6..8.str'
+.8.str:	.type	object
+	.size	.8.str,50
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,72
+	.byte	111,112,45,98,121,45,72,111
+	.byte	112,32,111,112,116,105,111,110
+	.byte	115,32,104,101,97,100,101,114
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..9.str',data,rom
+	.sect	'.rodata.ip6..9.str'
+.9.str:	.type	object
+	.size	.9.str,89
+	.byte	73,80,118,54,32,111,112,116
+	.byte	105,111,110,115,32,104,101,97
+	.byte	100,101,114,32,40,104,108,101
+	.byte	110,32,37,117,41,32,100,111
+	.byte	101,115,32,110,111,116,32,102
+	.byte	105,116,32,105,110,32,102,105
+	.byte	114,115,116,32,112,98,117,102
+	.byte	32,40,108,101,110,32,37,117
+	.byte	41,44,32,73,80,118,54,32
+	.byte	112,97,99,107,101,116,32,100
+	.byte	114,111,112,112,101,100,46,10
+	.space	1
+	.sdecl	'.rodata.ip6..10.str',data,rom
+	.sect	'.rodata.ip6..10.str'
+.10.str:	.type	object
+	.size	.10.str,64
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,105
+	.byte	110,118,97,108,105,100,32,72
+	.byte	111,112,45,98,121,45,72,111
+	.byte	112,32,111,112,116,105,111,110
+	.byte	32,116,121,112,101,32,100,114
+	.byte	111,112,112,101
+	.byte	100,46,10
+	.space	1
+	.sdecl	'.rodata.ip6..11.str',data,rom
+	.sect	'.rodata.ip6..11.str'
+.11.str:	.type	object
+	.size	.11.str,51
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,68
+	.byte	101,115,116,105,110,97,116,105
+	.byte	111,110,32,111,112,116,105,111
+	.byte	110,115,32,104,101,97,100,101
+	.byte	114,10
+	.space	1
+	.sdecl	'.rodata.ip6..12.str',data,rom
+	.sect	'.rodata.ip6..12.str'
+.12.str:	.type	object
+	.size	.12.str,65
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,105
+	.byte	110,118,97,108,105,100,32,100
+	.byte	101,115,116,105,110,97,116,105
+	.byte	111,110,32,111,112,116,105,111
+	.byte	110,32,116,121,112,101,32,100
+	.byte	114,111,112,112,101,100,46,10
+	.space	1
+	.sdecl	'.rodata.ip6..13.str',data,rom
+	.sect	'.rodata.ip6..13.str'
+.13.str:	.type	object
+	.size	.13.str,39
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,82
+	.byte	111,117,116,105,110,103,32,104
+	.byte	101,97,100,101
+	.byte	114,10
+	.space	1
+	.sdecl	'.rodata.ip6..14.str',data,rom
+	.sect	'.rodata.ip6..14.str'
+.14.str:	.type	object
+	.size	.14.str,53
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,105
+	.byte	110,118,97,108,105,100,32,114
+	.byte	111,117,116,105,110,103,32,116
+	.byte	121,112,101,32,100,114,111,112
+	.byte	112,101,100,10
+	.space	1
+	.sdecl	'.rodata.ip6..15.str',data,rom
+	.sect	'.rodata.ip6..15.str'
+.15.str:	.type	object
+	.size	.15.str,40
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,70
+	.byte	114,97,103,109,101,110,116,32
+	.byte	104,101,97,100
+	.byte	101,114,10
+	.space	1
+	.sdecl	'.rodata.ip6..16.str',data,rom
+	.sect	'.rodata.ip6..16.str'
+.16.str:	.type	object
+	.size	.16.str,55
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,105
+	.byte	110,118,97,108,105,100,32,112
+	.byte	97,121,108,111,97,100,32,108
+	.byte	101,110,103,116,104,32,100,114
+	.byte	111,112,112,101
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.ip6..17.str',data,rom
+	.sect	'.rodata.ip6..17.str'
+.17.str:	.type	object
+	.size	.17.str,89
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,97,99,107,101
+	.byte	116,32,119,105,116,104,32,72
+	.byte	111,112,45,98,121,45,72,111
+	.byte	112,32,111,112,116,105,111,110
+	.byte	115,32,104,101,97,100,101,114
+	.byte	32,100,114,111,112,112,101,100
+	.byte	32,40,111,110,108,121,32,118
+	.byte	97,108,105,100,32,97,115,32
+	.byte	97,32,102,105,114,115,116,32
+	.byte	111,112,116,105,111,110,41,10
+	.space	1
+	.sdecl	'.rodata.ip6..18.str',data,rom
+	.sect	'.rodata.ip6..18.str'
+.18.str:	.type	object
+	.size	.18.str,13
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,10
+	.space	1
+	.sdecl	'.rodata.ip6..19.str',data,rom
+	.sect	'.rodata.ip6..19.str'
+.19.str:	.type	object
+	.size	.19.str,36
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,112,45,62,108,101
+	.byte	110,32,37,117,32,112,45,62
+	.byte	116,111,116,95,108,101,110,32
+	.byte	37,117,10
+	.space	1
+	.sdecl	'.rodata.ip6..20.str',data,rom
+	.sect	'.rodata.ip6..20.str'
+.20.str:	.type	object
+	.size	.20.str,46
+	.byte	105,112,54,95,105,110,112,117
+	.byte	116,58,32,85,110,115,117,112
+	.byte	112,111,114,116,101,100,32,116
+	.byte	114,97,110,115,112,111,114,116
+	.byte	32,112,114,111,116,111,99,111
+	.byte	108,32,37,117
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..21.str',data,rom
+	.sect	'.rodata.ip6..21.str'
+.21.str:	.type	object
+	.size	.21.str,52
+	.byte	105,112,54,95,111,117,116,112
+	.byte	117,116,58,32,78,111,32,115
+	.byte	117,105,116,97,98,108,101,32
+	.byte	115,111,117,114,99,101,32,97
+	.byte	100,100,114,101,115,115,32,102
+	.byte	111,114,32,112,97,99,107,101
+	.byte	116,46,10
+	.space	1
+	.sdecl	'.rodata.ip6..22.str',data,rom
+	.sect	'.rodata.ip6..22.str'
+.22.str:	.type	object
+	.size	.22.str,40
+	.byte	65,115,115,101,114,116,105,111
+	.byte	110,32,34,37,115,34,32,102
+	.byte	97,105,108,101,100,32,97,116
+	.byte	32,108,105,110,101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.ip6..23.str',data,rom
+	.sect	'.rodata.ip6..23.str'
+.23.str:	.type	object
+	.size	.23.str,12
+	.byte	112,45,62,114,101,102,32,61
+	.byte	61,32,49
+	.space	1
+	.sdecl	'.rodata.ip6..24.str',data,rom
+	.sect	'.rodata.ip6..24.str'
+.24.str:	.type	object
+	.size	.24.str,47
+	.byte	46,46,47,76,105,98,114,97
+	.byte	114,105,101,115,47,69,116,104
+	.byte	101,114,110,101,116,47,108,119
+	.byte	105,112,47,115,114,99,47,99
+	.byte	111,114,101,47,105,112,118,54
+	.byte	47,105,112,54
+	.byte	46,99
+	.space	1
+	.sdecl	'.rodata.ip6..25.str',data,rom
+	.sect	'.rodata.ip6..25.str'
+.25.str:	.type	object
+	.size	.25.str,53
+	.byte	105,112,54,95,111,117,116,112
+	.byte	117,116,58,32,110,111,116,32
+	.byte	101,110,111,117,103,104,32,114
+	.byte	111,111,109,32,102,111,114,32
+	.byte	73,80,118,54,32,104,101,97
+	.byte	100,101,114,32,105,110,32,112
+	.byte	98,117,102,10
+	.space	1
+	.sdecl	'.rodata.ip6..26.str',data,rom
+	.sect	'.rodata.ip6..26.str'
+.26.str:	.type	object
+	.size	.26.str,46
+	.byte	99,104,101,99,107,32,116,104
+	.byte	97,116,32,102,105,114,115,116
+	.byte	32,112,98,117,102,32,99,97
+	.byte	110,32,104,111,108,100,32,115
+	.byte	116,114,117,99,116,32,105,112
+	.byte	54,95,104,100
+	.byte	114
+	.space	1
+	.sdecl	'.rodata.ip6..27.str',data,rom
+	.sect	'.rodata.ip6..27.str'
+.27.str:	.type	object
+	.size	.27.str,23
+	.byte	105,112,54,95,111,117,116,112
+	.byte	117,116,95,105,102,58,32,37
+	.byte	99,37,99,37
+	.byte	117,10
+	.space	1
+	.sdecl	'.rodata.ip6..28.str',data,rom
+	.sect	'.rodata.ip6..28.str'
+.28.str:	.type	object
+	.size	.28.str,21
+	.byte	110,101,116,105,102,45,62,111
+	.byte	117,116,112,117,116,95,105,112
+	.byte	54,40,41,10
+	.space	1
+	.sdecl	'.rodata.ip6..29.str',data,rom
+	.sect	'.rodata.ip6..29.str'
+.29.str:	.type	object
+	.size	.29.str,50
+	.byte	105,112,54,95,111,117,116,112
+	.byte	117,116,58,32,110,111,32,114
+	.byte	111,117,116,101,32,102,111,114
+	.byte	32,37,120,58,37,120,58,37
+	.byte	120,58,37,120,58,37,120,58
+	.byte	37,120,58,37,120,58,37,120
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..30.str',data,rom
+	.sect	'.rodata.ip6..30.str'
+.30.str:	.type	object
+	.size	.30.str,14
+	.byte	73,80,118,54,32,104,101,97
+	.byte	100,101,114,58
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.ip6..31.str',data,rom
+	.sect	'.rodata.ip6..31.str'
+.31.str:	.type	object
+	.size	.31.str,35
+	.byte	43,45,45,45,45,45,45,45
+	.byte	45,45,45,45,45,45,45,45
+	.byte	45,45,45,45,45,45,45,45
+	.byte	45,45,45,45,45,45,45,45
+	.byte	43,10
+	.space	1
+	.sdecl	'.rodata.ip6..32.str',data,rom
+	.sect	'.rodata.ip6..32.str'
+.32.str:	.type	object
+	.size	.32.str,51
+	.byte	124,32,37,50,117,32,124,32
+	.byte	32,37,51,117,32,32,124,32
+	.byte	32,32,32,32,32,37,55,117
+	.byte	32,32,32,32,32,124,32,40
+	.byte	118,101,114,44,32,99,108,97
+	.byte	115,115,44,32,102,108,111,119
+	.byte	41,10
+	.space	1
+	.sdecl	'.rodata.ip6..33.str',data,rom
+	.sect	'.rodata.ip6..33.str'
+.33.str:	.type	object
+	.size	.33.str,53
+	.byte	124,32,32,32,32,32,37,53
+	.byte	117,32,32,32,32,32,124,32
+	.byte	32,37,51,117,32,32,124,32
+	.byte	32,37,51,117,32,32,124,32
+	.byte	40,112,108,101,110,44,32,110
+	.byte	101,120,116,104,44,32,104,111
+	.byte	112,108,41,10
+	.space	1
+	.sdecl	'.rodata.ip6..34.str',data,rom
+	.sect	'.rodata.ip6..34.str'
+.34.str:	.type	object
+	.size	.34.str,37
+	.byte	124,32,32,37,52,120,32,124
+	.byte	32,32,37,52,120,32,124,32
+	.byte	32,37,52,120,32,124,32,32
+	.byte	37,52,120,32,124,32,40,115
+	.byte	114,99,41,10
+	.space	1
+	.sdecl	'.rodata.ip6..35.str',data,rom
+	.sect	'.rodata.ip6..35.str'
+.35.str:	.type	object
+	.size	.35.str,31
+	.byte	124,32,32,37,52,120,32,124
+	.byte	32,32,37,52,120,32,124,32
+	.byte	32,37,52,120,32,124,32,32
+	.byte	37,52,120,32
+	.byte	124,10
+	.space	1
+	.sdecl	'.rodata.ip6..36.str',data,rom
+	.sect	'.rodata.ip6..36.str'
+.36.str:	.type	object
+	.size	.36.str,38
+	.byte	124,32,32,37,52,120,32,124
+	.byte	32,32,37,52,120,32,124,32
+	.byte	32,37,52,120,32,124,32,32
+	.byte	37,52,120,32,124,32,40,100
+	.byte	101,115,116,41
+	.byte	10
+	.space	1
+	.calls	'ip6_route','nd6_find_route'
+	.calls	'ip6_select_source_address','lwip_htonl'
+	.calls	'ip6_input','lwip_htonl'
+	.calls	'ip6_input','Ifx_Lwip_printf'
+	.calls	'ip6_input','pbuf_free'
+	.calls	'ip6_input','lwip_htons'
+	.calls	'ip6_input','pbuf_realloc'
+	.calls	'ip6_input','ip6_input_accept'
+	.calls	'ip6_input','pbuf_remove_header'
+	.calls	'ip6_input','icmp6_param_problem'
+	.calls	'ip6_input','ip6_reass'
+	.calls	'ip6_input','ip6_debug_print'
+	.calls	'ip6_input','udp_input'
+	.calls	'ip6_input','tcp_input'
+	.calls	'ip6_input','icmp6_input'
+	.calls	'ip6_input','pbuf_add_header_force'
+	.calls	'ip6_output_if','ip6_select_source_address'
+	.calls	'ip6_output_if','Ifx_Lwip_printf'
+	.calls	'ip6_output_if','ip6_output_if_src'
+	.calls	'ip6_output_if_src','Ifx_Lwip_printf'
+	.calls	'ip6_output_if_src','pbuf_add_header'
+	.calls	'ip6_output_if_src','lwip_htonl'
+	.calls	'ip6_output_if_src','lwip_htons'
+	.calls	'ip6_output_if_src','ip6_debug_print'
+	.calls	'ip6_output_if_src','nd6_get_destination_mtu'
+	.calls	'ip6_output_if_src','ip6_frag'
+	.calls	'ip6_output_if_src','__INDIRECT__'
+	.calls	'ip6_output','Ifx_Lwip_printf'
+	.calls	'ip6_output','ip6_route'
+	.calls	'ip6_output','lwip_htonl'
+	.calls	'ip6_output','ip6_output_if'
+	.calls	'ip6_debug_print','Ifx_Lwip_printf'
+	.calls	'ip6_debug_print','lwip_htonl'
+	.calls	'ip6_debug_print','lwip_htons'
+	.calls	'ip6_route','',0
+	.calls	'ip6_select_source_address','',0
+	.calls	'ip6_input_accept','',0
+	.calls	'ip6_input','',16
+	.calls	'ip6_output_if','',0
+	.calls	'ip6_output_if_src','',40
+	.calls	'ip6_output','',72
+	.extern	Ifx_Lwip_printf
+	.extern	lwip_htons
+	.extern	lwip_htonl
+	.extern	ip6_addr_any
+	.extern	pbuf_realloc
+	.extern	pbuf_add_header
+	.extern	pbuf_add_header_force
+	.extern	pbuf_remove_header
+	.extern	pbuf_free
+	.extern	lwip_stats
+	.extern	netif_list
+	.extern	netif_default
+	.extern	ip_data
+	.extern	ip6_reass
+	.extern	ip6_frag
+	.extern	icmp6_input
+	.extern	icmp6_param_problem
+	.extern	udp_input
+	.extern	tcp_input
+	.extern	nd6_find_route
+	.extern	nd6_get_destination_mtu
+	.extern	__INDIRECT__
+	.calls	'ip6_debug_print','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L755:
+	.word	7522
+	.half	3
+	.word	.L756
+	.byte	4
+.L754:
+	.byte	1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L757
+.L804:
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	227
+	.byte	4
+	.word	235
+	.byte	5
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	219
+	.byte	1,1,1,1,6
+	.byte	's',0,1,123,34
+	.word	240
+	.byte	7,1,123,37,0
+.L830:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,5
+	.byte	'lwip_htons',0,2,96,7
+	.word	288
+	.byte	1,1,1,1,6
+	.byte	'x',0,2,96,24
+	.word	288
+	.byte	0,2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'lwip_htonl',0,2,101,7
+	.word	344
+	.byte	1,1,1,1,6
+	.byte	'x',0,2,101,24
+	.word	344
+	.byte	0,8
+	.byte	'void',0,4
+	.word	399
+.L815:
+	.byte	2
+	.byte	'unsigned char',0,1,8,9
+	.byte	'pbuf',0,3,186,1,8,16,10
+	.byte	'next',0
+	.word	.L822-.L755
+	.byte	4,2,35,0,10
+	.byte	'payload',0
+	.word	405
+	.byte	4,2,35,4,10
+	.byte	'tot_len',0
+	.word	288
+	.byte	2,2,35,8,10
+	.byte	'len',0
+	.word	288
+	.byte	2,2,35,10,10
+	.byte	'type_internal',0
+	.word	410
+	.byte	1,2,35,12,10
+	.byte	'flags',0
+	.word	410
+	.byte	1,2,35,13,10
+	.byte	'ref',0
+	.word	410
+	.byte	1,2,35,14,10
+	.byte	'if_idx',0
+	.word	410
+	.byte	1,2,35,15,0
+.L822:
+	.byte	4
+	.word	427
+	.byte	11
+	.byte	'pbuf_realloc',0,3,154,2,6,1,1,1,1,6
+	.byte	'p',0,3,154,2,32
+	.word	567
+	.byte	6
+	.byte	'size',0,3,154,2,41
+	.word	288
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'pbuf_add_header',0,3,160,2,6
+	.word	410
+	.byte	1,1,1,1,6
+	.byte	'p',0,3,160,2,35
+	.word	567
+	.byte	6
+	.byte	'header_size_increment',0,3,160,2,45
+	.word	620
+	.byte	0,5
+	.byte	'pbuf_add_header_force',0,3,161,2,6
+	.word	410
+	.byte	1,1,1,1,6
+	.byte	'p',0,3,161,2,41
+	.word	567
+	.byte	6
+	.byte	'header_size_increment',0,3,161,2,51
+	.word	620
+	.byte	0,5
+	.byte	'pbuf_remove_header',0,3,162,2,6
+	.word	410
+	.byte	1,1,1,1,6
+	.byte	'p',0,3,162,2,38
+	.word	567
+	.byte	6
+	.byte	'header_size',0,3,162,2,48
+	.word	620
+	.byte	0,5
+	.byte	'pbuf_free',0,3,165,2,6
+	.word	410
+	.byte	1,1,1,1,6
+	.byte	'p',0,3,165,2,29
+	.word	567
+	.byte	0,12,16
+	.word	344
+	.byte	13,3,0
+.L872:
+	.byte	9
+	.byte	'ip6_addr',0,6,59,8,20,10
+	.byte	'addr',0
+	.word	886
+	.byte	16,2,35,0,10
+	.byte	'zone',0
+	.word	410
+	.byte	1,2,35,16,0,9
+	.byte	'ip4_addr',0,7,51,8,4,10
+	.byte	'addr',0
+	.word	344
+	.byte	4,2,35,0,0,14,5,70,3,20,10
+	.byte	'ip6',0
+	.word	895
+	.byte	20,2,35,0,10
+	.byte	'ip4',0
+	.word	938
+	.byte	4,2,35,0,0,9
+	.byte	'ip_addr',0,5,69,16,24,10
+	.byte	'u_addr',0
+	.word	967
+	.byte	20,2,35,0,10
+	.byte	'type',0
+	.word	410
+	.byte	1,2,35,20,0,12,72
+	.word	999
+	.byte	13,2,0,12,3
+	.word	410
+	.byte	13,2,0,12,12
+	.word	344
+	.byte	13,2,0,15
+	.word	219
+	.byte	1,1,16
+	.word	567
+	.byte	16
+	.word	.L798-.L755
+	.byte	0,4
+	.word	1070
+	.byte	17
+	.byte	'netif_input_fn',0,4,178,1,17
+	.word	1088
+	.byte	3
+	.word	938
+	.byte	4
+	.word	1117
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	.L798-.L755
+	.byte	16
+	.word	567
+	.byte	16
+	.word	1122
+	.byte	0,4
+	.word	1127
+	.byte	17
+	.byte	'netif_output_fn',0,4,189,1,17
+	.word	1150
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	.L798-.L755
+	.byte	16
+	.word	567
+	.byte	0,4
+	.word	1180
+	.byte	17
+	.byte	'netif_linkoutput_fn',0,4,212,1,17
+	.word	1198
+	.byte	3
+	.word	895
+	.byte	4
+	.word	1232
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	.L798-.L755
+	.byte	16
+	.word	567
+	.byte	16
+	.word	1237
+	.byte	0,4
+	.word	1242
+	.byte	17
+	.byte	'netif_output_ip6_fn',0,4,202,1,17
+	.word	1265
+	.byte	12,4
+	.word	405
+	.byte	13,0,0,12,6
+	.word	410
+	.byte	13,5,0,12,2
+	.word	227
+	.byte	13,1,0,9
+	.byte	'netif',0,4,132,2,8,224,1,10
+	.byte	'next',0
+	.word	.L798-.L755
+	.byte	4,2,35,0,10
+	.byte	'ip_addr',0
+	.word	999
+	.byte	24,2,35,4,10
+	.byte	'netmask',0
+	.word	999
+	.byte	24,2,35,28,10
+	.byte	'gw',0
+	.word	999
+	.byte	24,2,35,52,10
+	.byte	'ip6_addr',0
+	.word	1043
+	.byte	72,2,35,76,10
+	.byte	'ip6_addr_state',0
+	.word	1052
+	.byte	3,3,35,148,1,10
+	.byte	'ip6_addr_valid_life',0
+	.word	1061
+	.byte	12,3,35,152,1,10
+	.byte	'ip6_addr_pref_life',0
+	.word	1061
+	.byte	12,3,35,164,1,10
+	.byte	'input',0
+	.word	1093
+	.byte	4,3,35,176,1,10
+	.byte	'output',0
+	.word	1155
+	.byte	4,3,35,180,1,10
+	.byte	'linkoutput',0
+	.word	1203
+	.byte	4,3,35,184,1,10
+	.byte	'output_ip6',0
+	.word	1270
+	.byte	4,3,35,188,1,10
+	.byte	'state',0
+	.word	405
+	.byte	4,3,35,192,1,10
+	.byte	'client_data',0
+	.word	1299
+	.byte	4,3,35,196,1,10
+	.byte	'hostname',0
+	.word	240
+	.byte	4,3,35,200,1,10
+	.byte	'mtu',0
+	.word	288
+	.byte	2,3,35,204,1,10
+	.byte	'mtu6',0
+	.word	288
+	.byte	2,3,35,206,1,10
+	.byte	'hwaddr',0
+	.word	1308
+	.byte	6,3,35,208,1,10
+	.byte	'hwaddr_len',0
+	.word	410
+	.byte	1,3,35,214,1,10
+	.byte	'flags',0
+	.word	410
+	.byte	1,3,35,215,1,10
+	.byte	'name',0
+	.word	1317
+	.byte	2,3,35,216,1,10
+	.byte	'num',0
+	.word	410
+	.byte	1,3,35,218,1,10
+	.byte	'ip6_autoconfig_enabled',0
+	.word	410
+	.byte	1,3,35,219,1,10
+	.byte	'rs_count',0
+	.word	410
+	.byte	1,3,35,220,1,0
+.L798:
+	.byte	4
+	.word	1326
+	.byte	4
+	.word	1070
+	.byte	4
+	.word	1127
+	.byte	4
+	.word	1180
+	.byte	4
+	.word	1242
+	.byte	3
+	.word	895
+.L800:
+	.byte	4
+	.word	1823
+	.byte	3
+	.word	999
+.L806:
+	.byte	4
+	.word	1833
+	.byte	9
+	.byte	'ip6_addr_packed',0,8,53,8,16,10
+	.byte	'addr',0
+	.word	886
+	.byte	16,2,35,0,0,9
+	.byte	'ip6_hdr',0,8,80,8,40,10
+	.byte	'_v_tc_fl',0
+	.word	344
+	.byte	4,2,35,0,10
+	.byte	'_plen',0
+	.word	288
+	.byte	2,2,35,4,10
+	.byte	'_nexth',0
+	.word	410
+	.byte	1,2,35,6,10
+	.byte	'_hoplim',0
+	.word	410
+	.byte	1,2,35,7,10
+	.byte	'src',0
+	.word	1843
+	.byte	16,2,35,8,10
+	.byte	'dest',0
+	.word	1843
+	.byte	16,2,35,24,0
+.L825:
+	.byte	4
+	.word	1879
+	.byte	3
+	.word	410
+.L828:
+	.byte	4
+	.word	1991
+	.byte	9
+	.byte	'ip6_frag_hdr',0,8,211,1,8,8,10
+	.byte	'_nexth',0
+	.word	410
+	.byte	1,2,35,0,10
+	.byte	'reserved',0
+	.word	410
+	.byte	1,2,35,1,10
+	.byte	'_fragment_offset',0
+	.word	288
+	.byte	2,2,35,2,10
+	.byte	'_identification',0
+	.word	344
+	.byte	4,2,35,4,0
+.L847:
+	.byte	4
+	.word	2001
+.L849:
+	.byte	2
+	.byte	'long int',0,4,5,9
+	.byte	'ip6_hbh_hdr',0,8,145,1,8,2,10
+	.byte	'_nexth',0
+	.word	410
+	.byte	1,2,35,0,10
+	.byte	'_hlen',0
+	.word	410
+	.byte	1,2,35,1,0
+.L851:
+	.byte	4
+	.word	2123
+	.byte	9
+	.byte	'ip6_opt_hdr',0,8,122,8,2,10
+	.byte	'_opt_type',0
+	.word	410
+	.byte	1,2,35,0,10
+	.byte	'_opt_dlen',0
+	.word	410
+	.byte	1,2,35,1,0
+.L853:
+	.byte	4
+	.word	2178
+	.byte	9
+	.byte	'ip6_dest_hdr',0,8,164,1,8,2,10
+	.byte	'_nexth',0
+	.word	410
+	.byte	1,2,35,0,10
+	.byte	'_hlen',0
+	.word	410
+	.byte	1,2,35,1,0
+.L857:
+	.byte	4
+	.word	2239
+	.byte	9
+	.byte	'ip6_rout_hdr',0,8,184,1,8,4,10
+	.byte	'_nexth',0
+	.word	410
+	.byte	1,2,35,0,10
+	.byte	'_hlen',0
+	.word	410
+	.byte	1,2,35,1,10
+	.byte	'_routing_type',0
+	.word	410
+	.byte	1,2,35,2,10
+	.byte	'_segments_left',0
+	.word	410
+	.byte	1,2,35,3,0
+.L861:
+	.byte	4
+	.word	2295
+	.byte	5
+	.byte	'ip6_reass',0,9,116,14
+	.word	567
+	.byte	1,1,1,1,6
+	.byte	'p',0,9,116,37
+	.word	567
+	.byte	0,5
+	.byte	'ip6_frag',0,9,135,1,7
+	.word	219
+	.byte	1,1,1,1,6
+	.byte	'p',0,9,135,1,29
+	.word	567
+	.byte	6
+	.byte	'netif',0,9,135,1,46
+	.word	1798
+	.byte	6
+	.byte	'dest',0,9,135,1,71
+	.word	1828
+	.byte	0,11
+	.byte	'icmp6_input',0,10,56,6,1,1,1,1,6
+	.byte	'p',0,10,56,31
+	.word	567
+	.byte	6
+	.byte	'inp',0,10,56,48
+	.word	1798
+	.byte	0,18
+	.byte	'icmp6_pp_code',0,11,124,6,1,19
+	.byte	'ICMP6_PP_FIELD',0,0,19
+	.byte	'ICMP6_PP_HEADER',0,1,19
+	.byte	'ICMP6_PP_OPTION',0,2,0,3
+	.word	399
+	.byte	4
+	.word	2610
+	.byte	11
+	.byte	'icmp6_param_problem',0,10,62,6,1,1,1,1,6
+	.byte	'p',0,10,62,39
+	.word	567
+	.byte	6
+	.byte	'c',0,10,62,61
+	.word	2537
+	.byte	6
+	.byte	'pointer',0,10,62,76
+	.word	2615
+	.byte	0,11
+	.byte	'udp_input',0,12,163,1,18,1,1,1,1,6
+	.byte	'p',0,12,163,1,47
+	.word	567
+	.byte	6
+	.byte	'inp',0,12,163,1,64
+	.word	1798
+	.byte	0,11
+	.byte	'tcp_input',0,13,77,18,1,1,1,1,6
+	.byte	'p',0,13,77,44
+	.word	567
+	.byte	6
+	.byte	'inp',0,13,77,61
+	.word	1798
+	.byte	0,5
+	.byte	'nd6_find_route',0,14,72,15
+	.word	1798
+	.byte	1,1,1,1,6
+	.byte	'ip6addr',0,14,72,48
+	.word	1828
+	.byte	0,5
+	.byte	'nd6_get_destination_mtu',0,14,74,7
+	.word	288
+	.byte	1,1,1,1,6
+	.byte	'ip6addr',0,14,74,49
+	.word	1828
+	.byte	6
+	.byte	'netif',0,14,74,72
+	.word	1798
+	.byte	0
+.L897:
+	.byte	2
+	.byte	'int',0,4,5,20
+	.byte	'__INDIRECT__',0,15,1,1,1,1,1,2
+	.byte	'short int',0,2,5,17
+	.byte	'__wchar_t',0,15,1,1
+	.word	2908
+	.byte	17
+	.byte	'__size_t',0,15,1,1
+	.word	620
+	.byte	17
+	.byte	'__ptrdiff_t',0,15,1,1
+	.word	2881
+	.byte	21,1,4
+	.word	2976
+	.byte	17
+	.byte	'__codeptr',0,15,1,1
+	.word	2978
+	.byte	17
+	.byte	'__intptr_t',0,15,1,1
+	.word	2881
+	.byte	17
+	.byte	'__uintptr_t',0,15,1,1
+	.word	620
+	.byte	17
+	.byte	'size_t',0,16,24,25
+	.word	620
+	.byte	17
+	.byte	'uint8',0,17,108,29
+	.word	410
+	.byte	17
+	.byte	'uint16',0,17,112,29
+	.word	288
+	.byte	17
+	.byte	'uint32',0,17,116,29
+	.word	344
+	.byte	17
+	.byte	'sint8',0,17,125,29
+	.word	219
+	.byte	17
+	.byte	'sint16',0,17,129,1,29
+	.word	2908
+	.byte	17
+	.byte	'sint32',0,17,134,1,29
+	.word	2111
+	.byte	2
+	.byte	'long long int',0,8,5,17
+	.byte	'sint64',0,17,141,1,29
+	.word	3145
+	.byte	2
+	.byte	'float',0,4,4,17
+	.byte	'float32',0,17,170,1,29
+	.word	3178
+	.byte	17
+	.byte	'pvoid',0,18,54,28
+	.word	405
+	.byte	17
+	.byte	'Ifx_TickTime',0,18,76,28
+	.word	3145
+	.byte	17
+	.byte	'u8_t',0,1,85,16
+	.word	410
+	.byte	17
+	.byte	'u16_t',0,1,86,16
+	.word	288
+	.byte	17
+	.byte	'u32_t',0,1,87,16
+	.word	344
+	.byte	17
+	.byte	's8_t',0,1,88,16
+	.word	219
+	.byte	17
+	.byte	's16_t',0,1,89,16
+	.word	2908
+	.byte	17
+	.byte	'intmax_t',0,19,198,2,41
+	.word	3145
+	.byte	17
+	.byte	'mem_size_t',0,20,67,15
+	.word	288
+	.byte	17
+	.byte	'err_t',0,21,96,14
+	.word	219
+	.byte	17
+	.byte	'ip4_addr_t',0,7,57,25
+	.word	938
+	.byte	17
+	.byte	'ip6_addr_t',0,6,67,25
+	.word	895
+	.byte	17
+	.byte	'ip_addr_t',0,5,76,3
+	.word	999
+	.byte	3
+	.word	999
+	.byte	22
+	.byte	'ip6_addr_any',0,5,149,3,24
+	.word	3414
+	.byte	1,1,23,1,1,16
+	.word	567
+	.byte	0,4
+	.word	3443
+	.byte	17
+	.byte	'pbuf_free_custom_fn',0,3,242,1,16
+	.word	3452
+	.byte	9
+	.byte	'stats_proto',0,22,64,8,24,10
+	.byte	'xmit',0
+	.word	288
+	.byte	2,2,35,0,10
+	.byte	'recv',0
+	.word	288
+	.byte	2,2,35,2,10
+	.byte	'fw',0
+	.word	288
+	.byte	2,2,35,4,10
+	.byte	'drop',0
+	.word	288
+	.byte	2,2,35,6,10
+	.byte	'chkerr',0
+	.word	288
+	.byte	2,2,35,8,10
+	.byte	'lenerr',0
+	.word	288
+	.byte	2,2,35,10,10
+	.byte	'memerr',0
+	.word	288
+	.byte	2,2,35,12,10
+	.byte	'rterr',0
+	.word	288
+	.byte	2,2,35,14,10
+	.byte	'proterr',0
+	.word	288
+	.byte	2,2,35,16,10
+	.byte	'opterr',0
+	.word	288
+	.byte	2,2,35,18,10
+	.byte	'err',0
+	.word	288
+	.byte	2,2,35,20,10
+	.byte	'cachehit',0
+	.word	288
+	.byte	2,2,35,22,0,9
+	.byte	'stats_mem',0,22,98,8,16,10
+	.byte	'name',0
+	.word	240
+	.byte	4,2,35,0,10
+	.byte	'err',0
+	.word	288
+	.byte	2,2,35,4,10
+	.byte	'avail',0
+	.word	288
+	.byte	2,2,35,6,10
+	.byte	'used',0
+	.word	288
+	.byte	2,2,35,8,10
+	.byte	'max',0
+	.word	288
+	.byte	2,2,35,10,10
+	.byte	'illegal',0
+	.word	288
+	.byte	2,2,35,12,0,4
+	.word	3685
+	.byte	12,44
+	.word	3787
+	.byte	13,10,0,9
+	.byte	'stats_',0,22,232,1,8,196,2,10
+	.byte	'link',0
+	.word	3486
+	.byte	24,2,35,0,10
+	.byte	'etharp',0
+	.word	3486
+	.byte	24,2,35,24,10
+	.byte	'ip_frag',0
+	.word	3486
+	.byte	24,2,35,48,10
+	.byte	'ip',0
+	.word	3486
+	.byte	24,2,35,72,10
+	.byte	'icmp',0
+	.word	3486
+	.byte	24,2,35,96,10
+	.byte	'udp',0
+	.word	3486
+	.byte	24,2,35,120,10
+	.byte	'tcp',0
+	.word	3486
+	.byte	24,3,35,144,1,10
+	.byte	'mem',0
+	.word	3685
+	.byte	16,3,35,168,1,10
+	.byte	'memp',0
+	.word	3792
+	.byte	44,3,35,184,1,10
+	.byte	'ip6',0
+	.word	3486
+	.byte	24,3,35,228,1,10
+	.byte	'icmp6',0
+	.word	3486
+	.byte	24,3,35,252,1,10
+	.byte	'ip6_frag',0
+	.word	3486
+	.byte	24,3,35,148,2,10
+	.byte	'nd6',0
+	.word	3486
+	.byte	24,3,35,172,2,0,22
+	.byte	'lwip_stats',0,22,176,2,22
+	.word	3801
+	.byte	1,1,22
+	.byte	'netif_list',0,4,149,3,22
+	.word	1798
+	.byte	1,1,22
+	.byte	'netif_default',0,4,153,3,22
+	.word	1798
+	.byte	1,1,9
+	.byte	'link_changed_s',0,4,213,4,10,1,10
+	.byte	'state',0
+	.word	410
+	.byte	1,2,35,0,0,9
+	.byte	'status_changed_s',0,4,219,4,10,1,10
+	.byte	'state',0
+	.word	410
+	.byte	1,2,35,0,0,9
+	.byte	'ipv4_changed_s',0,4,225,4,10,12,10
+	.byte	'old_address',0
+	.word	1838
+	.byte	4,2,35,0,10
+	.byte	'old_netmask',0
+	.word	1838
+	.byte	4,2,35,4,10
+	.byte	'old_gw',0
+	.word	1838
+	.byte	4,2,35,8,0,9
+	.byte	'ipv6_set_s',0,4,233,4,10,8,10
+	.byte	'addr_index',0
+	.word	219
+	.byte	1,2,35,0,10
+	.byte	'old_address',0
+	.word	1838
+	.byte	4,2,35,4,0,9
+	.byte	'ipv6_addr_state_changed_s',0,4,241,4,10,8,10
+	.byte	'addr_index',0
+	.word	219
+	.byte	1,2,35,0,10
+	.byte	'old_state',0
+	.word	410
+	.byte	1,2,35,1,10
+	.byte	'address',0
+	.word	1838
+	.byte	4,2,35,4,0,14,4,210,4,9,12,10
+	.byte	'link_changed',0
+	.word	4077
+	.byte	1,2,35,0,10
+	.byte	'status_changed',0
+	.word	4114
+	.byte	1,2,35,0,10
+	.byte	'ipv4_changed',0
+	.word	4153
+	.byte	12,2,35,0,10
+	.byte	'ipv6_set',0
+	.word	4233
+	.byte	8,2,35,0,10
+	.byte	'ipv6_addr_state_changed',0
+	.word	4292
+	.byte	8,2,35,0,0,3
+	.word	4381
+	.byte	4
+	.word	4507
+	.byte	23,1,1,16
+	.word	1798
+	.byte	16
+	.word	288
+	.byte	16
+	.word	4512
+	.byte	0,4
+	.word	4517
+	.byte	17
+	.byte	'netif_ext_callback_fn',0,4,132,5,16
+	.word	4536
+	.byte	9
+	.byte	'ip4_addr_packed',0,23,53,8,4,10
+	.byte	'addr',0
+	.word	344
+	.byte	4,2,35,0,0,17
+	.byte	'ip4_addr_p_t',0,23,61,32
+	.word	4572
+	.byte	17
+	.byte	'ip6_addr_p_t',0,8,60,32
+	.word	1843
+	.byte	9
+	.byte	'ip_hdr',0,23,73,8,20,10
+	.byte	'_v_hl',0
+	.word	410
+	.byte	1,2,35,0,10
+	.byte	'_tos',0
+	.word	410
+	.byte	1,2,35,1,10
+	.byte	'_len',0
+	.word	288
+	.byte	2,2,35,2,10
+	.byte	'_id',0
+	.word	288
+	.byte	2,2,35,4,10
+	.byte	'_offset',0
+	.word	288
+	.byte	2,2,35,6,10
+	.byte	'_ttl',0
+	.word	410
+	.byte	1,2,35,8,10
+	.byte	'_proto',0
+	.word	410
+	.byte	1,2,35,9,10
+	.byte	'_chksum',0
+	.word	288
+	.byte	2,2,35,10,10
+	.byte	'src',0
+	.word	4572
+	.byte	4,2,35,12,10
+	.byte	'dest',0
+	.word	4572
+	.byte	4,2,35,16,0,3
+	.word	4650
+	.byte	4
+	.word	4810
+	.byte	9
+	.byte	'ip_globals',0,24,107,8,68,10
+	.byte	'current_netif',0
+	.word	1798
+	.byte	4,2,35,0,10
+	.byte	'current_input_netif',0
+	.word	1798
+	.byte	4,2,35,4,10
+	.byte	'current_ip4_header',0
+	.word	4815
+	.byte	4,2,35,8,10
+	.byte	'current_ip6_header',0
+	.word	1986
+	.byte	4,2,35,12,10
+	.byte	'current_ip_header_tot_len',0
+	.word	288
+	.byte	2,2,35,16,10
+	.byte	'current_iphdr_src',0
+	.word	999
+	.byte	24,2,35,20,10
+	.byte	'current_iphdr_dest',0
+	.word	999
+	.byte	24,2,35,44,0,22
+	.byte	'ip_data',0,24,128,1,26
+	.word	4820
+	.byte	1,1,9
+	.byte	'udp_pcb',0,12,81,8,72,10
+	.byte	'local_ip',0
+	.word	999
+	.byte	24,2,35,0,10
+	.byte	'remote_ip',0
+	.word	999
+	.byte	24,2,35,24,10
+	.byte	'netif_idx',0
+	.word	410
+	.byte	1,2,35,48,10
+	.byte	'so_options',0
+	.word	410
+	.byte	1,2,35,49,10
+	.byte	'tos',0
+	.word	410
+	.byte	1,2,35,50,10
+	.byte	'ttl',0
+	.word	410
+	.byte	1,2,35,51,10
+	.byte	'next',0
+	.word	.L1179-.L755
+	.byte	4,2,35,52,10
+	.byte	'flags',0
+	.word	410
+	.byte	1,2,35,56,10
+	.byte	'local_port',0
+	.word	288
+	.byte	2,2,35,58,10
+	.byte	'remote_port',0
+	.word	288
+	.byte	2,2,35,60,10
+	.byte	'recv',0
+	.word	.L1180-.L755
+	.byte	4,2,35,64,10
+	.byte	'recv_arg',0
+	.word	405
+	.byte	4,2,35,68,0
+.L1179:
+	.byte	4
+	.word	5054
+	.byte	3
+	.word	999
+	.byte	4
+	.word	5277
+	.byte	23,1,1,16
+	.word	405
+	.byte	16
+	.word	5272
+	.byte	16
+	.word	567
+	.byte	16
+	.word	5282
+	.byte	16
+	.word	288
+	.byte	0,4
+	.word	5287
+.L1180:
+	.byte	17
+	.byte	'udp_recv_fn',0,12,77,16
+	.word	5316
+	.byte	4
+	.word	5287
+	.byte	17
+	.byte	'tcpwnd_size_t',0,25,53,15
+	.word	288
+	.byte	18
+	.byte	'tcp_state',0,25,56,6,1,19
+	.byte	'CLOSED',0,0,19
+	.byte	'LISTEN',0,1,19
+	.byte	'SYN_SENT',0,2,19
+	.byte	'SYN_RCVD',0,3,19
+	.byte	'ESTABLISHED',0,4,19
+	.byte	'FIN_WAIT_1',0,5,19
+	.byte	'FIN_WAIT_2',0,6,19
+	.byte	'CLOSE_WAIT',0,7,19
+	.byte	'CLOSING',0,8,19
+	.byte	'LAST_ACK',0,9,19
+	.byte	'TIME_WAIT',0,10,0,9
+	.byte	'tcp_hdr',0,27,56,8,20,10
+	.byte	'src',0
+	.word	288
+	.byte	2,2,35,0,10
+	.byte	'dest',0
+	.word	288
+	.byte	2,2,35,2,10
+	.byte	'seqno',0
+	.word	344
+	.byte	4,2,35,4,10
+	.byte	'ackno',0
+	.word	344
+	.byte	4,2,35,8,10
+	.byte	'_hdrlen_rsvd_flags',0
+	.word	288
+	.byte	2,2,35,12,10
+	.byte	'wnd',0
+	.word	288
+	.byte	2,2,35,14,10
+	.byte	'chksum',0
+	.word	288
+	.byte	2,2,35,16,10
+	.byte	'urgp',0
+	.word	288
+	.byte	2,2,35,18,0,4
+	.word	5510
+	.byte	9
+	.byte	'tcp_seg',0,13,253,1,8,20,10
+	.byte	'next',0
+	.word	.L1181-.L755
+	.byte	4,2,35,0,10
+	.byte	'p',0
+	.word	567
+	.byte	4,2,35,4,10
+	.byte	'len',0
+	.word	288
+	.byte	2,2,35,8,10
+	.byte	'oversize_left',0
+	.word	288
+	.byte	2,2,35,10,10
+	.byte	'flags',0
+	.word	410
+	.byte	1,2,35,12,10
+	.byte	'tcphdr',0
+	.word	5652
+	.byte	4,2,35,16,0
+.L1181:
+	.byte	4
+	.word	5657
+	.byte	9
+	.byte	'tcp_pcb_listen',0,26,223,1,8,68,10
+	.byte	'local_ip',0
+	.word	999
+	.byte	24,2,35,0,10
+	.byte	'remote_ip',0
+	.word	999
+	.byte	24,2,35,24,10
+	.byte	'netif_idx',0
+	.word	410
+	.byte	1,2,35,48,10
+	.byte	'so_options',0
+	.word	410
+	.byte	1,2,35,49,10
+	.byte	'tos',0
+	.word	410
+	.byte	1,2,35,50,10
+	.byte	'ttl',0
+	.word	410
+	.byte	1,2,35,51,10
+	.byte	'next',0
+	.word	.L1182-.L755
+	.byte	4,2,35,52,10
+	.byte	'callback_arg',0
+	.word	405
+	.byte	4,2,35,56,10
+	.byte	'state',0
+	.word	5368
+	.byte	1,2,35,60,10
+	.byte	'prio',0
+	.word	410
+	.byte	1,2,35,61,10
+	.byte	'local_port',0
+	.word	288
+	.byte	2,2,35,62,10
+	.byte	'accept',0
+	.word	.L1183-.L755
+	.byte	4,2,35,64,0
+.L1182:
+	.byte	4
+	.word	5769
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	405
+	.byte	16
+	.word	.L1184-.L755
+	.byte	16
+	.word	288
+	.byte	0,4
+	.word	5999
+	.byte	17
+	.byte	'tcp_sent_fn',0,26,96,17
+	.word	6022
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	405
+	.byte	16
+	.word	.L1184-.L755
+	.byte	16
+	.word	567
+	.byte	16
+	.word	219
+	.byte	0,4
+	.word	6047
+	.byte	17
+	.byte	'tcp_recv_fn',0,26,82,17
+	.word	6075
+	.byte	17
+	.byte	'tcp_connected_fn',0,26,134,1,17
+	.word	.L1185-.L755
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	405
+	.byte	16
+	.word	.L1184-.L755
+	.byte	0,4
+	.word	6126
+	.byte	17
+	.byte	'tcp_poll_fn',0,26,108,17
+	.word	6144
+	.byte	23,1,1,16
+	.word	405
+	.byte	16
+	.word	219
+	.byte	0,4
+	.word	6169
+	.byte	17
+	.byte	'tcp_err_fn',0,26,120,17
+	.word	6183
+	.byte	9
+	.byte	'tcp_pcb',0,26,242,1,8,196,1,10
+	.byte	'local_ip',0
+	.word	999
+	.byte	24,2,35,0,10
+	.byte	'remote_ip',0
+	.word	999
+	.byte	24,2,35,24,10
+	.byte	'netif_idx',0
+	.word	410
+	.byte	1,2,35,48,10
+	.byte	'so_options',0
+	.word	410
+	.byte	1,2,35,49,10
+	.byte	'tos',0
+	.word	410
+	.byte	1,2,35,50,10
+	.byte	'ttl',0
+	.word	410
+	.byte	1,2,35,51,10
+	.byte	'next',0
+	.word	.L1184-.L755
+	.byte	4,2,35,52,10
+	.byte	'callback_arg',0
+	.word	405
+	.byte	4,2,35,56,10
+	.byte	'state',0
+	.word	5368
+	.byte	1,2,35,60,10
+	.byte	'prio',0
+	.word	410
+	.byte	1,2,35,61,10
+	.byte	'local_port',0
+	.word	288
+	.byte	2,2,35,62,10
+	.byte	'remote_port',0
+	.word	288
+	.byte	2,2,35,64,10
+	.byte	'flags',0
+	.word	288
+	.byte	2,2,35,66,10
+	.byte	'polltmr',0
+	.word	410
+	.byte	1,2,35,68,10
+	.byte	'pollinterval',0
+	.word	410
+	.byte	1,2,35,69,10
+	.byte	'last_timer',0
+	.word	410
+	.byte	1,2,35,70,10
+	.byte	'tmr',0
+	.word	344
+	.byte	4,2,35,72,10
+	.byte	'rcv_nxt',0
+	.word	344
+	.byte	4,2,35,76,10
+	.byte	'rcv_wnd',0
+	.word	288
+	.byte	2,2,35,80,10
+	.byte	'rcv_ann_wnd',0
+	.word	288
+	.byte	2,2,35,82,10
+	.byte	'rcv_ann_right_edge',0
+	.word	344
+	.byte	4,2,35,84,10
+	.byte	'rtime',0
+	.word	2908
+	.byte	2,2,35,88,10
+	.byte	'mss',0
+	.word	288
+	.byte	2,2,35,90,10
+	.byte	'rttest',0
+	.word	344
+	.byte	4,2,35,92,10
+	.byte	'rtseq',0
+	.word	344
+	.byte	4,2,35,96,10
+	.byte	'sa',0
+	.word	2908
+	.byte	2,2,35,100,10
+	.byte	'sv',0
+	.word	2908
+	.byte	2,2,35,102,10
+	.byte	'rto',0
+	.word	2908
+	.byte	2,2,35,104,10
+	.byte	'nrtx',0
+	.word	410
+	.byte	1,2,35,106,10
+	.byte	'dupacks',0
+	.word	410
+	.byte	1,2,35,107,10
+	.byte	'lastack',0
+	.word	344
+	.byte	4,2,35,108,10
+	.byte	'cwnd',0
+	.word	288
+	.byte	2,2,35,112,10
+	.byte	'ssthresh',0
+	.word	288
+	.byte	2,2,35,114,10
+	.byte	'rto_end',0
+	.word	344
+	.byte	4,2,35,116,10
+	.byte	'snd_nxt',0
+	.word	344
+	.byte	4,2,35,120,10
+	.byte	'snd_wl1',0
+	.word	344
+	.byte	4,2,35,124,10
+	.byte	'snd_wl2',0
+	.word	344
+	.byte	4,3,35,128,1,10
+	.byte	'snd_lbb',0
+	.word	344
+	.byte	4,3,35,132,1,10
+	.byte	'snd_wnd',0
+	.word	288
+	.byte	2,3,35,136,1,10
+	.byte	'snd_wnd_max',0
+	.word	288
+	.byte	2,3,35,138,1,10
+	.byte	'snd_buf',0
+	.word	288
+	.byte	2,3,35,140,1,10
+	.byte	'snd_queuelen',0
+	.word	288
+	.byte	2,3,35,142,1,10
+	.byte	'unsent_oversize',0
+	.word	288
+	.byte	2,3,35,144,1,10
+	.byte	'bytes_acked',0
+	.word	288
+	.byte	2,3,35,146,1,10
+	.byte	'unsent',0
+	.word	5764
+	.byte	4,3,35,148,1,10
+	.byte	'unacked',0
+	.word	5764
+	.byte	4,3,35,152,1,10
+	.byte	'ooseq',0
+	.word	5764
+	.byte	4,3,35,156,1,10
+	.byte	'refused_data',0
+	.word	567
+	.byte	4,3,35,160,1,10
+	.byte	'listener',0
+	.word	5994
+	.byte	4,3,35,164,1,10
+	.byte	'sent',0
+	.word	6027
+	.byte	4,3,35,168,1,10
+	.byte	'recv',0
+	.word	6080
+	.byte	4,3,35,172,1,10
+	.byte	'connected',0
+	.word	6100
+	.byte	4,3,35,176,1,10
+	.byte	'poll',0
+	.word	6149
+	.byte	4,3,35,180,1,10
+	.byte	'errf',0
+	.word	6188
+	.byte	4,3,35,184,1,10
+	.byte	'keep_idle',0
+	.word	344
+	.byte	4,3,35,188,1,10
+	.byte	'persist_cnt',0
+	.word	410
+	.byte	1,3,35,192,1,10
+	.byte	'persist_backoff',0
+	.word	410
+	.byte	1,3,35,193,1,10
+	.byte	'persist_probe',0
+	.word	410
+	.byte	1,3,35,194,1,10
+	.byte	'keep_cnt_sent',0
+	.word	410
+	.byte	1,3,35,195,1,0
+.L1184:
+	.byte	4
+	.word	6207
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	405
+	.byte	16
+	.word	7282
+	.byte	16
+	.word	219
+	.byte	0
+.L1185:
+	.byte	4
+	.word	7287
+.L1183:
+	.byte	17
+	.byte	'tcp_accept_fn',0,26,70,17
+	.word	7310
+	.byte	4
+	.word	7287
+	.byte	4
+	.word	5999
+	.byte	4
+	.word	6047
+	.byte	4
+	.word	7287
+	.byte	4
+	.word	6126
+	.byte	4
+	.word	6169
+	.byte	23,1,1,16
+	.word	410
+	.byte	16
+	.word	405
+	.byte	0,4
+	.word	7367
+	.byte	17
+	.byte	'tcp_extarg_callback_pcb_destroyed_fn',0,26,173,1,16
+	.word	7381
+	.byte	15
+	.word	219
+	.byte	1,1,16
+	.word	410
+	.byte	16
+	.word	5994
+	.byte	16
+	.word	7282
+	.byte	0,4
+	.word	7432
+	.byte	17
+	.byte	'tcp_extarg_callback_passive_open_fn',0,26,182,1,17
+	.word	7455
+	.byte	17
+	.byte	'tcpflags_t',0,26,206,1,15
+	.word	288
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L756:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
+	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,59,0,3,8,0,0,9,19,1,3,8,58,15,59,15,57,15,11,15,0,0,10,13,0,3,8,73,19
+	.byte	11,15,56,9,0,0,11,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,12,1,1,11,15,73,19,0,0,13,33
+	.byte	0,47,15,0,0,14,23,1,58,15,59,15,57,15,11,15,0,0,15,21,1,73,19,54,15,39,12,0,0,16,5,0,73,19,0,0,17,22,0
+	.byte	3,8,58,15,59,15,57,15,73,19,0,0,18,4,1,3,8,58,15,59,15,57,15,11,15,0,0,19,40,0,3,8,28,13,0,0,20,46,0,3
+	.byte	8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,21,21,0,54,15,0,0,22,52,0,3,8,58,15,59,15,57,15,73,19,63,12
+	.byte	60,12,0,0,23,21,1,54,15,39,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L757:
+	.word	.L1187-.L1186
+.L1186:
+	.half	3
+	.word	.L1189-.L1188
+.L1188:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.10\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\def.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip6_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip6.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip6_frag.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\icmp6.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\icmp6.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\udp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\priv\\tcp_priv.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\nd6.h',0
+	.byte	0,0,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\iLLD\\\\TC39B\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\stats.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcpbase.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcp.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\Users\\\\admin\\\\AURIX-v1.10.10-workspace\\\\V6_V4_TCPIP\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\tcp.h',0
+	.byte	0,0,0,0
+.L1189:
+.L1187:
+	.sdecl	'.debug_info',debug,cluster('ip6_route')
+	.sect	'.debug_info'
+.L758:
+	.word	334
+	.half	3
+	.word	.L759
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L761,.L760
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_route',0,1,86,1
+	.word	.L798
+	.byte	1,1,1
+	.word	.L739,.L799,.L738
+	.byte	4
+	.byte	'src',0,1,86,29
+	.word	.L800,.L801
+	.byte	4
+	.byte	'dest',0,1,86,52
+	.word	.L800,.L802
+	.byte	5
+	.word	.L739,.L799
+	.byte	6
+	.byte	'netif',0,1,92,17
+	.word	.L798,.L803
+	.byte	6
+	.byte	'i',0,1,93,8
+	.word	.L804,.L805
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_route')
+	.sect	'.debug_abbrev'
+.L759:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_route')
+	.sect	'.debug_line'
+.L760:
+	.word	.L1191-.L1190
+.L1190:
+	.half	3
+	.word	.L1193-.L1192
+.L1192:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1193:
+	.byte	5,1,7,0,5,2
+	.word	.L739
+	.byte	3,213,0,1,5,8,9
+	.half	.L903-.L739
+	.byte	3,12,1,5,7,9
+	.half	.L1194-.L903
+	.byte	1,5,32,7,9
+	.half	.L1195-.L1194
+	.byte	1,5,42,9
+	.half	.L1196-.L1195
+	.byte	1,5,49,9
+	.half	.L1197-.L1196
+	.byte	1,5,10,7,9
+	.half	.L1198-.L1197
+	.byte	3,1,1,5,38,9
+	.half	.L1199-.L1198
+	.byte	1,5,10,9
+	.half	.L1200-.L1199
+	.byte	3,1,1,5,38,9
+	.half	.L1201-.L1200
+	.byte	1,5,14,9
+	.half	.L6-.L1201
+	.byte	3,1,1,5,7,9
+	.half	.L1202-.L6
+	.byte	1,5,12,9
+	.half	.L10-.L1202
+	.byte	3,2,1,5,5,9
+	.half	.L1203-.L10
+	.byte	1,5,7,9
+	.half	.L2-.L1203
+	.byte	3,9,1,5,3,9
+	.half	.L1204-.L2
+	.byte	1,5,5,7,9
+	.half	.L1205-.L1204
+	.byte	3,4,1,5,11,9
+	.half	.L16-.L1205
+	.byte	3,1,1,9
+	.half	.L1206-.L16
+	.byte	3,1,1,5,33,9
+	.half	.L1207-.L1206
+	.byte	1,5,9,9
+	.half	.L1208-.L1207
+	.byte	3,1,1,5,5,9
+	.half	.L17-.L1208
+	.byte	3,125,1,5,12,9
+	.half	.L1209-.L17
+	.byte	3,9,1,5,5,9
+	.half	.L907-.L1209
+	.byte	1,5,7,9
+	.half	.L14-.L907
+	.byte	3,18,1,9
+	.half	.L27-.L14
+	.byte	3,1,1,9
+	.half	.L31-.L27
+	.byte	3,5,1,5,9,9
+	.half	.L32-.L31
+	.byte	3,2,1,5,5,9
+	.half	.L1210-.L32
+	.byte	1,5,7,7,9
+	.half	.L1211-.L1210
+	.byte	3,2,1,5,13,9
+	.half	.L40-.L1211
+	.byte	3,1,1,5,35,9
+	.half	.L1212-.L40
+	.byte	1,5,13,9
+	.half	.L1213-.L1212
+	.byte	3,1,1,5,11,9
+	.half	.L1214-.L1213
+	.byte	3,1,1,5,7,9
+	.half	.L43-.L1214
+	.byte	3,125,1,9
+	.half	.L38-.L43
+	.byte	3,10,1,5,14,9
+	.half	.L51-.L38
+	.byte	3,1,1,5,37,9
+	.half	.L1215-.L51
+	.byte	1,5,11,9
+	.half	.L54-.L1215
+	.byte	3,1,1,5,16,9
+	.half	.L57-.L54
+	.byte	3,2,1,5,48,9
+	.half	.L911-.L57
+	.byte	1,5,15,9
+	.half	.L60-.L911
+	.byte	3,1,1,9
+	.half	.L1216-.L60
+	.byte	3,1,1,5,13,9
+	.half	.L1217-.L1216
+	.byte	3,1,1,5,51,9
+	.half	.L62-.L1217
+	.byte	3,125,1,5,48,9
+	.half	.L59-.L62
+	.byte	1,5,7,7,9
+	.half	.L58-.L59
+	.byte	3,124,1,5,12,9
+	.half	.L49-.L58
+	.byte	3,14,1,5,5,9
+	.half	.L1218-.L49
+	.byte	1,5,3,9
+	.half	.L34-.L1218
+	.byte	3,19,1,5,10,9
+	.half	.L69-.L34
+	.byte	3,1,1,5,33,9
+	.half	.L1219-.L69
+	.byte	1,5,7,9
+	.half	.L72-.L1219
+	.byte	3,1,1,5,12,9
+	.half	.L75-.L72
+	.byte	3,2,1,5,44,9
+	.half	.L914-.L75
+	.byte	1,5,11,9
+	.half	.L78-.L914
+	.byte	3,1,1,9
+	.half	.L1220-.L78
+	.byte	3,1,1,5,12,9
+	.half	.L1221-.L1220
+	.byte	3,1,1,7,9
+	.half	.L1222-.L1221
+	.byte	1,5,11,9
+	.half	.L1223-.L1222
+	.byte	3,1,1,5,9,9
+	.half	.L85-.L1223
+	.byte	3,1,1,5,47,9
+	.half	.L86-.L85
+	.byte	3,123,1,5,44,9
+	.half	.L77-.L86
+	.byte	1,5,3,7,9
+	.half	.L76-.L77
+	.byte	3,124,1,5,26,9
+	.half	.L1224-.L76
+	.byte	3,15,1,5,3,9
+	.half	.L902-.L1224
+	.byte	3,1,1,5,5,7,9
+	.half	.L1225-.L902
+	.byte	3,1,1,5,8,9
+	.half	.L89-.L1225
+	.byte	3,5,1,7,9
+	.half	.L1226-.L89
+	.byte	1,5,5,9
+	.half	.L92-.L1226
+	.byte	3,1,1,5,12,9
+	.half	.L97-.L92
+	.byte	3,1,1,5,35,9
+	.half	.L1227-.L97
+	.byte	1,5,9,9
+	.half	.L100-.L1227
+	.byte	3,1,1,5,14,9
+	.half	.L103-.L100
+	.byte	3,2,1,5,46,9
+	.half	.L917-.L103
+	.byte	1,5,13,9
+	.half	.L106-.L917
+	.byte	3,1,1,9
+	.half	.L1228-.L106
+	.byte	3,1,1,5,11,9
+	.half	.L1229-.L1228
+	.byte	3,1,1,5,49,9
+	.half	.L108-.L1229
+	.byte	3,125,1,5,46,9
+	.half	.L105-.L108
+	.byte	1,5,5,7,9
+	.half	.L104-.L105
+	.byte	3,124,1,5,8,9
+	.half	.L91-.L104
+	.byte	3,32,1,5,7,9
+	.half	.L1230-.L91
+	.byte	1,5,35,7,9
+	.half	.L1231-.L1230
+	.byte	1,5,66,9
+	.half	.L1232-.L1231
+	.byte	1,5,12,9
+	.half	.L114-.L1232
+	.byte	3,1,1,5,5,9
+	.half	.L1233-.L114
+	.byte	1,5,10,9
+	.half	.L120-.L1233
+	.byte	3,2,1,5,3,9
+	.half	.L1234-.L120
+	.byte	1,5,1,9
+	.half	.L12-.L1234
+	.byte	3,1,1,7,9
+	.half	.L762-.L12
+	.byte	0,1,1
+.L1191:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_route')
+	.sect	'.debug_ranges'
+.L761:
+	.word	-1,.L739,0,.L762-.L739,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_select_source_address')
+	.sect	'.debug_info'
+.L763:
+	.word	548
+	.half	3
+	.word	.L764
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L766,.L765
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_select_source_address',0,1,155,2,1
+	.word	.L806
+	.byte	1,1,1
+	.word	.L741,.L807,.L740
+	.byte	4
+	.byte	'netif',0,1,155,2,41
+	.word	.L798,.L808
+	.byte	4
+	.byte	'dest',0,1,155,2,66
+	.word	.L800,.L809
+	.byte	5
+	.word	.L741,.L807
+	.byte	6
+	.byte	'best_addr',0,1,157,2,20
+	.word	.L806,.L810
+	.byte	6
+	.byte	'cand_addr',0,1,158,2,21
+	.word	.L800,.L811
+	.byte	6
+	.byte	'dest_scope',0,1,159,2,8
+	.word	.L804,.L812
+	.byte	6
+	.byte	'cand_scope',0,1,159,2,20
+	.word	.L804,.L813
+	.byte	6
+	.byte	'best_scope',0,1,160,2,8
+	.word	.L804,.L814
+	.byte	6
+	.byte	'i',0,1,161,2,8
+	.word	.L815,.L816
+	.byte	6
+	.byte	'cand_pref',0,1,161,2,11
+	.word	.L815,.L817
+	.byte	6
+	.byte	'cand_bits',0,1,161,2,22
+	.word	.L815,.L818
+	.byte	6
+	.byte	'best_pref',0,1,162,2,8
+	.word	.L815,.L819
+	.byte	6
+	.byte	'best_bits',0,1,163,2,8
+	.word	.L815,.L820
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_select_source_address')
+	.sect	'.debug_abbrev'
+.L764:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_select_source_address')
+	.sect	'.debug_line'
+.L765:
+	.word	.L1236-.L1235
+.L1235:
+	.half	3
+	.word	.L1238-.L1237
+.L1237:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1238:
+	.byte	5,1,7,0,5,2
+	.word	.L741
+	.byte	3,154,2,1,5,19,9
+	.half	.L920-.L741
+	.byte	3,5,1,5,18,9
+	.half	.L922-.L920
+	.byte	3,2,1,9
+	.half	.L923-.L922
+	.byte	3,1,1,5,7,9
+	.half	.L924-.L923
+	.byte	3,4,1,5,3,9
+	.half	.L1239-.L924
+	.byte	1,5,16,7,9
+	.half	.L1240-.L1239
+	.byte	3,1,1,5,44,9
+	.half	.L925-.L1240
+	.byte	1,5,14,9
+	.half	.L123-.L925
+	.byte	3,1,1,5,44,9
+	.half	.L1241-.L123
+	.byte	1,5,16,9
+	.half	.L125-.L1241
+	.byte	3,1,1,5,48,9
+	.half	.L926-.L125
+	.byte	1,5,14,9
+	.half	.L126-.L926
+	.byte	3,1,1,5,10,9
+	.half	.L1242-.L126
+	.byte	1,5,16,7,9
+	.half	.L1243-.L1242
+	.byte	3,1,1,5,56,9
+	.half	.L927-.L1243
+	.byte	1,5,14,9
+	.half	.L131-.L927
+	.byte	3,1,1,5,10,9
+	.half	.L1244-.L131
+	.byte	1,5,18,7,9
+	.half	.L1245-.L1244
+	.byte	3,1,1,5,48,9
+	.half	.L928-.L1245
+	.byte	1,5,14,9
+	.half	.L133-.L928
+	.byte	3,1,1,5,10,9
+	.half	.L1246-.L133
+	.byte	1,5,16,7,9
+	.half	.L1247-.L1246
+	.byte	3,1,1,5,48,9
+	.half	.L929-.L1247
+	.byte	1,5,16,9
+	.half	.L135-.L929
+	.byte	3,3,1,5,13,9
+	.half	.L124-.L135
+	.byte	3,3,1,5,10,9
+	.half	.L930-.L124
+	.byte	3,2,1,5,42,9
+	.half	.L932-.L930
+	.byte	1,5,10,9
+	.half	.L138-.L932
+	.byte	3,2,1,5,7,9
+	.half	.L1248-.L138
+	.byte	3,1,1,5,17,9
+	.half	.L139-.L1248
+	.byte	3,3,1,5,9,9
+	.half	.L933-.L139
+	.byte	3,1,1,5,5,9
+	.half	.L1249-.L933
+	.byte	1,5,18,7,9
+	.half	.L1250-.L1249
+	.byte	3,1,1,5,46,9
+	.half	.L934-.L1250
+	.byte	1,5,16,9
+	.half	.L141-.L934
+	.byte	3,1,1,5,12,9
+	.half	.L1251-.L141
+	.byte	1,5,18,7,9
+	.half	.L1252-.L1251
+	.byte	3,1,1,5,50,9
+	.half	.L935-.L1252
+	.byte	1,5,16,9
+	.half	.L143-.L935
+	.byte	3,1,1,5,12,9
+	.half	.L1253-.L143
+	.byte	1,5,18,7,9
+	.half	.L1254-.L1253
+	.byte	3,1,1,5,58,9
+	.half	.L936-.L1254
+	.byte	1,5,16,9
+	.half	.L145-.L936
+	.byte	3,1,1,5,12,9
+	.half	.L1255-.L145
+	.byte	1,5,18,7,9
+	.half	.L1256-.L1255
+	.byte	3,1,1,5,50,9
+	.half	.L937-.L1256
+	.byte	1,5,18,9
+	.half	.L147-.L937
+	.byte	3,3,1,5,17,9
+	.half	.L142-.L147
+	.byte	3,2,1,9
+	.half	.L938-.L142
+	.byte	3,4,1,5,9,9
+	.half	.L149-.L938
+	.byte	3,1,1,5,22,7,9
+	.half	.L1257-.L149
+	.byte	1,5,14,9
+	.half	.L1258-.L1257
+	.byte	3,1,1,5,7,9
+	.half	.L931-.L1258
+	.byte	1,5,9,9
+	.half	.L152-.L931
+	.byte	3,2,1,5,10,7,9
+	.half	.L941-.L152
+	.byte	3,1,1,5,51,7,9
+	.half	.L942-.L941
+	.byte	1,5,10,7,9
+	.half	.L156-.L942
+	.byte	3,1,1,5,51,7,9
+	.half	.L1259-.L156
+	.byte	1,5,10,7,9
+	.half	.L158-.L1259
+	.byte	3,1,1,5,41,7,9
+	.half	.L943-.L158
+	.byte	1,5,10,7,9
+	.half	.L1260-.L943
+	.byte	3,1,1,5,49,7,9
+	.half	.L944-.L1260
+	.byte	1,5,19,7,9
+	.half	.L155-.L944
+	.byte	3,2,1,5,18,9
+	.half	.L945-.L155
+	.byte	3,1,1,5,17,9
+	.half	.L1261-.L945
+	.byte	3,2,1,5,45,9
+	.half	.L140-.L1261
+	.byte	3,92,1,5,42,9
+	.half	.L137-.L140
+	.byte	1,5,3,7,9
+	.half	.L1262-.L137
+	.byte	3,40,1,5,1,9
+	.half	.L154-.L1262
+	.byte	3,1,1,7,9
+	.half	.L767-.L154
+	.byte	0,1,1
+.L1236:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_select_source_address')
+	.sect	'.debug_ranges'
+.L766:
+	.word	-1,.L741,0,.L767-.L741,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_input')
+	.sect	'.debug_info'
+.L768:
+	.word	702
+	.half	3
+	.word	.L769
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L771,.L770
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_input',0,1,253,3,1
+	.word	.L804
+	.byte	1,1,1
+	.word	.L745,.L821,.L744
+	.byte	4
+	.byte	'p',0,1,253,3,24
+	.word	.L822,.L823
+	.byte	4
+	.byte	'inp',0,1,253,3,41
+	.word	.L798,.L824
+	.byte	5
+	.word	.L745,.L821
+	.byte	6
+	.byte	'ip6hdr',0,1,255,3,19
+	.word	.L825,.L826
+	.byte	6
+	.byte	'netif',0,1,128,4,17
+	.word	.L798,.L827
+	.byte	6
+	.byte	'nexth',0,1,129,4,15
+	.word	.L828,.L829
+	.byte	6
+	.byte	'hlen',0,1,130,4,9
+	.word	.L830,.L831
+	.byte	6
+	.byte	'hlen_tot',0,1,130,4,15
+	.word	.L830,.L832
+	.byte	5
+	.word	.L833,.L257
+	.byte	6
+	.byte	'i',0,1,224,4,12
+	.word	.L815,.L834
+	.byte	0,7
+	.word	.L835
+	.byte	6
+	.byte	'frag_hdr',0,1,192,7,28
+	.word	.L847,.L848
+	.byte	0,5
+	.word	.L323,.L383
+	.byte	6
+	.byte	'opt_offset',0,1,203,5,13
+	.word	.L849,.L850
+	.byte	6
+	.byte	'hbh_hdr',0,1,204,5,27
+	.word	.L851,.L852
+	.byte	6
+	.byte	'opt_hdr',0,1,205,5,27
+	.word	.L853,.L854
+	.byte	5
+	.word	.L341,.L340
+	.byte	6
+	.byte	'opt_dlen',0,1,234,5,15
+	.word	.L849,.L855
+	.byte	0,0,5
+	.word	.L383,.L445
+	.byte	6
+	.byte	'opt_offset',0,1,166,6,13
+	.word	.L849,.L856
+	.byte	6
+	.byte	'dest_hdr',0,1,167,6,28
+	.word	.L857,.L858
+	.byte	6
+	.byte	'opt_hdr',0,1,168,6,27
+	.word	.L853,.L859
+	.byte	5
+	.word	.L401,.L400
+	.byte	6
+	.byte	'opt_dlen',0,1,195,6,15
+	.word	.L849,.L860
+	.byte	0,0,5
+	.word	.L445,.L486
+	.byte	6
+	.byte	'rout_hdr',0,1,133,7,28
+	.word	.L861,.L862
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_input')
+	.sect	'.debug_abbrev'
+.L769:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,11,1,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_input')
+	.sect	'.debug_line'
+.L770:
+	.word	.L1264-.L1263
+.L1263:
+	.half	3
+	.word	.L1266-.L1265
+.L1265:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1266:
+	.byte	5,1,7,0,5,2
+	.word	.L745
+	.byte	3,252,3,1,5,3,9
+	.half	.L953-.L745
+	.byte	3,16,1,5,31,9
+	.half	.L1267-.L953
+	.byte	3,3,1,5,7,9
+	.half	.L955-.L1267
+	.byte	3,1,1,5,3,9
+	.half	.L1268-.L955
+	.byte	1,5,5,7,9
+	.half	.L179-.L1268
+	.byte	3,1,1,5,15,9
+	.half	.L180-.L179
+	.byte	3,2,1,5,5,9
+	.half	.L957-.L180
+	.byte	3,1,1,9
+	.half	.L1269-.L957
+	.byte	3,1,1,5,12,9
+	.half	.L1270-.L1269
+	.byte	3,1,1,5,5,9
+	.half	.L1271-.L1270
+	.byte	1,5,20,9
+	.half	.L178-.L1271
+	.byte	3,11,1,5,8,9
+	.half	.L1272-.L178
+	.byte	1,5,7,9
+	.half	.L1273-.L1272
+	.byte	1,5,31,7,9
+	.half	.L1274-.L1273
+	.byte	1,5,53,9
+	.half	.L1275-.L1274
+	.byte	1,5,63,9
+	.half	.L1276-.L1275
+	.byte	1,5,49,9
+	.half	.L1277-.L1276
+	.byte	1,5,21,7,9
+	.half	.L187-.L1277
+	.byte	3,1,1,5,9,9
+	.half	.L1278-.L187
+	.byte	1,5,5,9
+	.half	.L1279-.L1278
+	.byte	1,5,7,7,9
+	.half	.L190-.L1279
+	.byte	3,1,1,5,10,9
+	.half	.L189-.L190
+	.byte	3,4,1,5,28,9
+	.half	.L1280-.L189
+	.byte	1,5,43,9
+	.half	.L1281-.L1280
+	.byte	1,5,5,9
+	.half	.L1282-.L1281
+	.byte	1,5,7,7,9
+	.half	.L198-.L1282
+	.byte	3,1,1,5,15,9
+	.half	.L197-.L198
+	.byte	3,5,1,5,5,9
+	.half	.L959-.L197
+	.byte	3,1,1,9
+	.half	.L1283-.L959
+	.byte	3,1,1,5,12,9
+	.half	.L1284-.L1283
+	.byte	3,1,1,5,5,9
+	.half	.L1285-.L1284
+	.byte	1,5,38,9
+	.half	.L188-.L1285
+	.byte	3,5,1,5,36,9
+	.half	.L1286-.L188
+	.byte	1,5,19,9
+	.half	.L1287-.L1286
+	.byte	1,5,3,9
+	.half	.L207-.L1287
+	.byte	3,3,1,9
+	.half	.L210-.L207
+	.byte	3,1,1,5,7,9
+	.half	.L1288-.L210
+	.byte	3,4,1,5,6,9
+	.half	.L212-.L1288
+	.byte	3,1,1,9
+	.half	.L215-.L212
+	.byte	3,1,1,5,15,9
+	.half	.L214-.L215
+	.byte	3,2,1,5,5,9
+	.half	.L962-.L214
+	.byte	3,1,1,9
+	.half	.L1289-.L962
+	.byte	3,1,1,5,12,9
+	.half	.L1290-.L1289
+	.byte	3,1,1,5,5,9
+	.half	.L1291-.L1290
+	.byte	1,5,3,9
+	.half	.L218-.L1291
+	.byte	3,4,1,9
+	.half	.L1292-.L218
+	.byte	3,1,1,9
+	.half	.L1293-.L1292
+	.byte	3,3,1,5,30,9
+	.half	.L1294-.L1293
+	.byte	1,5,3,9
+	.half	.L1295-.L1294
+	.byte	3,3,1,5,25,9
+	.half	.L1296-.L1295
+	.byte	1,5,3,9
+	.half	.L1297-.L1296
+	.byte	3,1,1,5,31,9
+	.half	.L1298-.L1297
+	.byte	1,5,7,9
+	.half	.L1299-.L1298
+	.byte	3,3,1,5,3,9
+	.half	.L1300-.L1299
+	.byte	1,5,9,7,9
+	.half	.L1301-.L1300
+	.byte	3,2,1,9
+	.half	.L231-.L1301
+	.byte	3,1,1,5,13,9
+	.half	.L234-.L231
+	.byte	3,1,1,5,18,9
+	.half	.L963-.L234
+	.byte	1,5,14,9
+	.half	.L235-.L963
+	.byte	3,7,1,5,13,9
+	.half	.L833-.L235
+	.byte	3,4,1,5,14,9
+	.half	.L964-.L833
+	.byte	3,1,1,5,46,9
+	.half	.L965-.L964
+	.byte	1,5,13,9
+	.half	.L244-.L965
+	.byte	3,1,1,9
+	.half	.L1302-.L244
+	.byte	3,1,1,5,17,9
+	.half	.L967-.L1302
+	.byte	3,1,1,5,11,9
+	.half	.L250-.L967
+	.byte	3,1,1,9
+	.half	.L251-.L250
+	.byte	3,2,1,5,49,9
+	.half	.L246-.L251
+	.byte	3,122,1,5,46,9
+	.half	.L243-.L246
+	.byte	1,5,5,7,9
+	.half	.L257-.L243
+	.byte	3,9,1,5,13,9
+	.half	.L240-.L257
+	.byte	3,3,1,5,5,9
+	.half	.L239-.L240
+	.byte	3,111,1,5,26,9
+	.half	.L230-.L239
+	.byte	3,22,1,5,5,9
+	.half	.L971-.L230
+	.byte	1,5,13,7,9
+	.half	.L1303-.L971
+	.byte	3,1,1,5,18,9
+	.half	.L972-.L1303
+	.byte	1,5,13,9
+	.half	.L260-.L972
+	.byte	3,2,1,5,11,9
+	.half	.L974-.L260
+	.byte	3,5,1,9
+	.half	.L1304-.L974
+	.byte	3,1,1,5,9,9
+	.half	.L262-.L1304
+	.byte	3,1,1,5,11,9
+	.half	.L263-.L262
+	.byte	3,10,1,9
+	.half	.L265-.L263
+	.byte	3,1,1,5,9,9
+	.half	.L268-.L265
+	.byte	3,1,1,5,7,9
+	.half	.L269-.L268
+	.byte	3,4,1,5,9,9
+	.half	.L275-.L269
+	.byte	3,1,1,5,11,7,9
+	.half	.L976-.L275
+	.byte	3,2,1,5,30,9
+	.half	.L276-.L976
+	.byte	3,2,1,5,9,9
+	.half	.L978-.L276
+	.byte	1,5,11,7,9
+	.half	.L1305-.L978
+	.byte	3,1,1,5,7,9
+	.half	.L277-.L1305
+	.byte	3,122,1,5,5,9
+	.half	.L280-.L277
+	.byte	3,12,1,5,7,9
+	.half	.L259-.L280
+	.byte	3,5,1,5,9,9
+	.half	.L291-.L259
+	.byte	3,1,1,5,5,9
+	.half	.L299-.L291
+	.byte	3,3,1,5,15,9
+	.half	.L300-.L299
+	.byte	3,1,1,5,5,9
+	.half	.L981-.L300
+	.byte	3,1,1,9
+	.half	.L1306-.L981
+	.byte	3,1,1,5,3,9
+	.half	.L292-.L1306
+	.byte	3,4,1,5,5,9
+	.half	.L308-.L292
+	.byte	3,2,1,5,15,9
+	.half	.L309-.L308
+	.byte	3,8,1,5,5,9
+	.half	.L985-.L309
+	.byte	3,1,1,5,3,9
+	.half	.L307-.L985
+	.byte	3,4,1,5,25,9
+	.half	.L1307-.L307
+	.byte	1,5,12,9
+	.half	.L836-.L1307
+	.byte	3,3,1,5,19,9
+	.half	.L837-.L836
+	.byte	3,3,1,5,25,9
+	.half	.L990-.L837
+	.byte	3,3,1,5,34,9
+	.half	.L987-.L990
+	.byte	3,3,1,5,13,9
+	.half	.L317-.L987
+	.byte	3,2,1,5,10,9
+	.half	.L838-.L317
+	.byte	3,1,1,9
+	.half	.L1308-.L838
+	.byte	3,186,1,1,9
+	.half	.L1309-.L1308
+	.byte	3,59,1,9
+	.half	.L1310-.L1309
+	.byte	3,230,126,1,5,7,9
+	.half	.L323-.L1310
+	.byte	3,170,127,1,5,40,9
+	.half	.L324-.L323
+	.byte	3,3,1,5,38,9
+	.half	.L1311-.L324
+	.byte	3,6,1,5,29,9
+	.half	.L1312-.L1311
+	.byte	1,5,24,9
+	.half	.L1313-.L1312
+	.byte	1,5,13,9
+	.half	.L993-.L1313
+	.byte	3,2,1,5,11,9
+	.half	.L1314-.L993
+	.byte	1,5,36,7,9
+	.half	.L1315-.L1314
+	.byte	1,5,33,9
+	.half	.L1316-.L1315
+	.byte	1,5,9,7,9
+	.half	.L332-.L1316
+	.byte	3,1,1,5,19,9
+	.half	.L333-.L332
+	.byte	3,4,1,5,9,9
+	.half	.L996-.L333
+	.byte	3,1,1,9
+	.half	.L1317-.L996
+	.byte	3,1,1,9
+	.half	.L1318-.L1317
+	.byte	3,1,1,5,35,9
+	.half	.L331-.L1318
+	.byte	3,3,1,5,18,9
+	.half	.L991-.L331
+	.byte	1,9
+	.half	.L999-.L991
+	.byte	3,3,1,5,31,9
+	.half	.L1001-.L999
+	.byte	3,1,1,5,58,9
+	.half	.L341-.L1001
+	.byte	3,4,1,5,17,9
+	.half	.L1002-.L341
+	.byte	3,2,1,5,14,9
+	.half	.L1319-.L1002
+	.byte	3,2,1,9
+	.half	.L1320-.L1319
+	.byte	3,4,1,9
+	.half	.L1321-.L1320
+	.byte	3,3,1,9
+	.half	.L1322-.L1321
+	.byte	3,3,1,5,20,9
+	.half	.L342-.L1322
+	.byte	3,120,1,5,11,9
+	.half	.L1003-.L342
+	.byte	3,1,1,5,22,9
+	.half	.L343-.L1003
+	.byte	3,2,1,5,11,9
+	.half	.L1004-.L343
+	.byte	3,1,1,5,22,9
+	.half	.L344-.L1004
+	.byte	3,2,1,5,11,9
+	.half	.L1005-.L344
+	.byte	3,1,1,5,22,9
+	.half	.L345-.L1005
+	.byte	3,2,1,5,11,9
+	.half	.L1006-.L345
+	.byte	3,1,1,5,19,9
+	.half	.L346-.L1006
+	.byte	3,3,1,5,16,9
+	.half	.L1323-.L346
+	.byte	3,1,1,9
+	.half	.L1324-.L1323
+	.byte	3,6,1,9
+	.half	.L1325-.L1324
+	.byte	3,7,1,5,13,9
+	.half	.L355-.L1325
+	.byte	3,117,1,5,23,9
+	.half	.L356-.L355
+	.byte	3,1,1,5,13,9
+	.half	.L1008-.L356
+	.byte	3,1,1,9
+	.half	.L1326-.L1008
+	.byte	3,1,1,5,36,9
+	.half	.L352-.L1326
+	.byte	3,3,1,5,53,9
+	.half	.L1010-.L352
+	.byte	1,5,13,9
+	.half	.L363-.L1010
+	.byte	3,1,1,5,23,9
+	.half	.L364-.L363
+	.byte	3,1,1,5,13,9
+	.half	.L1013-.L364
+	.byte	3,1,1,9
+	.half	.L1327-.L1013
+	.byte	3,1,1,5,18,9
+	.half	.L353-.L1327
+	.byte	3,3,1,5,38,9
+	.half	.L1328-.L353
+	.byte	3,1,1,5,55,9
+	.half	.L1015-.L1328
+	.byte	1,5,13,9
+	.half	.L372-.L1015
+	.byte	3,2,1,5,23,9
+	.half	.L373-.L372
+	.byte	3,1,1,5,13,9
+	.half	.L1019-.L373
+	.byte	3,1,1,9
+	.half	.L1329-.L1019
+	.byte	3,1,1,5,24,9
+	.half	.L354-.L1329
+	.byte	3,3,1,5,13,9
+	.half	.L1022-.L354
+	.byte	3,1,1,5,11,9
+	.half	.L380-.L1022
+	.byte	3,2,1,5,33,9
+	.half	.L347-.L380
+	.byte	3,4,1,5,48,9
+	.half	.L1330-.L347
+	.byte	1,5,31,9
+	.half	.L340-.L1330
+	.byte	3,73,1,5,29,7,9
+	.half	.L1331-.L340
+	.byte	3,57,1,5,7,9
+	.half	.L1021-.L1331
+	.byte	3,1,1,9
+	.half	.L383-.L1021
+	.byte	3,7,1,5,42,9
+	.half	.L384-.L383
+	.byte	3,2,1,5,31,9
+	.half	.L1332-.L384
+	.byte	3,6,1,5,21,9
+	.half	.L1333-.L1332
+	.byte	1,5,16,9
+	.half	.L1334-.L1333
+	.byte	1,5,13,9
+	.half	.L1024-.L1334
+	.byte	3,1,1,5,11,9
+	.half	.L1335-.L1024
+	.byte	1,5,36,7,9
+	.half	.L1336-.L1335
+	.byte	1,5,33,9
+	.half	.L1337-.L1336
+	.byte	1,5,9,7,9
+	.half	.L392-.L1337
+	.byte	3,1,1,5,19,9
+	.half	.L393-.L392
+	.byte	3,4,1,5,9,9
+	.half	.L1027-.L393
+	.byte	3,1,1,9
+	.half	.L1338-.L1027
+	.byte	3,1,1,9
+	.half	.L1339-.L1338
+	.byte	3,1,1,5,35,9
+	.half	.L391-.L1339
+	.byte	3,3,1,5,18,9
+	.half	.L1000-.L391
+	.byte	1,9
+	.half	.L1030-.L1000
+	.byte	3,3,1,5,31,9
+	.half	.L1032-.L1030
+	.byte	3,1,1,5,59,9
+	.half	.L401-.L1032
+	.byte	3,4,1,5,17,9
+	.half	.L1033-.L401
+	.byte	3,2,1,5,14,9
+	.half	.L1340-.L1033
+	.byte	3,3,1,9
+	.half	.L1341-.L1340
+	.byte	3,4,1,9
+	.half	.L1342-.L1341
+	.byte	3,3,1,9
+	.half	.L1343-.L1342
+	.byte	3,3,1,9
+	.half	.L1344-.L1343
+	.byte	3,3,1,5,20,9
+	.half	.L402-.L1344
+	.byte	3,117,1,5,11,9
+	.half	.L1034-.L402
+	.byte	3,1,1,5,22,9
+	.half	.L403-.L1034
+	.byte	3,2,1,5,11,9
+	.half	.L1035-.L403
+	.byte	3,1,1,5,22,9
+	.half	.L404-.L1035
+	.byte	3,2,1,5,11,9
+	.half	.L1036-.L404
+	.byte	3,1,1,5,22,9
+	.half	.L405-.L1036
+	.byte	3,2,1,5,11,9
+	.half	.L1037-.L405
+	.byte	3,1,1,5,22,9
+	.half	.L406-.L1037
+	.byte	3,2,1,5,11,9
+	.half	.L1038-.L406
+	.byte	3,1,1,5,19,9
+	.half	.L407-.L1038
+	.byte	3,3,1,5,16,9
+	.half	.L1345-.L407
+	.byte	3,2,1,9
+	.half	.L1346-.L1345
+	.byte	3,6,1,9
+	.half	.L1347-.L1346
+	.byte	3,7,1,5,13,9
+	.half	.L417-.L1347
+	.byte	3,117,1,5,23,9
+	.half	.L418-.L417
+	.byte	3,1,1,5,13,9
+	.half	.L1040-.L418
+	.byte	3,1,1,9
+	.half	.L1348-.L1040
+	.byte	3,1,1,5,36,9
+	.half	.L414-.L1348
+	.byte	3,3,1,5,53,9
+	.half	.L1042-.L414
+	.byte	1,5,13,9
+	.half	.L425-.L1042
+	.byte	3,1,1,5,23,9
+	.half	.L426-.L425
+	.byte	3,1,1,5,13,9
+	.half	.L1045-.L426
+	.byte	3,1,1,9
+	.half	.L1349-.L1045
+	.byte	3,1,1,5,18,9
+	.half	.L415-.L1349
+	.byte	3,3,1,5,38,9
+	.half	.L1350-.L415
+	.byte	3,1,1,5,55,9
+	.half	.L1047-.L1350
+	.byte	1,5,13,9
+	.half	.L434-.L1047
+	.byte	3,2,1,5,23,9
+	.half	.L435-.L434
+	.byte	3,1,1,5,13,9
+	.half	.L1051-.L435
+	.byte	3,1,1,9
+	.half	.L1351-.L1051
+	.byte	3,1,1,5,24,9
+	.half	.L416-.L1351
+	.byte	3,3,1,5,13,9
+	.half	.L1054-.L416
+	.byte	3,1,1,5,11,9
+	.half	.L442-.L1054
+	.byte	3,2,1,5,33,9
+	.half	.L408-.L442
+	.byte	3,4,1,5,48,9
+	.half	.L1352-.L408
+	.byte	1,5,31,9
+	.half	.L400-.L1352
+	.byte	3,68,1,5,29,7,9
+	.half	.L1353-.L400
+	.byte	3,63,1,5,7,9
+	.half	.L1053-.L1353
+	.byte	3,1,1,9
+	.half	.L445-.L1053
+	.byte	3,5,1,5,42,9
+	.half	.L446-.L445
+	.byte	3,2,1,5,31,9
+	.half	.L1354-.L446
+	.byte	3,6,1,5,21,9
+	.half	.L1355-.L1354
+	.byte	1,5,16,9
+	.half	.L1356-.L1355
+	.byte	1,5,13,9
+	.half	.L1056-.L1356
+	.byte	3,2,1,5,11,9
+	.half	.L1357-.L1056
+	.byte	1,5,36,7,9
+	.half	.L1358-.L1357
+	.byte	1,5,33,9
+	.half	.L1359-.L1358
+	.byte	1,5,9,7,9
+	.half	.L454-.L1359
+	.byte	3,1,1,5,19,9
+	.half	.L455-.L454
+	.byte	3,4,1,5,9,9
+	.half	.L1059-.L455
+	.byte	3,1,1,9
+	.half	.L1360-.L1059
+	.byte	3,1,1,9
+	.half	.L1361-.L1360
+	.byte	3,1,1,5,35,9
+	.half	.L453-.L1361
+	.byte	3,4,1,5,18,9
+	.half	.L1031-.L453
+	.byte	1,5,11,9
+	.half	.L1062-.L1031
+	.byte	3,3,1,5,7,9
+	.half	.L1362-.L1062
+	.byte	1,5,21,7,9
+	.half	.L1363-.L1362
+	.byte	3,2,1,5,9,9
+	.half	.L1364-.L1363
+	.byte	1,5,34,7,9
+	.half	.L1365-.L1364
+	.byte	3,2,1,5,59,9
+	.half	.L1061-.L1365
+	.byte	1,5,11,9
+	.half	.L464-.L1061
+	.byte	3,1,1,5,21,9
+	.half	.L465-.L464
+	.byte	3,1,1,5,11,9
+	.half	.L1066-.L465
+	.byte	3,1,1,9
+	.half	.L1366-.L1066
+	.byte	3,1,1,5,17,9
+	.half	.L463-.L1366
+	.byte	3,3,1,5,14,9
+	.half	.L1367-.L463
+	.byte	3,3,1,9
+	.half	.L1368-.L1367
+	.byte	3,2,1,5,11,9
+	.half	.L472-.L1368
+	.byte	3,127,1,9
+	.half	.L473-.L472
+	.byte	3,2,1,5,34,9
+	.half	.L474-.L473
+	.byte	3,3,1,5,51,9
+	.half	.L1068-.L474
+	.byte	1,5,11,9
+	.half	.L477-.L1068
+	.byte	3,1,1,5,21,9
+	.half	.L478-.L477
+	.byte	3,1,1,5,11,9
+	.half	.L1072-.L478
+	.byte	3,1,1,9
+	.half	.L1369-.L1072
+	.byte	3,1,1,5,29,9
+	.half	.L462-.L1369
+	.byte	3,4,1,5,7,9
+	.half	.L1074-.L462
+	.byte	3,1,1,9
+	.half	.L486-.L1074
+	.byte	3,5,1,5,42,9
+	.half	.L487-.L486
+	.byte	3,2,1,5,12,9
+	.half	.L1370-.L487
+	.byte	3,6,1,5,19,9
+	.half	.L1076-.L1370
+	.byte	3,3,1,5,7,9
+	.half	.L1371-.L1076
+	.byte	1,5,9,7,9
+	.half	.L494-.L1371
+	.byte	3,1,1,5,19,9
+	.half	.L495-.L494
+	.byte	3,4,1,5,9,9
+	.half	.L1078-.L495
+	.byte	3,1,1,9
+	.half	.L1372-.L1078
+	.byte	3,1,1,9
+	.half	.L1373-.L1372
+	.byte	3,1,1,5,35,9
+	.half	.L493-.L1373
+	.byte	3,3,1,5,18,9
+	.half	.L1374-.L493
+	.byte	1,5,11,9
+	.half	.L1375-.L1374
+	.byte	3,3,1,5,39,9
+	.half	.L1376-.L1375
+	.byte	1,5,57,9
+	.half	.L1377-.L1376
+	.byte	1,5,32,9
+	.half	.L1378-.L1377
+	.byte	3,2,1,5,48,9
+	.half	.L1379-.L1378
+	.byte	1,5,9,9
+	.half	.L504-.L1379
+	.byte	3,1,1,5,19,9
+	.half	.L505-.L504
+	.byte	3,1,1,5,9,9
+	.half	.L1082-.L505
+	.byte	3,1,1,9
+	.half	.L1380-.L1082
+	.byte	3,1,1,5,20,9
+	.half	.L502-.L1380
+	.byte	3,4,1,5,12,9
+	.half	.L1381-.L502
+	.byte	3,1,1,5,39,9
+	.half	.L1382-.L1381
+	.byte	3,127,1,5,7,9
+	.half	.L1383-.L1382
+	.byte	1,5,31,7,9
+	.half	.L1384-.L1383
+	.byte	3,3,1,5,36,9
+	.half	.L1085-.L1384
+	.byte	1,5,9,9
+	.half	.L512-.L1085
+	.byte	3,4,1,5,43,9
+	.half	.L1385-.L512
+	.byte	1,5,23,9
+	.half	.L1386-.L1385
+	.byte	3,1,1,5,11,9
+	.half	.L952-.L1386
+	.byte	1,5,9,9
+	.half	.L1089-.L952
+	.byte	3,2,1,5,11,7,9
+	.half	.L1387-.L1089
+	.byte	3,1,1,5,37,9
+	.half	.L514-.L1387
+	.byte	3,5,1,5,18,9
+	.half	.L1388-.L514
+	.byte	3,1,1,5,25,9
+	.half	.L1389-.L1388
+	.byte	3,1,1,5,31,9
+	.half	.L1390-.L1389
+	.byte	3,1,1,5,7,9
+	.half	.L513-.L1390
+	.byte	3,11,1,9
+	.half	.L322-.L513
+	.byte	3,3,1,5,9,9
+	.half	.L382-.L322
+	.byte	3,3,1,5,5,9
+	.half	.L839-.L382
+	.byte	1,5,30,7,9
+	.half	.L1391-.L839
+	.byte	3,2,1,5,47,9
+	.half	.L1392-.L1391
+	.byte	1,5,7,9
+	.half	.L519-.L1392
+	.byte	3,1,1,5,17,9
+	.half	.L520-.L519
+	.byte	3,1,1,5,7,9
+	.half	.L1093-.L520
+	.byte	3,1,1,9
+	.half	.L1393-.L1093
+	.byte	3,1,1,5,10,9
+	.half	.L316-.L1393
+	.byte	3,184,125,1,5,20,9
+	.half	.L842-.L316
+	.byte	1,5,34,9
+	.half	.L1394-.L842
+	.byte	1,5,3,7,9
+	.half	.L527-.L1394
+	.byte	3,207,2,1,5,19,9
+	.half	.L528-.L527
+	.byte	3,1,1,5,3,9
+	.half	.L534-.L528
+	.byte	3,1,1,9
+	.half	.L535-.L534
+	.byte	3,2,1,5,37,9
+	.half	.L1395-.L535
+	.byte	1,5,13,9
+	.half	.L843-.L1395
+	.byte	3,14,1,5,10,9
+	.half	.L844-.L843
+	.byte	3,13,1,9
+	.half	.L1396-.L844
+	.byte	3,120,1,9
+	.half	.L1397-.L1396
+	.byte	3,13,1,9
+	.half	.L1398-.L1397
+	.byte	3,111,1,5,17,9
+	.half	.L544-.L1398
+	.byte	3,1,1,5,7,9
+	.half	.L1097-.L544
+	.byte	3,1,1,5,20,9
+	.half	.L542-.L1097
+	.byte	3,6,1,5,7,9
+	.half	.L1099-.L542
+	.byte	3,1,1,5,20,9
+	.half	.L541-.L1099
+	.byte	3,4,1,5,7,9
+	.half	.L1102-.L541
+	.byte	3,1,1,5,22,9
+	.half	.L543-.L1102
+	.byte	3,4,1,5,7,9
+	.half	.L1105-.L543
+	.byte	3,1,1,5,34,9
+	.half	.L545-.L1105
+	.byte	3,11,1,5,15,9
+	.half	.L1108-.L545
+	.byte	3,2,1,5,14,9
+	.half	.L1399-.L1108
+	.byte	3,1,1,5,36,9
+	.half	.L1400-.L1399
+	.byte	1,5,33,9
+	.half	.L1401-.L1400
+	.byte	1,5,34,7,9
+	.half	.L1402-.L1401
+	.byte	3,1,1,5,51,9
+	.half	.L1403-.L1402
+	.byte	1,5,9,9
+	.half	.L552-.L1403
+	.byte	3,3,1,9
+	.half	.L553-.L552
+	.byte	3,1,1,9
+	.half	.L1404-.L553
+	.byte	3,1,1,5,17,9
+	.half	.L1405-.L1404
+	.byte	3,2,1,5,7,9
+	.half	.L1111-.L1405
+	.byte	3,1,1,5,3,9
+	.half	.L526-.L1111
+	.byte	3,5,1,5,27,9
+	.half	.L1406-.L526
+	.byte	1,5,25,9
+	.half	.L1407-.L1406
+	.byte	1,5,3,9
+	.half	.L1408-.L1407
+	.byte	3,1,1,5,33,9
+	.half	.L1409-.L1408
+	.byte	1,5,31,9
+	.half	.L1410-.L1409
+	.byte	1,5,3,9
+	.half	.L1411-.L1410
+	.byte	3,1,1,5,32,9
+	.half	.L1412-.L1411
+	.byte	1,5,30,9
+	.half	.L1413-.L1412
+	.byte	1,5,3,9
+	.half	.L1414-.L1413
+	.byte	3,1,1,5,39,9
+	.half	.L1415-.L1414
+	.byte	1,5,37,9
+	.half	.L1416-.L1415
+	.byte	1,5,3,9
+	.half	.L560-.L1416
+	.byte	3,1,1,9
+	.half	.L561-.L560
+	.byte	3,1,1,5,10,9
+	.half	.L1417-.L561
+	.byte	3,2,1,5,3,9
+	.half	.L1418-.L1417
+	.byte	1,5,1,9
+	.half	.L186-.L1418
+	.byte	3,1,1,7,9
+	.half	.L772-.L186
+	.byte	0,1,1
+.L1264:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_input')
+	.sect	'.debug_ranges'
+.L771:
+	.word	-1,.L745,0,.L772-.L745,0,0
+.L835:
+	.word	-1,.L745,.L836-.L745,.L837-.L745,.L317-.L745,.L838-.L745,.L486-.L745,.L322-.L745,.L382-.L745,.L839-.L745
+	.word	.L840-.L745,.L841-.L745,.L316-.L745,.L842-.L745,.L843-.L745,.L844-.L745,.L845-.L745,.L846-.L745,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_output')
+	.sect	'.debug_info'
+.L773:
+	.word	456
+	.half	3
+	.word	.L774
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L776,.L775
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_output',0,1,139,10,1
+	.word	.L804
+	.byte	1,1,1
+	.word	.L751,.L863,.L750
+	.byte	4
+	.byte	'p',0,1,139,10,25
+	.word	.L822,.L864
+	.byte	4
+	.byte	'src',0,1,139,10,46
+	.word	.L800,.L865
+	.byte	4
+	.byte	'dest',0,1,139,10,69
+	.word	.L800,.L866
+	.byte	4
+	.byte	'hl',0,1,140,10,16
+	.word	.L815,.L867
+	.byte	4
+	.byte	'tc',0,1,140,10,25
+	.word	.L815,.L868
+	.byte	4
+	.byte	'nexth',0,1,140,10,34
+	.word	.L815,.L869
+	.byte	5
+	.word	.L751,.L863
+	.byte	6
+	.byte	'netif',0,1,142,10,17
+	.word	.L798,.L870
+	.byte	6
+	.byte	'ip6hdr',0,1,143,10,19
+	.word	.L825,.L871
+	.byte	6
+	.byte	'src_addr',0,1,144,10,14
+	.word	.L872,.L873
+	.byte	6
+	.byte	'dest_addr',0,1,144,10,24
+	.word	.L872,.L874
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_output')
+	.sect	'.debug_abbrev'
+.L774:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_output')
+	.sect	'.debug_line'
+.L775:
+	.word	.L1420-.L1419
+.L1419:
+	.half	3
+	.word	.L1422-.L1421
+.L1421:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1422:
+	.byte	5,1,7,0,5,2
+	.word	.L751
+	.byte	3,138,10,1,5,3,9
+	.half	.L638-.L751
+	.byte	3,7,1,9
+	.half	.L639-.L638
+	.byte	3,2,1,5,28,7,9
+	.half	.L1423-.L639
+	.byte	3,1,1,5,33,9
+	.half	.L1167-.L1423
+	.byte	1,9
+	.half	.L640-.L1167
+	.byte	3,3,1,5,5,9
+	.half	.L642-.L640
+	.byte	3,1,1,9
+	.half	.L643-.L642
+	.byte	3,1,1,5,24,9
+	.half	.L1424-.L643
+	.byte	3,1,1,5,35,9
+	.half	.L1425-.L1424
+	.byte	1,5,3,9
+	.half	.L641-.L1425
+	.byte	3,3,1,5,5,7,9
+	.half	.L645-.L641
+	.byte	3,1,1,9
+	.half	.L646-.L645
+	.byte	3,9,1,5,12,9
+	.half	.L1426-.L646
+	.byte	3,1,1,5,5,9
+	.half	.L1427-.L1426
+	.byte	1,5,53,9
+	.half	.L644-.L1427
+	.byte	3,3,1,5,3,9
+	.half	.L1170-.L644
+	.byte	1,5,1,9
+	.half	.L652-.L1170
+	.byte	3,1,1,7,9
+	.half	.L777-.L652
+	.byte	0,1,1
+.L1420:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_output')
+	.sect	'.debug_ranges'
+.L776:
+	.word	-1,.L751,0,.L777-.L751,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_output_if')
+	.sect	'.debug_info'
+.L778:
+	.word	416
+	.half	3
+	.word	.L779
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L781,.L780
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_output_if',0,1,253,8,1
+	.word	.L804
+	.byte	1,1,1
+	.word	.L747,.L875,.L746
+	.byte	4
+	.byte	'p',0,1,253,8,28
+	.word	.L822,.L876
+	.byte	4
+	.byte	'src',0,1,253,8,49
+	.word	.L800,.L877
+	.byte	4
+	.byte	'dest',0,1,253,8,72
+	.word	.L800,.L878
+	.byte	4
+	.byte	'hl',0,1,254,8,19
+	.word	.L815,.L879
+	.byte	4
+	.byte	'tc',0,1,254,8,28
+	.word	.L815,.L880
+	.byte	4
+	.byte	'nexth',0,1,255,8,19
+	.word	.L815,.L881
+	.byte	4
+	.byte	'netif',0,1,255,8,40
+	.word	.L798,.L882
+	.byte	5
+	.word	.L747,.L875
+	.byte	6
+	.byte	'src_used',0,1,129,9,21
+	.word	.L800,.L883
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_output_if')
+	.sect	'.debug_abbrev'
+.L779:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_output_if')
+	.sect	'.debug_line'
+.L780:
+	.word	.L1429-.L1428
+.L1428:
+	.half	3
+	.word	.L1431-.L1430
+.L1430:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1431:
+	.byte	5,1,7,0,5,2
+	.word	.L747
+	.byte	3,252,8,1,5,3,9
+	.half	.L1119-.L747
+	.byte	3,5,1,5,9,7,9
+	.half	.L1432-.L1119
+	.byte	3,1,1,5,24,7,9
+	.half	.L1433-.L1432
+	.byte	1,7,9
+	.half	.L1434-.L1433
+	.byte	1,5,18,9
+	.half	.L565-.L1434
+	.byte	3,1,1,5,16,9
+	.half	.L1113-.L565
+	.byte	1,5,11,9
+	.half	.L1121-.L1113
+	.byte	3,1,1,5,33,7,9
+	.half	.L1435-.L1121
+	.byte	1,7,9
+	.half	.L1436-.L1435
+	.byte	1,5,9,9
+	.half	.L576-.L1436
+	.byte	3,2,1,9
+	.half	.L577-.L576
+	.byte	3,1,1,5,16,9
+	.half	.L1437-.L577
+	.byte	3,1,1,5,9,9
+	.half	.L1438-.L1437
+	.byte	1,5,62,9
+	.half	.L563-.L1438
+	.byte	3,4,1,5,3,9
+	.half	.L1122-.L563
+	.byte	1,5,1,9
+	.half	.L583-.L1122
+	.byte	3,1,1,7,9
+	.half	.L782-.L583
+	.byte	0,1,1
+.L1429:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_output_if')
+	.sect	'.debug_ranges'
+.L781:
+	.word	-1,.L747,0,.L782-.L747,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_output_if_src')
+	.sect	'.debug_info'
+.L783:
+	.word	441
+	.half	3
+	.word	.L784
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L786,.L785
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_output_if_src',0,1,149,9,1
+	.word	.L804
+	.byte	1,1,1
+	.word	.L749,.L884,.L748
+	.byte	4
+	.byte	'p',0,1,149,9,32
+	.word	.L822,.L885
+	.byte	4
+	.byte	'src',0,1,149,9,53
+	.word	.L800,.L886
+	.byte	4
+	.byte	'dest',0,1,149,9,76
+	.word	.L800,.L887
+	.byte	4
+	.byte	'hl',0,1,150,9,19
+	.word	.L815,.L888
+	.byte	4
+	.byte	'tc',0,1,150,9,28
+	.word	.L815,.L889
+	.byte	4
+	.byte	'nexth',0,1,151,9,19
+	.word	.L815,.L890
+	.byte	4
+	.byte	'netif',0,1,151,9,40
+	.word	.L798,.L891
+	.byte	5
+	.word	.L749,.L884
+	.byte	6
+	.byte	'ip6hdr',0,1,153,9,19
+	.word	.L825,.L892
+	.byte	6
+	.byte	'dest_addr',0,1,154,9,14
+	.word	.L872,.L893
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_output_if_src')
+	.sect	'.debug_abbrev'
+.L784:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_output_if_src')
+	.sect	'.debug_line'
+.L785:
+	.word	.L1440-.L1439
+.L1439:
+	.half	3
+	.word	.L1442-.L1441
+.L1441:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1442:
+	.byte	5,1,7,0,5,2
+	.word	.L749
+	.byte	3,148,9,1,5,3,9
+	.half	.L585-.L749
+	.byte	3,8,1,9
+	.half	.L586-.L585
+	.byte	3,3,1,5,9,7,9
+	.half	.L1443-.L586
+	.byte	3,8,1,5,7,9
+	.half	.L593-.L1443
+	.byte	3,1,1,9
+	.half	.L1444-.L593
+	.byte	3,1,1,5,15,9
+	.half	.L1445-.L1444
+	.byte	3,1,1,5,28,9
+	.half	.L590-.L1445
+	.byte	3,5,1,5,5,9
+	.half	.L1136-.L590
+	.byte	1,5,7,7,9
+	.half	.L600-.L1136
+	.byte	3,1,1,9
+	.half	.L601-.L600
+	.byte	3,1,1,5,14,9
+	.half	.L1446-.L601
+	.byte	3,1,1,5,7,9
+	.half	.L1447-.L1446
+	.byte	1,5,33,9
+	.half	.L599-.L1447
+	.byte	3,3,1,5,5,9
+	.half	.L608-.L599
+	.byte	3,1,1,9
+	.half	.L609-.L608
+	.byte	3,3,1,9
+	.half	.L1140-.L609
+	.byte	3,1,1,9
+	.half	.L610-.L1140
+	.byte	3,3,1,9
+	.half	.L1141-.L610
+	.byte	3,2,1,9
+	.half	.L1448-.L1141
+	.byte	3,1,1,9
+	.half	.L1449-.L1448
+	.byte	3,2,1,5,13,7,9
+	.half	.L1450-.L1449
+	.byte	3,1,1,5,5,9
+	.half	.L612-.L1450
+	.byte	3,3,1,5,33,9
+	.half	.L587-.L612
+	.byte	3,4,1,5,5,9
+	.half	.L614-.L587
+	.byte	3,1,1,9
+	.half	.L1451-.L614
+	.byte	3,1,1,5,13,9
+	.half	.L1452-.L1451
+	.byte	3,1,1,5,3,9
+	.half	.L613-.L1452
+	.byte	3,3,1,9
+	.half	.L620-.L613
+	.byte	3,2,1,5,19,9
+	.half	.L621-.L620
+	.byte	3,1,1,5,7,9
+	.half	.L1147-.L621
+	.byte	3,27,1,5,30,9
+	.half	.L1453-.L1147
+	.byte	1,5,72,9
+	.half	.L1454-.L1453
+	.byte	1,5,40,9
+	.half	.L1151-.L1454
+	.byte	1,5,31,7,9
+	.half	.L1455-.L1151
+	.byte	3,1,1,5,5,9
+	.half	.L1153-.L1455
+	.byte	1,5,3,9
+	.half	.L630-.L1153
+	.byte	3,4,1,5,15,9
+	.half	.L631-.L630
+	.byte	3,1,1,5,38,9
+	.half	.L1456-.L631
+	.byte	1,5,3,9
+	.half	.L1157-.L1456
+	.byte	1,5,1,9
+	.half	.L607-.L1157
+	.byte	3,1,1,7,9
+	.half	.L787-.L607
+	.byte	0,1,1
+.L1440:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_output_if_src')
+	.sect	'.debug_ranges'
+.L786:
+	.word	-1,.L749,0,.L787-.L749,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_debug_print')
+	.sect	'.debug_info'
+.L788:
+	.word	307
+	.half	3
+	.word	.L789
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L791,.L790
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_debug_print',0,1,171,11,1,1,1,1
+	.word	.L753,.L894,.L752
+	.byte	4
+	.byte	'p',0,1,171,11,30
+	.word	.L822,.L895
+	.byte	5
+	.word	.L753,.L894
+	.byte	6
+	.byte	'ip6hdr',0,1,173,11,19
+	.word	.L825,.L896
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_debug_print')
+	.sect	'.debug_abbrev'
+.L789:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_debug_print')
+	.sect	'.debug_line'
+.L790:
+	.word	.L1458-.L1457
+.L1457:
+	.half	3
+	.word	.L1460-.L1459
+.L1459:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1460:
+	.byte	5,1,7,0,5,2
+	.word	.L753
+	.byte	3,170,11,1,5,47,9
+	.half	.L1177-.L753
+	.byte	3,2,1,5,3,9
+	.half	.L654-.L1177
+	.byte	3,2,1,9
+	.half	.L661-.L654
+	.byte	3,1,1,9
+	.half	.L668-.L661
+	.byte	3,1,1,9
+	.half	.L675-.L668
+	.byte	3,4,1,9
+	.half	.L682-.L675
+	.byte	3,1,1,9
+	.half	.L689-.L682
+	.byte	3,4,1,9
+	.half	.L696-.L689
+	.byte	3,1,1,9
+	.half	.L703-.L696
+	.byte	3,5,1,9
+	.half	.L710-.L703
+	.byte	3,5,1,9
+	.half	.L717-.L710
+	.byte	3,1,1,9
+	.half	.L724-.L717
+	.byte	3,5,1,9
+	.half	.L731-.L724
+	.byte	3,5,1,5,1,9
+	.half	.L732-.L731
+	.byte	3,1,1,7,9
+	.half	.L792-.L732
+	.byte	0,1,1
+.L1458:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_debug_print')
+	.sect	'.debug_ranges'
+.L791:
+	.word	-1,.L753,0,.L792-.L753,0,0
+	.sdecl	'.debug_info',debug,cluster('ip6_input_accept')
+	.sect	'.debug_info'
+.L793:
+	.word	320
+	.half	3
+	.word	.L794
+	.byte	4,1
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\admin\\AURIX-v1.10.10-workspace\\V6_V4_TCPIP\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L796,.L795
+	.byte	2
+	.word	.L754
+	.byte	3
+	.byte	'ip6_input_accept',0,1,213,3,1
+	.word	.L897
+	.byte	1,1
+	.word	.L743,.L898,.L742
+	.byte	4
+	.byte	'netif',0,1,213,3,32
+	.word	.L798,.L899
+	.byte	5
+	.word	.L743,.L898
+	.byte	5
+	.word	.L900,.L167
+	.byte	6
+	.byte	'i',0,1,217,3,10
+	.word	.L815,.L901
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('ip6_input_accept')
+	.sect	'.debug_abbrev'
+.L794:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('ip6_input_accept')
+	.sect	'.debug_line'
+.L795:
+	.word	.L1462-.L1461
+.L1461:
+	.half	3
+	.word	.L1464-.L1463
+.L1463:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Ethernet/lwip/src/core/ipv6/ip6.c',0,0,0,0,0
+.L1464:
+	.byte	5,7,7,0,5,2
+	.word	.L743
+	.byte	3,215,3,1,5,3,9
+	.half	.L166-.L743
+	.byte	1,5,12,7,9
+	.half	.L900-.L166
+	.byte	3,6,1,5,44,9
+	.half	.L946-.L900
+	.byte	1,5,11,9
+	.half	.L169-.L946
+	.byte	3,1,1,9
+	.half	.L1465-.L169
+	.byte	3,1,1,5,16,9
+	.half	.L1466-.L1465
+	.byte	3,7,1,5,9,9
+	.half	.L947-.L1466
+	.byte	1,5,47,9
+	.half	.L171-.L947
+	.byte	3,119,1,5,44,9
+	.half	.L168-.L171
+	.byte	1,5,10,7,9
+	.half	.L167-.L168
+	.byte	3,13,1,5,3,9
+	.half	.L1467-.L167
+	.byte	1,5,1,9
+	.half	.L176-.L1467
+	.byte	3,1,1,7,9
+	.half	.L797-.L176
+	.byte	0,1,1
+.L1462:
+	.sdecl	'.debug_ranges',debug,cluster('ip6_input_accept')
+	.sect	'.debug_ranges'
+.L796:
+	.word	-1,.L743,0,.L797-.L743,0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_debug_print')
+	.sect	'.debug_loc'
+.L752:
+	.word	-1,.L753,0,.L1177-.L753
+	.half	2
+	.byte	138,0
+	.word	.L1177-.L753,.L894-.L753
+	.half	2
+	.byte	138,16
+	.word	.L894-.L753,.L894-.L753
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L896:
+	.word	-1,.L753,.L654-.L753,.L894-.L753
+	.half	1
+	.byte	111
+	.word	0,0
+.L895:
+	.word	-1,.L753,0,.L1178-.L753
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_input')
+	.sect	'.debug_loc'
+.L858:
+	.word	0,0
+.L848:
+	.word	-1,.L745,.L988-.L745,.L989-.L745
+	.half	1
+	.byte	111
+	.word	.L331-.L745,.L997-.L745
+	.half	1
+	.byte	111
+	.word	.L352-.L745,.L1009-.L745
+	.half	1
+	.byte	111
+	.word	.L353-.L745,.L1014-.L745
+	.half	1
+	.byte	111
+	.word	.L354-.L745,.L1020-.L745
+	.half	1
+	.byte	111
+	.word	.L391-.L745,.L1028-.L745
+	.half	1
+	.byte	111
+	.word	.L414-.L745,.L1041-.L745
+	.half	1
+	.byte	111
+	.word	.L415-.L745,.L1046-.L745
+	.half	1
+	.byte	111
+	.word	.L416-.L745,.L1052-.L745
+	.half	1
+	.byte	111
+	.word	.L453-.L745,.L1060-.L745
+	.half	1
+	.byte	111
+	.word	.L1063-.L745,.L464-.L745
+	.half	1
+	.byte	101
+	.word	.L463-.L745,.L1067-.L745
+	.half	1
+	.byte	111
+	.word	.L1069-.L745,.L477-.L745
+	.half	1
+	.byte	101
+	.word	.L462-.L745,.L1073-.L745
+	.half	1
+	.byte	111
+	.word	.L493-.L745,.L1079-.L745
+	.half	1
+	.byte	111
+	.word	.L502-.L745,.L1083-.L745
+	.half	1
+	.byte	111
+	.word	.L1090-.L745,.L1091-.L745
+	.half	1
+	.byte	111
+	.word	.L841-.L745,.L519-.L745
+	.half	1
+	.byte	101
+	.word	.L316-.L745,.L1094-.L745
+	.half	1
+	.byte	111
+	.word	.L846-.L745,.L552-.L745
+	.half	1
+	.byte	101
+	.word	0,0
+.L852:
+	.word	0,0
+.L831:
+	.word	-1,.L745,.L993-.L745,.L994-.L745
+	.half	1
+	.byte	84
+	.word	.L331-.L745,.L998-.L745
+	.half	1
+	.byte	84
+	.word	.L352-.L745,.L1010-.L745
+	.half	1
+	.byte	84
+	.word	.L353-.L745,.L1015-.L745
+	.half	1
+	.byte	84
+	.word	.L354-.L745,.L1021-.L745
+	.half	1
+	.byte	84
+	.word	.L1024-.L745,.L1025-.L745
+	.half	1
+	.byte	84
+	.word	.L391-.L745,.L1029-.L745
+	.half	1
+	.byte	84
+	.word	.L414-.L745,.L1042-.L745
+	.half	1
+	.byte	84
+	.word	.L415-.L745,.L1047-.L745
+	.half	1
+	.byte	84
+	.word	.L416-.L745,.L1053-.L745
+	.half	1
+	.byte	84
+	.word	.L1056-.L745,.L1057-.L745
+	.half	1
+	.byte	84
+	.word	.L453-.L745,.L1061-.L745
+	.half	1
+	.byte	84
+	.word	.L463-.L745,.L1068-.L745
+	.half	1
+	.byte	84
+	.word	.L462-.L745,.L1074-.L745
+	.half	1
+	.byte	84
+	.word	.L1076-.L745,.L322-.L745
+	.half	1
+	.byte	89
+	.word	.L1086-.L745,.L1085-.L745
+	.half	1
+	.byte	84
+	.word	0,0
+.L832:
+	.word	-1,.L745,.L990-.L745,.L991-.L745
+	.half	1
+	.byte	88
+	.word	.L999-.L745,.L1000-.L745
+	.half	1
+	.byte	88
+	.word	.L1030-.L745,.L1031-.L745
+	.half	1
+	.byte	88
+	.word	.L1062-.L745,.L526-.L745
+	.half	1
+	.byte	88
+	.word	.L1109-.L745,.L1108-.L745
+	.half	1
+	.byte	84
+	.word	0,0
+.L834:
+	.word	-1,.L745,.L965-.L745,.L966-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L246-.L745,.L257-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L824:
+	.word	-1,.L745,0,.L949-.L745
+	.half	1
+	.byte	101
+	.word	.L953-.L745,.L821-.L745
+	.half	1
+	.byte	109
+	.word	.L970-.L745,.L971-.L745
+	.half	1
+	.byte	100
+	.word	.L1100-.L745,.L1099-.L745
+	.half	1
+	.byte	101
+	.word	.L1103-.L745,.L1102-.L745
+	.half	1
+	.byte	101
+	.word	.L1106-.L745,.L1105-.L745
+	.half	1
+	.byte	101
+	.word	0,0
+.L744:
+	.word	-1,.L745,0,.L948-.L745
+	.half	2
+	.byte	138,0
+	.word	.L948-.L745,.L821-.L745
+	.half	2
+	.byte	138,16
+	.word	.L821-.L745,.L821-.L745
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L826:
+	.word	-1,.L745,.L955-.L745,.L821-.L745
+	.half	1
+	.byte	110
+	.word	0,0
+.L827:
+	.word	-1,.L745,.L953-.L745,.L954-.L745
+	.half	1
+	.byte	109
+	.word	.L963-.L745,.L235-.L745
+	.half	2
+	.byte	145,120
+	.word	.L954-.L745,.L244-.L745
+	.half	1
+	.byte	111
+	.word	.L964-.L745,.L240-.L745
+	.half	2
+	.byte	145,120
+	.word	.L967-.L745,.L250-.L745
+	.half	1
+	.byte	109
+	.word	.L240-.L745,.L968-.L745
+	.half	1
+	.byte	109
+	.word	.L968-.L745,.L239-.L745
+	.half	1
+	.byte	111
+	.word	.L239-.L745,.L230-.L745
+	.half	2
+	.byte	145,120
+	.word	.L230-.L745,.L969-.L745
+	.half	1
+	.byte	109
+	.word	.L972-.L745,.L260-.L745
+	.half	2
+	.byte	145,120
+	.word	.L969-.L745,.L973-.L745
+	.half	1
+	.byte	111
+	.word	.L974-.L745,.L186-.L745
+	.half	2
+	.byte	145,120
+	.word	.L975-.L745,.L976-.L745
+	.half	1
+	.byte	111
+	.word	.L977-.L745,.L978-.L745
+	.half	1
+	.byte	100
+	.word	.L277-.L745,.L280-.L745
+	.half	1
+	.byte	111
+	.word	.L979-.L745,.L259-.L745
+	.half	1
+	.byte	111
+	.word	.L982-.L745,.L983-.L745
+	.half	1
+	.byte	111
+	.word	.L986-.L745,.L987-.L745
+	.half	1
+	.byte	98
+	.word	0,0
+.L829:
+	.word	0,0
+.L855:
+	.word	-1,.L745,.L1003-.L745,.L343-.L745
+	.half	1
+	.byte	95
+	.word	.L1004-.L745,.L344-.L745
+	.half	1
+	.byte	95
+	.word	.L1005-.L745,.L345-.L745
+	.half	1
+	.byte	95
+	.word	.L1006-.L745,.L346-.L745
+	.half	1
+	.byte	95
+	.word	.L1022-.L745,.L340-.L745
+	.half	1
+	.byte	95
+	.word	0,0
+.L860:
+	.word	-1,.L745,.L1034-.L745,.L403-.L745
+	.half	1
+	.byte	95
+	.word	.L1035-.L745,.L404-.L745
+	.half	1
+	.byte	95
+	.word	.L1036-.L745,.L405-.L745
+	.half	1
+	.byte	95
+	.word	.L1037-.L745,.L406-.L745
+	.half	1
+	.byte	95
+	.word	.L1038-.L745,.L407-.L745
+	.half	1
+	.byte	95
+	.word	.L1054-.L745,.L400-.L745
+	.half	1
+	.byte	95
+	.word	0,0
+.L854:
+	.word	-1,.L745,.L1002-.L745,.L998-.L745
+	.half	1
+	.byte	101
+	.word	.L352-.L745,.L363-.L745
+	.half	1
+	.byte	101
+	.word	.L353-.L745,.L372-.L745
+	.half	1
+	.byte	101
+	.word	.L354-.L745,.L340-.L745
+	.half	1
+	.byte	101
+	.word	0,0
+.L859:
+	.word	-1,.L745,.L1033-.L745,.L1029-.L745
+	.half	1
+	.byte	101
+	.word	.L414-.L745,.L425-.L745
+	.half	1
+	.byte	101
+	.word	.L415-.L745,.L434-.L745
+	.half	1
+	.byte	101
+	.word	.L416-.L745,.L400-.L745
+	.half	1
+	.byte	101
+	.word	0,0
+.L850:
+	.word	-1,.L745,.L1001-.L745,.L998-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L352-.L745,.L363-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L353-.L745,.L1016-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L354-.L745,.L1021-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L856:
+	.word	-1,.L745,.L1032-.L745,.L1029-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L414-.L745,.L425-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L415-.L745,.L1048-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L416-.L745,.L1053-.L745
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L823:
+	.word	-1,.L745,0,.L950-.L745
+	.half	1
+	.byte	100
+	.word	.L951-.L745,.L952-.L745
+	.half	1
+	.byte	108
+	.word	.L956-.L745,.L957-.L745
+	.half	1
+	.byte	100
+	.word	.L958-.L745,.L959-.L745
+	.half	1
+	.byte	100
+	.word	.L960-.L745,.L207-.L745
+	.half	1
+	.byte	100
+	.word	.L961-.L745,.L962-.L745
+	.half	1
+	.byte	100
+	.word	.L980-.L745,.L981-.L745
+	.half	1
+	.byte	100
+	.word	.L984-.L745,.L985-.L745
+	.half	1
+	.byte	100
+	.word	.L992-.L745,.L987-.L745
+	.half	1
+	.byte	100
+	.word	.L995-.L745,.L996-.L745
+	.half	1
+	.byte	100
+	.word	.L1007-.L745,.L1008-.L745
+	.half	1
+	.byte	100
+	.word	.L1011-.L745,.L363-.L745
+	.half	1
+	.byte	100
+	.word	.L1012-.L745,.L1013-.L745
+	.half	1
+	.byte	100
+	.word	.L1017-.L745,.L372-.L745
+	.half	1
+	.byte	100
+	.word	.L1018-.L745,.L1019-.L745
+	.half	1
+	.byte	100
+	.word	.L1023-.L745,.L1021-.L745
+	.half	1
+	.byte	100
+	.word	.L1026-.L745,.L1027-.L745
+	.half	1
+	.byte	100
+	.word	.L1039-.L745,.L1040-.L745
+	.half	1
+	.byte	100
+	.word	.L1043-.L745,.L425-.L745
+	.half	1
+	.byte	100
+	.word	.L1044-.L745,.L1045-.L745
+	.half	1
+	.byte	100
+	.word	.L1049-.L745,.L434-.L745
+	.half	1
+	.byte	100
+	.word	.L1050-.L745,.L1051-.L745
+	.half	1
+	.byte	100
+	.word	.L1055-.L745,.L1053-.L745
+	.half	1
+	.byte	100
+	.word	.L1058-.L745,.L1059-.L745
+	.half	1
+	.byte	100
+	.word	.L1064-.L745,.L464-.L745
+	.half	1
+	.byte	100
+	.word	.L1065-.L745,.L1066-.L745
+	.half	1
+	.byte	100
+	.word	.L1070-.L745,.L477-.L745
+	.half	1
+	.byte	100
+	.word	.L1071-.L745,.L1072-.L745
+	.half	1
+	.byte	100
+	.word	.L1075-.L745,.L1074-.L745
+	.half	1
+	.byte	100
+	.word	.L1077-.L745,.L1078-.L745
+	.half	1
+	.byte	100
+	.word	.L1080-.L745,.L504-.L745
+	.half	1
+	.byte	100
+	.word	.L1081-.L745,.L1082-.L745
+	.half	1
+	.byte	100
+	.word	.L1084-.L745,.L1085-.L745
+	.half	1
+	.byte	100
+	.word	.L1087-.L745,.L952-.L745
+	.half	1
+	.byte	100
+	.word	.L952-.L745,.L1088-.L745
+	.half	1
+	.byte	98
+	.word	.L1089-.L745,.L821-.L745
+	.half	1
+	.byte	108
+	.word	.L1088-.L745,.L513-.L745
+	.half	1
+	.byte	100
+	.word	.L840-.L745,.L519-.L745
+	.half	1
+	.byte	100
+	.word	.L1092-.L745,.L1093-.L745
+	.half	1
+	.byte	100
+	.word	.L1095-.L745,.L534-.L745
+	.half	1
+	.byte	100
+	.word	.L1096-.L745,.L1097-.L745
+	.half	1
+	.byte	100
+	.word	.L1098-.L745,.L1099-.L745
+	.half	1
+	.byte	100
+	.word	.L1101-.L745,.L1102-.L745
+	.half	1
+	.byte	100
+	.word	.L1104-.L745,.L1105-.L745
+	.half	1
+	.byte	100
+	.word	.L1107-.L745,.L1108-.L745
+	.half	1
+	.byte	100
+	.word	.L845-.L745,.L552-.L745
+	.half	1
+	.byte	100
+	.word	.L1110-.L745,.L1111-.L745
+	.half	1
+	.byte	100
+	.word	0,0
+.L862:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_input_accept')
+	.sect	'.debug_loc'
+.L901:
+	.word	-1,.L743,.L946-.L743,.L947-.L743
+	.half	1
+	.byte	82
+	.word	.L171-.L743,.L167-.L743
+	.half	1
+	.byte	82
+	.word	0,0
+.L742:
+	.word	-1,.L743,0,.L898-.L743
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L899:
+	.word	-1,.L743,0,.L898-.L743
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_output')
+	.sect	'.debug_loc'
+.L866:
+	.word	-1,.L751,0,.L639-.L751
+	.half	1
+	.byte	102
+	.word	.L1164-.L751,.L863-.L751
+	.half	1
+	.byte	110
+	.word	.L1168-.L751,.L1167-.L751
+	.half	1
+	.byte	101
+	.word	.L1173-.L751,.L1170-.L751
+	.half	1
+	.byte	102
+	.word	0,0
+.L874:
+	.word	-1,.L751,0,.L863-.L751
+	.half	2
+	.byte	145,108
+	.word	0,0
+.L867:
+	.word	-1,.L751,0,.L639-.L751
+	.half	1
+	.byte	84
+	.word	.L1173-.L751,.L1174-.L751
+	.half	1
+	.byte	88
+	.word	0,0
+.L750:
+	.word	-1,.L751,0,.L1160-.L751
+	.half	2
+	.byte	138,0
+	.word	.L1160-.L751,.L863-.L751
+	.half	3
+	.byte	138,200,0
+	.word	.L863-.L751,.L863-.L751
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L871:
+	.word	-1,.L751,.L642-.L751,.L641-.L751
+	.half	1
+	.byte	111
+	.word	0,0
+.L870:
+	.word	-1,.L751,.L1167-.L751,.L640-.L751
+	.half	1
+	.byte	98
+	.word	.L641-.L751,.L1169-.L751
+	.half	1
+	.byte	98
+	.word	.L644-.L751,.L1170-.L751
+	.half	1
+	.byte	98
+	.word	.L1176-.L751,.L1170-.L751
+	.half	1
+	.byte	103
+	.word	0,0
+.L869:
+	.word	-1,.L751,0,.L639-.L751
+	.half	1
+	.byte	86
+	.word	.L638-.L751,.L1165-.L751
+	.half	1
+	.byte	90
+	.word	.L644-.L751,.L652-.L751
+	.half	1
+	.byte	90
+	.word	.L1175-.L751,.L1170-.L751
+	.half	1
+	.byte	86
+	.word	0,0
+.L864:
+	.word	-1,.L751,0,.L1161-.L751
+	.half	1
+	.byte	100
+	.word	.L1162-.L751,.L863-.L751
+	.half	1
+	.byte	108
+	.word	.L1171-.L751,.L1170-.L751
+	.half	1
+	.byte	100
+	.word	0,0
+.L865:
+	.word	-1,.L751,0,.L639-.L751
+	.half	1
+	.byte	101
+	.word	.L1163-.L751,.L863-.L751
+	.half	1
+	.byte	109
+	.word	.L1166-.L751,.L1167-.L751
+	.half	1
+	.byte	100
+	.word	.L1172-.L751,.L1170-.L751
+	.half	1
+	.byte	101
+	.word	0,0
+.L873:
+	.word	-1,.L751,0,.L863-.L751
+	.half	2
+	.byte	145,88
+	.word	0,0
+.L868:
+	.word	-1,.L751,0,.L639-.L751
+	.half	1
+	.byte	85
+	.word	.L1173-.L751,.L1174-.L751
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_output_if')
+	.sect	'.debug_loc'
+.L878:
+	.word	-1,.L747,0,.L1112-.L747
+	.half	1
+	.byte	102
+	.word	.L1117-.L747,.L875-.L747
+	.half	1
+	.byte	108
+	.word	.L1112-.L747,.L1113-.L747
+	.half	1
+	.byte	101
+	.word	.L1124-.L747,.L1122-.L747
+	.half	1
+	.byte	102
+	.word	0,0
+.L879:
+	.word	-1,.L747,0,.L1113-.L747
+	.half	1
+	.byte	84
+	.word	.L1124-.L747,.L1125-.L747
+	.half	1
+	.byte	88
+	.word	0,0
+.L746:
+	.word	-1,.L747,0,.L875-.L747
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L882:
+	.word	-1,.L747,0,.L1114-.L747
+	.half	1
+	.byte	103
+	.word	.L1119-.L747,.L875-.L747
+	.half	1
+	.byte	109
+	.word	.L1114-.L747,.L1113-.L747
+	.half	1
+	.byte	100
+	.word	.L1127-.L747,.L1122-.L747
+	.half	1
+	.byte	103
+	.word	0,0
+.L881:
+	.word	-1,.L747,0,.L1113-.L747
+	.half	1
+	.byte	86
+	.word	.L1118-.L747,.L875-.L747
+	.half	1
+	.byte	90
+	.word	.L1126-.L747,.L1122-.L747
+	.half	1
+	.byte	86
+	.word	0,0
+.L876:
+	.word	-1,.L747,0,.L1114-.L747
+	.half	1
+	.byte	100
+	.word	.L1115-.L747,.L1116-.L747
+	.half	1
+	.byte	111
+	.word	.L563-.L747,.L583-.L747
+	.half	1
+	.byte	111
+	.word	.L1123-.L747,.L1122-.L747
+	.half	1
+	.byte	100
+	.word	0,0
+.L877:
+	.word	-1,.L747,0,.L1112-.L747
+	.half	1
+	.byte	101
+	.word	.L1121-.L747,.L1120-.L747
+	.half	1
+	.byte	101
+	.word	.L563-.L747,.L1122-.L747
+	.half	1
+	.byte	101
+	.word	0,0
+.L883:
+	.word	-1,.L747,0,.L1112-.L747
+	.half	1
+	.byte	101
+	.word	.L1113-.L747,.L1120-.L747
+	.half	1
+	.byte	98
+	.word	.L1121-.L747,.L1120-.L747
+	.half	1
+	.byte	101
+	.word	.L563-.L747,.L1122-.L747
+	.half	1
+	.byte	101
+	.word	0,0
+.L880:
+	.word	-1,.L747,0,.L1113-.L747
+	.half	1
+	.byte	85
+	.word	.L1124-.L747,.L1125-.L747
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_output_if_src')
+	.sect	'.debug_loc'
+.L887:
+	.word	-1,.L749,0,.L586-.L749
+	.half	1
+	.byte	102
+	.word	.L1132-.L749,.L884-.L749
+	.half	1
+	.byte	109
+	.word	.L1150-.L749,.L1151-.L749
+	.half	1
+	.byte	100
+	.word	.L1155-.L749,.L1153-.L749
+	.half	1
+	.byte	102
+	.word	.L1159-.L749,.L1157-.L749
+	.half	1
+	.byte	102
+	.word	0,0
+.L893:
+	.word	-1,.L749,0,.L884-.L749
+	.half	2
+	.byte	145,100
+	.word	0,0
+.L888:
+	.word	-1,.L749,0,.L586-.L749
+	.half	1
+	.byte	84
+	.word	.L609-.L749,.L1140-.L749
+	.half	1
+	.byte	88
+	.word	0,0
+.L748:
+	.word	-1,.L749,0,.L1128-.L749
+	.half	2
+	.byte	138,0
+	.word	.L1128-.L749,.L884-.L749
+	.half	2
+	.byte	138,40
+	.word	.L884-.L749,.L884-.L749
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L892:
+	.word	-1,.L749,.L608-.L749,.L587-.L749
+	.half	1
+	.byte	111
+	.word	.L614-.L749,.L613-.L749
+	.half	1
+	.byte	111
+	.word	0,0
+.L891:
+	.word	-1,.L749,0,.L586-.L749
+	.half	1
+	.byte	103
+	.word	.L585-.L749,.L884-.L749
+	.half	1
+	.byte	110
+	.word	.L1152-.L749,.L1151-.L749
+	.half	1
+	.byte	101
+	.word	.L1154-.L749,.L1153-.L749
+	.half	1
+	.byte	101
+	.word	.L1156-.L749,.L1157-.L749
+	.half	1
+	.byte	100
+	.word	0,0
+.L890:
+	.word	-1,.L749,0,.L586-.L749
+	.half	1
+	.byte	86
+	.word	.L1133-.L749,.L884-.L749
+	.half	1
+	.byte	90
+	.word	0,0
+.L885:
+	.word	-1,.L749,0,.L1129-.L749
+	.half	1
+	.byte	100
+	.word	.L1130-.L749,.L884-.L749
+	.half	2
+	.byte	145,120
+	.word	.L1129-.L749,.L1134-.L749
+	.half	1
+	.byte	111
+	.word	.L1135-.L749,.L1136-.L749
+	.half	1
+	.byte	100
+	.word	.L1137-.L749,.L608-.L749
+	.half	1
+	.byte	111
+	.word	.L1138-.L749,.L1139-.L749
+	.half	1
+	.byte	98
+	.word	.L1143-.L749,.L1144-.L749
+	.half	1
+	.byte	98
+	.word	.L1145-.L749,.L614-.L749
+	.half	1
+	.byte	111
+	.word	.L1146-.L749,.L1147-.L749
+	.half	1
+	.byte	100
+	.word	.L1148-.L749,.L1149-.L749
+	.half	1
+	.byte	111
+	.word	.L1149-.L749,.L1153-.L749
+	.half	1
+	.byte	100
+	.word	.L1158-.L749,.L1157-.L749
+	.half	1
+	.byte	101
+	.word	0,0
+.L886:
+	.word	-1,.L749,0,.L586-.L749
+	.half	1
+	.byte	101
+	.word	.L1131-.L749,.L884-.L749
+	.half	1
+	.byte	108
+	.word	0,0
+.L889:
+	.word	-1,.L749,0,.L586-.L749
+	.half	1
+	.byte	85
+	.word	.L1141-.L749,.L1142-.L749
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_route')
+	.sect	'.debug_loc'
+.L802:
+	.word	-1,.L739,0,.L902-.L739
+	.half	1
+	.byte	101
+	.word	.L915-.L739,.L902-.L739
+	.half	1
+	.byte	100
+	.word	0,0
+.L805:
+	.word	-1,.L739,.L911-.L739,.L58-.L739
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L914-.L739,.L76-.L739
+	.half	1
+	.byte	82
+	.word	.L917-.L739,.L104-.L739
+	.half	1
+	.byte	82
+	.word	0,0
+.L738:
+	.word	-1,.L739,0,.L799-.L739
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L803:
+	.word	-1,.L739,.L906-.L739,.L907-.L739
+	.half	1
+	.byte	98
+	.word	.L909-.L739,.L38-.L739
+	.half	1
+	.byte	98
+	.word	.L910-.L739,.L49-.L739
+	.half	1
+	.byte	98
+	.word	.L912-.L739,.L913-.L739
+	.half	1
+	.byte	98
+	.word	.L916-.L739,.L91-.L739
+	.half	1
+	.byte	98
+	.word	0,0
+.L801:
+	.word	-1,.L739,0,.L51-.L739
+	.half	1
+	.byte	100
+	.word	.L903-.L739,.L904-.L739
+	.half	1
+	.byte	111
+	.word	.L2-.L739,.L905-.L739
+	.half	1
+	.byte	111
+	.word	.L14-.L739,.L908-.L739
+	.half	1
+	.byte	111
+	.word	.L34-.L739,.L69-.L739
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('ip6_select_source_address')
+	.sect	'.debug_loc'
+.L810:
+	.word	-1,.L741,.L930-.L741,.L931-.L741
+	.half	1
+	.byte	98
+	.word	.L152-.L741,.L940-.L741
+	.half	1
+	.byte	98
+	.word	.L945-.L741,.L154-.L741
+	.half	1
+	.byte	98
+	.word	0,0
+.L820:
+	.word	-1,.L741,.L924-.L741,.L807-.L741
+	.half	1
+	.byte	90
+	.word	0,0
+.L819:
+	.word	-1,.L741,.L923-.L741,.L138-.L741
+	.half	1
+	.byte	89
+	.word	.L943-.L741,.L944-.L741
+	.half	1
+	.byte	89
+	.word	0,0
+.L814:
+	.word	-1,.L741,.L922-.L741,.L138-.L741
+	.half	1
+	.byte	88
+	.word	.L941-.L741,.L942-.L741
+	.half	1
+	.byte	88
+	.word	.L156-.L741,.L943-.L741
+	.half	1
+	.byte	88
+	.word	0,0
+.L811:
+	.word	-1,.L741,.L933-.L741,.L140-.L741
+	.half	1
+	.byte	100
+	.word	0,0
+.L818:
+	.word	-1,.L741,.L939-.L741,.L140-.L741
+	.half	1
+	.byte	86
+	.word	0,0
+.L817:
+	.word	-1,.L741,.L938-.L741,.L140-.L741
+	.half	1
+	.byte	84
+	.word	0,0
+.L813:
+	.word	-1,.L741,.L934-.L741,.L141-.L741
+	.half	1
+	.byte	85
+	.word	.L935-.L741,.L143-.L741
+	.half	1
+	.byte	85
+	.word	.L936-.L741,.L145-.L741
+	.half	1
+	.byte	85
+	.word	.L937-.L741,.L147-.L741
+	.half	1
+	.byte	85
+	.word	.L142-.L741,.L140-.L741
+	.half	1
+	.byte	85
+	.word	0,0
+.L809:
+	.word	-1,.L741,0,.L918-.L741
+	.half	1
+	.byte	101
+	.word	.L920-.L741,.L921-.L741
+	.half	1
+	.byte	111
+	.word	.L133-.L741,.L124-.L741
+	.half	1
+	.byte	101
+	.word	.L152-.L741,.L154-.L741
+	.half	1
+	.byte	111
+	.word	0,0
+.L812:
+	.word	-1,.L741,.L925-.L741,.L123-.L741
+	.half	1
+	.byte	82
+	.word	.L926-.L741,.L126-.L741
+	.half	1
+	.byte	82
+	.word	.L927-.L741,.L131-.L741
+	.half	1
+	.byte	82
+	.word	.L928-.L741,.L133-.L741
+	.half	1
+	.byte	82
+	.word	.L929-.L741,.L135-.L741
+	.half	1
+	.byte	82
+	.word	.L124-.L741,.L807-.L741
+	.half	1
+	.byte	82
+	.word	0,0
+.L816:
+	.word	-1,.L741,.L932-.L741,.L807-.L741
+	.half	1
+	.byte	83
+	.word	0,0
+.L740:
+	.word	-1,.L741,0,.L807-.L741
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L808:
+	.word	-1,.L741,0,.L918-.L741
+	.half	1
+	.byte	100
+	.word	.L919-.L741,.L807-.L741
+	.half	1
+	.byte	108
+	.word	.L133-.L741,.L124-.L741
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L1468:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('ip6_route')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1468,.L739,.L799-.L739
+	.sdecl	'.debug_frame',debug,cluster('ip6_select_source_address')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1468,.L741,.L807-.L741
+	.sdecl	'.debug_frame',debug,cluster('ip6_input_accept')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1468,.L743,.L898-.L743
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip6_input')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1468,.L745,.L821-.L745
+	.byte	4
+	.word	(.L948-.L745)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L821-.L948)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip6_output_if')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1468,.L747,.L875-.L747
+	.sdecl	'.debug_frame',debug,cluster('ip6_output_if_src')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1468,.L749,.L884-.L749
+	.byte	4
+	.word	(.L1128-.L749)/2
+	.byte	19,40,22,26,3,19,138,40,4
+	.word	(.L884-.L1128)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('ip6_output')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1468,.L751,.L863-.L751
+	.byte	4
+	.word	(.L1160-.L751)/2
+	.byte	19,200,0,22,26,4,19,138,200,0,4
+	.word	(.L863-.L1160)/2
+	.byte	19,0,8,26
+	.sdecl	'.debug_frame',debug,cluster('ip6_debug_print')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1468,.L753,.L894-.L753
+	.byte	4
+	.word	(.L1177-.L753)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L894-.L1177)/2
+	.byte	19,0,8,26,0,0
+	; Module end

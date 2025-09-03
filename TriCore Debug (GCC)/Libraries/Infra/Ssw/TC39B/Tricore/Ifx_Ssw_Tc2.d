@@ -1,0 +1,102 @@
+Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_Tc2.o: \
+ ../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_Tc2.c \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Configurations/Ifx_Cfg.h \
+ ../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw.h \
+ ../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_Compilers.h \
+ ../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_CompilersGcc.h \
+ ../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_LegacySwCfg.h \
+ ../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_Infra.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Configurations/Ifx_Cfg_Ssw.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Configurations/Ifx_Cfg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Ssw\TC39B\Tricore/Ifx_Ssw.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore\Pms\Std/IfxPmsEvr.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxPms_cfg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/IfxCpu.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxCpu_cfg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/IfxCpu_Intrinsics.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Ifx_Types.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Platform/Tricore/Compilers/Compilers.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Platform/Tricore/Compilers/CompilerGcc.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Platform_Types.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Ifx_TypesGcc.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/IfxCpu_IntrinsicsGcc.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxCpu_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxCpu_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/Ifx_TypesReg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSrc_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSrc_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxScu_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxScu_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxStm_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxStm_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxScu_cfg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxScu_bf.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Service\CpuGeneric/_Utilities/Ifx_Assert.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Ifx_Types.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Scu/Std/IfxScuWdt.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Scu/Std/IfxScuWdt.asm.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Scu/Std/IfxScuCcu.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_PinMap/IfxScu_PinMap.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Port/Std/IfxPort.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxPort_cfg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPort_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPort_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSmu_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSmu_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxDmu_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxDmu_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPms_bf.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPms_reg.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPms_regdef.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore\Scu\Std/IfxScuCcu.h \
+ C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxCpu_bf.h
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Configurations/Ifx_Cfg.h:
+../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw.h:
+../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_Compilers.h:
+../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_CompilersGcc.h:
+../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_LegacySwCfg.h:
+../Libraries/Infra/Ssw/TC39B/Tricore/Ifx_Ssw_Infra.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Configurations/Ifx_Cfg_Ssw.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Configurations/Ifx_Cfg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Ssw\TC39B\Tricore/Ifx_Ssw.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore\Pms\Std/IfxPmsEvr.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxPms_cfg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/IfxCpu.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxCpu_cfg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/IfxCpu_Intrinsics.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Ifx_Types.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Platform/Tricore/Compilers/Compilers.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Platform/Tricore/Compilers/CompilerGcc.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Platform_Types.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Ifx_TypesGcc.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/IfxCpu_IntrinsicsGcc.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxCpu_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxCpu_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/Ifx_TypesReg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSrc_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSrc_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxScu_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxScu_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxStm_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxStm_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxScu_cfg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxScu_bf.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Service\CpuGeneric/_Utilities/Ifx_Assert.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Cpu/Std/Ifx_Types.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Scu/Std/IfxScuWdt.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Scu/Std/IfxScuWdt.asm.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Scu/Std/IfxScuCcu.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_PinMap/IfxScu_PinMap.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/Port/Std/IfxPort.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore/_Impl/IfxPort_cfg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPort_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPort_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSmu_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxSmu_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxDmu_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxDmu_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPms_bf.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPms_reg.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxPms_regdef.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\iLLD\TC39B\Tricore\Scu\Std/IfxScuCcu.h:
+C:\Users\admin\AURIX-v1.10.10-workspace\V6_V4_TCPIP\Libraries\Infra\Sfr\TC39B\_Reg/IfxCpu_bf.h:
